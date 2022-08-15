@@ -1,0 +1,40 @@
+{
+    "pricedPerilCharacteristics": {
+        "e8ce9557-42d1-4eb9-8ad4-ecfb917c6ac5": {
+            "exactPremium": 0.63,
+            "yearlyPremium": 1.25,
+            "yearlyTechnicalPremium": 1,
+            "commissions": []
+        },
+        "27e1bea6-f33d-44c6-8bfe-496fafc32a70": {
+            "exactPremium": 0.63,
+            "yearlyPremium": 1.25,
+            "yearlyTechnicalPremium": 1,
+            "commissions": []
+        },
+        "6e4f11c5-9c38-4110-8a31-ac41e91aae4c": {
+            "exactPremium": 0.63,
+            "yearlyPremium": 1.25,
+            "yearlyTechnicalPremium": 1,
+            "commissions": []
+        },
+        "7187577d-6743-464b-a97f-5b14bfbb407f": {
+            "exactPremium": 0.63,
+            "yearlyPremium": 1.25,
+            "yearlyTechnicalPremium": 1,
+            "commissions": []
+        },
+        "960c7fe9-9676-46ee-bda5-dbfa3d695ce8": {
+            "exactPremium": 0.63,
+            "yearlyPremium": 1.25,
+            "yearlyTechnicalPremium": 1,
+            "commissions": []
+        },
+        "2ccc22aa-97e3-4756-9e61-b45fdcd9ba22": {
+            "exactPremium": 0.63,
+            "yearlyPremium": 1.25,
+            "yearlyTechnicalPremium": 1,
+            "commissions": []
+        }
+    }
+}

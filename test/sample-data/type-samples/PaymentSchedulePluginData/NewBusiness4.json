@@ -1,0 +1,870 @@
+{
+  "charges": [
+    {
+      "amount": "53.97",
+      "amountCurrency": "EUR",
+      "category": "new",
+      "chargeId": "1_premium_e1d36c21-e0e5-4887-8f60-ecac2841a610",
+      "coverageEndTimestamp": "1682719200000",
+      "coverageStartTimestamp": "1645743600000",
+      "isNew": true,
+      "originalAmount": "53.97",
+      "perilCharacteristicsLocator": "e1d36c21-e0e5-4887-8f60-ecac2841a610",
+      "perilLocator": "6c27fafb-8e31-4860-bb3b-2d842df8e901",
+      "perilName": "public_liability",
+      "policyModificationLocator": "0e65f483-c0e9-4330-9fda-0716bdf934b0",
+      "previouslyInvoicedAmount": "0",
+      "type": "premium"
+    },
+    {
+      "amount": "4.99",
+      "amountCurrency": "EUR",
+      "category": "new",
+      "chargeId": "2_tax_9e5daeb6-8fa5-4f2f-875c-b08e64f11f39",
+      "coverageEndTimestamp": "1682719200000",
+      "coverageStartTimestamp": "1645743600000",
+      "isNew": true,
+      "originalAmount": "4.99",
+      "perilCharacteristicsLocator": "e1d36c21-e0e5-4887-8f60-ecac2841a610",
+      "perilLocator": "6c27fafb-8e31-4860-bb3b-2d842df8e901",
+      "perilName": "public_liability",
+      "policyModificationLocator": "0e65f483-c0e9-4330-9fda-0716bdf934b0",
+      "previouslyInvoicedAmount": "0",
+      "taxLocator": "9e5daeb6-8fa5-4f2f-875c-b08e64f11f39",
+      "taxName": "BE-premium",
+      "type": "tax"
+    },
+    {
+      "amount": "0.00",
+      "amountCurrency": "EUR",
+      "category": "new",
+      "chargeId": "3_tax_96c55e1a-c0b2-461d-abcb-7bd6635d5810",
+      "coverageEndTimestamp": "1682719200000",
+      "coverageStartTimestamp": "1645743600000",
+      "isNew": true,
+      "originalAmount": "0.00",
+      "perilCharacteristicsLocator": "e1d36c21-e0e5-4887-8f60-ecac2841a610",
+      "perilLocator": "6c27fafb-8e31-4860-bb3b-2d842df8e901",
+      "perilName": "public_liability",
+      "policyModificationLocator": "0e65f483-c0e9-4330-9fda-0716bdf934b0",
+      "previouslyInvoicedAmount": "0",
+      "taxLocator": "96c55e1a-c0b2-461d-abcb-7bd6635d5810",
+      "taxName": "LU-premium",
+      "type": "tax"
+    },
+    {
+      "amount": "431.68",
+      "amountCurrency": "EUR",
+      "category": "new",
+      "chargeId": "4_premium_9c4eca45-3095-4dad-b9a9-560f620edb2e",
+      "coverageEndTimestamp": "1682719200000",
+      "coverageStartTimestamp": "1645743600000",
+      "isNew": true,
+      "originalAmount": "431.68",
+      "perilCharacteristicsLocator": "9c4eca45-3095-4dad-b9a9-560f620edb2e",
+      "perilLocator": "d7f996d7-83aa-4614-9447-010163d0f619",
+      "perilName": "professional_liability",
+      "policyModificationLocator": "0e65f483-c0e9-4330-9fda-0716bdf934b0",
+      "previouslyInvoicedAmount": "0",
+      "type": "premium"
+    },
+    {
+      "amount": "39.93",
+      "amountCurrency": "EUR",
+      "category": "new",
+      "chargeId": "5_tax_d144772c-553c-426b-9e4a-9c7a7795de8e",
+      "coverageEndTimestamp": "1682719200000",
+      "coverageStartTimestamp": "1645743600000",
+      "isNew": true,
+      "originalAmount": "39.93",
+      "perilCharacteristicsLocator": "9c4eca45-3095-4dad-b9a9-560f620edb2e",
+      "perilLocator": "d7f996d7-83aa-4614-9447-010163d0f619",
+      "perilName": "professional_liability",
+      "policyModificationLocator": "0e65f483-c0e9-4330-9fda-0716bdf934b0",
+      "previouslyInvoicedAmount": "0",
+      "taxLocator": "d144772c-553c-426b-9e4a-9c7a7795de8e",
+      "taxName": "BE-premium",
+      "type": "tax"
+    },
+    {
+      "amount": "0.00",
+      "amountCurrency": "EUR",
+      "category": "new",
+      "chargeId": "6_tax_6fb1261f-7262-4e23-8050-d4e1b381ef40",
+      "coverageEndTimestamp": "1682719200000",
+      "coverageStartTimestamp": "1645743600000",
+      "isNew": true,
+      "originalAmount": "0.00",
+      "perilCharacteristicsLocator": "9c4eca45-3095-4dad-b9a9-560f620edb2e",
+      "perilLocator": "d7f996d7-83aa-4614-9447-010163d0f619",
+      "perilName": "professional_liability",
+      "policyModificationLocator": "0e65f483-c0e9-4330-9fda-0716bdf934b0",
+      "previouslyInvoicedAmount": "0",
+      "taxLocator": "6fb1261f-7262-4e23-8050-d4e1b381ef40",
+      "taxName": "LU-premium",
+      "type": "tax"
+    },
+    {
+      "amount": "26.98",
+      "amountCurrency": "EUR",
+      "category": "new",
+      "chargeId": "7_premium_621eef05-1854-4797-a442-69a0ff7e1df7",
+      "coverageEndTimestamp": "1682719200000",
+      "coverageStartTimestamp": "1645743600000",
+      "isNew": true,
+      "originalAmount": "26.98",
+      "perilCharacteristicsLocator": "621eef05-1854-4797-a442-69a0ff7e1df7",
+      "perilLocator": "1ae79580-6d01-4ee3-8724-d637665568e5",
+      "perilName": "gccc_work_at_with",
+      "policyModificationLocator": "0e65f483-c0e9-4330-9fda-0716bdf934b0",
+      "previouslyInvoicedAmount": "0",
+      "type": "premium"
+    },
+    {
+      "amount": "2.50",
+      "amountCurrency": "EUR",
+      "category": "new",
+      "chargeId": "8_tax_45eb12c2-2da0-4b54-bbb3-3915549e8b47",
+      "coverageEndTimestamp": "1682719200000",
+      "coverageStartTimestamp": "1645743600000",
+      "isNew": true,
+      "originalAmount": "2.50",
+      "perilCharacteristicsLocator": "621eef05-1854-4797-a442-69a0ff7e1df7",
+      "perilLocator": "1ae79580-6d01-4ee3-8724-d637665568e5",
+      "perilName": "gccc_work_at_with",
+      "policyModificationLocator": "0e65f483-c0e9-4330-9fda-0716bdf934b0",
+      "previouslyInvoicedAmount": "0",
+      "taxLocator": "45eb12c2-2da0-4b54-bbb3-3915549e8b47",
+      "taxName": "BE-premium",
+      "type": "tax"
+    },
+    {
+      "amount": "0.00",
+      "amountCurrency": "EUR",
+      "category": "new",
+      "chargeId": "9_tax_cc8fa73b-fba5-4848-9b31-d472b00a2a83",
+      "coverageEndTimestamp": "1682719200000",
+      "coverageStartTimestamp": "1645743600000",
+      "isNew": true,
+      "originalAmount": "0.00",
+      "perilCharacteristicsLocator": "621eef05-1854-4797-a442-69a0ff7e1df7",
+      "perilLocator": "1ae79580-6d01-4ee3-8724-d637665568e5",
+      "perilName": "gccc_work_at_with",
+      "policyModificationLocator": "0e65f483-c0e9-4330-9fda-0716bdf934b0",
+      "previouslyInvoicedAmount": "0",
+      "taxLocator": "cc8fa73b-fba5-4848-9b31-d472b00a2a83",
+      "taxName": "LU-premium",
+      "type": "tax"
+    },
+    {
+      "amount": "26.98",
+      "amountCurrency": "EUR",
+      "category": "new",
+      "chargeId": "10_premium_632670ee-0c34-4aa1-900a-fa88d8cca1bc",
+      "coverageEndTimestamp": "1682719200000",
+      "coverageStartTimestamp": "1645743600000",
+      "isNew": true,
+      "originalAmount": "26.98",
+      "perilCharacteristicsLocator": "632670ee-0c34-4aa1-900a-fa88d8cca1bc",
+      "perilLocator": "ab3851b0-c9b8-4549-83d6-dbd6e64a6b29",
+      "perilName": "product_liability",
+      "policyModificationLocator": "0e65f483-c0e9-4330-9fda-0716bdf934b0",
+      "previouslyInvoicedAmount": "0",
+      "type": "premium"
+    },
+    {
+      "amount": "2.50",
+      "amountCurrency": "EUR",
+      "category": "new",
+      "chargeId": "11_tax_b00b0da4-692f-4085-ae4a-85e1ba9ff417",
+      "coverageEndTimestamp": "1682719200000",
+      "coverageStartTimestamp": "1645743600000",
+      "isNew": true,
+      "originalAmount": "2.50",
+      "perilCharacteristicsLocator": "632670ee-0c34-4aa1-900a-fa88d8cca1bc",
+      "perilLocator": "ab3851b0-c9b8-4549-83d6-dbd6e64a6b29",
+      "perilName": "product_liability",
+      "policyModificationLocator": "0e65f483-c0e9-4330-9fda-0716bdf934b0",
+      "previouslyInvoicedAmount": "0",
+      "taxLocator": "b00b0da4-692f-4085-ae4a-85e1ba9ff417",
+      "taxName": "BE-premium",
+      "type": "tax"
+    },
+    {
+      "amount": "0.00",
+      "amountCurrency": "EUR",
+      "category": "new",
+      "chargeId": "12_tax_ec16353f-fd85-47ad-bb8a-91a222786e50",
+      "coverageEndTimestamp": "1682719200000",
+      "coverageStartTimestamp": "1645743600000",
+      "isNew": true,
+      "originalAmount": "0.00",
+      "perilCharacteristicsLocator": "632670ee-0c34-4aa1-900a-fa88d8cca1bc",
+      "perilLocator": "ab3851b0-c9b8-4549-83d6-dbd6e64a6b29",
+      "perilName": "product_liability",
+      "policyModificationLocator": "0e65f483-c0e9-4330-9fda-0716bdf934b0",
+      "previouslyInvoicedAmount": "0",
+      "taxLocator": "ec16353f-fd85-47ad-bb8a-91a222786e50",
+      "taxName": "LU-premium",
+      "type": "tax"
+    },
+    {
+      "amount": "27.54",
+      "amountCurrency": "EUR",
+      "category": "new",
+      "chargeId": "13_premium_14261f60-9cf8-4fc5-92dd-b0ce033500e2",
+      "coverageEndTimestamp": "1682719200000",
+      "coverageStartTimestamp": "1645743600000",
+      "isNew": true,
+      "originalAmount": "27.54",
+      "perilCharacteristicsLocator": "14261f60-9cf8-4fc5-92dd-b0ce033500e2",
+      "perilLocator": "3d1eb4d4-3f76-456b-9daf-15f67578b7db",
+      "perilName": "legal_assistance",
+      "policyModificationLocator": "0e65f483-c0e9-4330-9fda-0716bdf934b0",
+      "previouslyInvoicedAmount": "0",
+      "type": "premium"
+    },
+    {
+      "amount": "2.55",
+      "amountCurrency": "EUR",
+      "category": "new",
+      "chargeId": "14_tax_398ae11d-6baa-46d7-8f44-680923c3b689",
+      "coverageEndTimestamp": "1682719200000",
+      "coverageStartTimestamp": "1645743600000",
+      "isNew": true,
+      "originalAmount": "2.55",
+      "perilCharacteristicsLocator": "14261f60-9cf8-4fc5-92dd-b0ce033500e2",
+      "perilLocator": "3d1eb4d4-3f76-456b-9daf-15f67578b7db",
+      "perilName": "legal_assistance",
+      "policyModificationLocator": "0e65f483-c0e9-4330-9fda-0716bdf934b0",
+      "previouslyInvoicedAmount": "0",
+      "taxLocator": "398ae11d-6baa-46d7-8f44-680923c3b689",
+      "taxName": "BE-premium",
+      "type": "tax"
+    },
+    {
+      "amount": "0.00",
+      "amountCurrency": "EUR",
+      "category": "new",
+      "chargeId": "15_tax_99274050-30d9-42c0-83be-db21fec0ae79",
+      "coverageEndTimestamp": "1682719200000",
+      "coverageStartTimestamp": "1645743600000",
+      "isNew": true,
+      "originalAmount": "0.00",
+      "perilCharacteristicsLocator": "14261f60-9cf8-4fc5-92dd-b0ce033500e2",
+      "perilLocator": "3d1eb4d4-3f76-456b-9daf-15f67578b7db",
+      "perilName": "legal_assistance",
+      "policyModificationLocator": "0e65f483-c0e9-4330-9fda-0716bdf934b0",
+      "previouslyInvoicedAmount": "0",
+      "taxLocator": "99274050-30d9-42c0-83be-db21fec0ae79",
+      "taxName": "LU-premium",
+      "type": "tax"
+    }
+  ],
+  "coverageEndTimestamp": "1682719200000",
+  "coverageStartTimestamp": "1645743600000",
+  "defaultPaymentTerms": {
+    "amount": "20",
+    "unit": "day"
+  },
+  "oldPaymentScheduleName": "quarterly",
+  "operation": "newBusiness",
+  "paymentScheduleName": "quarterly",
+  "plannedInvoices": [],
+  "policy": {
+    "characteristics": [
+      {
+        "createdTimestamp": "1646098205979",
+        "endTimestamp": "1682719200000",
+        "fieldGroupsByLocator": {},
+        "fieldValues": {
+          "administration_percentage": [
+            "0"
+          ],
+          "aise_policynumber": [
+            "n/a"
+          ],
+          "aise_quotenumber": [
+            "n/a"
+          ],
+          "broker_name": [
+            "Kevin Broker"
+          ],
+          "claims_history_surcharge": [
+            "0"
+          ],
+          "client_coc_nr": [
+            "n/a"
+          ],
+          "client_company_name_fr": [
+            "n/a"
+          ],
+          "client_company_name_nl": [
+            "n/a"
+          ],
+          "client_nr": [
+            "n/a"
+          ],
+          "client_primary_city_fr": [
+            "n/a"
+          ],
+          "client_primary_city_nl": [
+            "n/a"
+          ],
+          "client_primary_country_fr": [
+            "BE"
+          ],
+          "client_primary_country_nl": [
+            "BE"
+          ],
+          "client_primary_housenr_fr": [
+            "0"
+          ],
+          "client_primary_housenr_nl": [
+            "0"
+          ],
+          "client_primary_postalcode_fr": [
+            "n/a"
+          ],
+          "client_primary_postalcode_nl": [
+            "n/a"
+          ],
+          "client_primary_street_fr": [
+            "n/a"
+          ],
+          "client_primary_street_nl": [
+            "n/a"
+          ],
+          "government": [
+            "No"
+          ],
+          "policy_duration_months": [
+            "12"
+          ],
+          "policy_status": [
+            "n/a"
+          ],
+          "startup": [
+            "Yes"
+          ],
+          "tier": [
+            "Standard"
+          ],
+          "ubo_color": [
+            "blue"
+          ],
+          "ubo_score": [
+            "0"
+          ],
+          "ubo_score_date": [
+            "2021-01-01"
+          ],
+          "ubo_screening_id": [
+            "0"
+          ]
+        },
+        "grossPremium": "567.15",
+        "grossPremiumCurrency": "EUR",
+        "grossTaxes": "52.47",
+        "grossTaxesCurrency": "EUR",
+        "locator": "8cd4593e-3e70-4e0e-af2b-949af61db3f0",
+        "mediaByLocator": {},
+        "policyEndTimestamp": "1682719200000",
+        "policyLocator": "100026250",
+        "policyStartTimestamp": "1645743600000",
+        "policyholderLocator": "c4bde1d3-aca9-4820-afd7-c16479f253f3",
+        "productLocator": "c0c6da7f-d5e5-4a26-98e5-f7cba77acf5a",
+        "startTimestamp": "1645743600000",
+        "taxGroups": [
+          {
+            "amount": "52.47",
+            "amountCurrency": "EUR",
+            "name": "BE-premium"
+          },
+          {
+            "amount": "0.00",
+            "amountCurrency": "EUR",
+            "name": "LU-premium"
+          }
+        ],
+        "updatedTimestamp": "1646098224442"
+      }
+    ],
+    "configVersion": "325",
+    "createdTimestamp": "1646098205979",
+    "displayId": "100026250",
+    "documents": [],
+    "effectiveContractEndTimestamp": "1682719200000",
+    "exposures": [
+      {
+        "characteristics": [
+          {
+            "createdTimestamp": "1646098205979",
+            "endTimestamp": "1682719200000",
+            "exposureLocator": "d9d0721c-0f48-45f9-a1ae-043a1b6ff21b",
+            "fieldGroupsByLocator": {},
+            "fieldValues": {
+              "activity": [
+                "Marketing, Communication and PR"
+              ],
+              "annual_turnover": [
+                "250.000 EUR - 500.000 EUR"
+              ]
+            },
+            "locator": "73bba6d9-00fb-4534-97c6-3bee7d5bae8b",
+            "mediaByLocator": {},
+            "policyLocator": "100026250",
+            "policyholderLocator": "c4bde1d3-aca9-4820-afd7-c16479f253f3",
+            "productLocator": "c0c6da7f-d5e5-4a26-98e5-f7cba77acf5a",
+            "startTimestamp": "1645743600000",
+            "updatedTimestamp": "1646098205979"
+          }
+        ],
+        "createdTimestamp": "1646098205979",
+        "displayId": "100026254",
+        "locator": "d9d0721c-0f48-45f9-a1ae-043a1b6ff21b",
+        "name": "activity",
+        "perils": [
+          {
+            "characteristics": [
+              {
+                "coverageEndTimestamp": "1682719200000",
+                "coverageStartTimestamp": "1645743600000",
+                "createdTimestamp": "1646098205979",
+                "deductible": "10000.00",
+                "deductibleCurrency": "EUR",
+                "exposureCharacteristicsLocator": "73bba6d9-00fb-4534-97c6-3bee7d5bae8b",
+                "fieldGroupsByLocator": {},
+                "fieldValues": {
+                  "cover_code": [
+                    "PUBL"
+                  ],
+                  "mendix_locator": [
+                    "1234567"
+                  ],
+                  "tax_jurisdiction_country": [
+                    "BE"
+                  ]
+                },
+                "indemnityInAggregate": "4000000.00",
+                "indemnityInAggregateCurrency": "EUR",
+                "indemnityPerEvent": "500000.00",
+                "indemnityPerEventCurrency": "EUR",
+                "indemnityPerItemCurrency": "EUR",
+                "locator": "e1d36c21-e0e5-4887-8f60-ecac2841a610",
+                "lumpSumPaymentCurrency": "EUR",
+                "mediaByLocator": {},
+                "monthPremium": "3.8183333",
+                "monthTechnicalPremium": "3.8183333",
+                "perilLocator": "6c27fafb-8e31-4860-bb3b-2d842df8e901",
+                "policyCharacteristicsLocator": "8cd4593e-3e70-4e0e-af2b-949af61db3f0",
+                "policyLocator": "100026250",
+                "policyModificationLocator": "0e65f483-c0e9-4330-9fda-0716bdf934b0",
+                "policyholderLocator": "c4bde1d3-aca9-4820-afd7-c16479f253f3",
+                "premium": "53.97",
+                "premiumCurrency": "EUR",
+                "productLocator": "c0c6da7f-d5e5-4a26-98e5-f7cba77acf5a",
+                "technicalPremium": "53.97",
+                "updatedTimestamp": "1646098224442"
+              }
+            ],
+            "createdTimestamp": "1646098205979",
+            "displayId": "100026256",
+            "exposureLocator": "d9d0721c-0f48-45f9-a1ae-043a1b6ff21b",
+            "locator": "6c27fafb-8e31-4860-bb3b-2d842df8e901",
+            "name": "public_liability",
+            "policyLocator": "100026250",
+            "policyholderLocator": "c4bde1d3-aca9-4820-afd7-c16479f253f3",
+            "productLocator": "c0c6da7f-d5e5-4a26-98e5-f7cba77acf5a",
+            "renewalGroup": "6c27fafb-8e31-4860-bb3b-2d842df8e901",
+            "updatedTimestamp": "1646098205979"
+          },
+          {
+            "characteristics": [
+              {
+                "coverageEndTimestamp": "1682719200000",
+                "coverageStartTimestamp": "1645743600000",
+                "createdTimestamp": "1646098205979",
+                "deductible": "10000.00",
+                "deductibleCurrency": "EUR",
+                "exposureCharacteristicsLocator": "73bba6d9-00fb-4534-97c6-3bee7d5bae8b",
+                "fieldGroupsByLocator": {},
+                "fieldValues": {
+                  "cover_code": [
+                    "PLPO"
+                  ],
+                  "mendix_locator": [
+                    "1234567"
+                  ],
+                  "tax_jurisdiction_country": [
+                    "BE"
+                  ]
+                },
+                "indemnityInAggregate": "4000000.00",
+                "indemnityInAggregateCurrency": "EUR",
+                "indemnityPerEvent": "500000.00",
+                "indemnityPerEventCurrency": "EUR",
+                "indemnityPerItemCurrency": "EUR",
+                "locator": "9c4eca45-3095-4dad-b9a9-560f620edb2e",
+                "lumpSumPaymentCurrency": "EUR",
+                "mediaByLocator": {},
+                "monthPremium": "30.5433333",
+                "monthTechnicalPremium": "30.5433333",
+                "perilLocator": "d7f996d7-83aa-4614-9447-010163d0f619",
+                "policyCharacteristicsLocator": "8cd4593e-3e70-4e0e-af2b-949af61db3f0",
+                "policyLocator": "100026250",
+                "policyModificationLocator": "0e65f483-c0e9-4330-9fda-0716bdf934b0",
+                "policyholderLocator": "c4bde1d3-aca9-4820-afd7-c16479f253f3",
+                "premium": "431.68",
+                "premiumCurrency": "EUR",
+                "productLocator": "c0c6da7f-d5e5-4a26-98e5-f7cba77acf5a",
+                "technicalPremium": "431.68",
+                "updatedTimestamp": "1646098224442"
+              }
+            ],
+            "createdTimestamp": "1646098205979",
+            "displayId": "100026258",
+            "exposureLocator": "d9d0721c-0f48-45f9-a1ae-043a1b6ff21b",
+            "locator": "d7f996d7-83aa-4614-9447-010163d0f619",
+            "name": "professional_liability",
+            "policyLocator": "100026250",
+            "policyholderLocator": "c4bde1d3-aca9-4820-afd7-c16479f253f3",
+            "productLocator": "c0c6da7f-d5e5-4a26-98e5-f7cba77acf5a",
+            "renewalGroup": "d7f996d7-83aa-4614-9447-010163d0f619",
+            "updatedTimestamp": "1646098205979"
+          },
+          {
+            "characteristics": [
+              {
+                "coverageEndTimestamp": "1682719200000",
+                "coverageStartTimestamp": "1645743600000",
+                "createdTimestamp": "1646098205979",
+                "deductible": "10000.00",
+                "deductibleCurrency": "EUR",
+                "exposureCharacteristicsLocator": "73bba6d9-00fb-4534-97c6-3bee7d5bae8b",
+                "fieldGroupsByLocator": {},
+                "fieldValues": {
+                  "cover_code": [
+                    "GCCW2"
+                  ],
+                  "mendix_locator": [
+                    "1234567"
+                  ],
+                  "tax_jurisdiction_country": [
+                    "BE"
+                  ]
+                },
+                "indemnityInAggregate": "4000000.00",
+                "indemnityInAggregateCurrency": "EUR",
+                "indemnityPerEvent": "500000.00",
+                "indemnityPerEventCurrency": "EUR",
+                "indemnityPerItemCurrency": "EUR",
+                "locator": "621eef05-1854-4797-a442-69a0ff7e1df7",
+                "lumpSumPaymentCurrency": "EUR",
+                "mediaByLocator": {},
+                "monthPremium": "1.9091667",
+                "monthTechnicalPremium": "1.9091667",
+                "perilLocator": "1ae79580-6d01-4ee3-8724-d637665568e5",
+                "policyCharacteristicsLocator": "8cd4593e-3e70-4e0e-af2b-949af61db3f0",
+                "policyLocator": "100026250",
+                "policyModificationLocator": "0e65f483-c0e9-4330-9fda-0716bdf934b0",
+                "policyholderLocator": "c4bde1d3-aca9-4820-afd7-c16479f253f3",
+                "premium": "26.98",
+                "premiumCurrency": "EUR",
+                "productLocator": "c0c6da7f-d5e5-4a26-98e5-f7cba77acf5a",
+                "technicalPremium": "26.98",
+                "updatedTimestamp": "1646098224442"
+              }
+            ],
+            "createdTimestamp": "1646098205979",
+            "displayId": "100026260",
+            "exposureLocator": "d9d0721c-0f48-45f9-a1ae-043a1b6ff21b",
+            "locator": "1ae79580-6d01-4ee3-8724-d637665568e5",
+            "name": "gccc_work_at_with",
+            "policyLocator": "100026250",
+            "policyholderLocator": "c4bde1d3-aca9-4820-afd7-c16479f253f3",
+            "productLocator": "c0c6da7f-d5e5-4a26-98e5-f7cba77acf5a",
+            "renewalGroup": "1ae79580-6d01-4ee3-8724-d637665568e5",
+            "updatedTimestamp": "1646098205979"
+          },
+          {
+            "characteristics": [
+              {
+                "coverageEndTimestamp": "1682719200000",
+                "coverageStartTimestamp": "1645743600000",
+                "createdTimestamp": "1646098205979",
+                "deductible": "10000.00",
+                "deductibleCurrency": "EUR",
+                "exposureCharacteristicsLocator": "73bba6d9-00fb-4534-97c6-3bee7d5bae8b",
+                "fieldGroupsByLocator": {},
+                "fieldValues": {
+                  "cover_code": [
+                    "GCCW2"
+                  ],
+                  "mendix_locator": [
+                    "1234567"
+                  ],
+                  "tax_jurisdiction_country": [
+                    "BE"
+                  ]
+                },
+                "indemnityInAggregate": "4000000.00",
+                "indemnityInAggregateCurrency": "EUR",
+                "indemnityPerEvent": "500000.00",
+                "indemnityPerEventCurrency": "EUR",
+                "indemnityPerItemCurrency": "EUR",
+                "locator": "632670ee-0c34-4aa1-900a-fa88d8cca1bc",
+                "lumpSumPaymentCurrency": "EUR",
+                "mediaByLocator": {},
+                "monthPremium": "1.9091667",
+                "monthTechnicalPremium": "1.9091667",
+                "perilLocator": "ab3851b0-c9b8-4549-83d6-dbd6e64a6b29",
+                "policyCharacteristicsLocator": "8cd4593e-3e70-4e0e-af2b-949af61db3f0",
+                "policyLocator": "100026250",
+                "policyModificationLocator": "0e65f483-c0e9-4330-9fda-0716bdf934b0",
+                "policyholderLocator": "c4bde1d3-aca9-4820-afd7-c16479f253f3",
+                "premium": "26.98",
+                "premiumCurrency": "EUR",
+                "productLocator": "c0c6da7f-d5e5-4a26-98e5-f7cba77acf5a",
+                "technicalPremium": "26.98",
+                "updatedTimestamp": "1646098224442"
+              }
+            ],
+            "createdTimestamp": "1646098205979",
+            "displayId": "100026262",
+            "exposureLocator": "d9d0721c-0f48-45f9-a1ae-043a1b6ff21b",
+            "locator": "ab3851b0-c9b8-4549-83d6-dbd6e64a6b29",
+            "name": "product_liability",
+            "policyLocator": "100026250",
+            "policyholderLocator": "c4bde1d3-aca9-4820-afd7-c16479f253f3",
+            "productLocator": "c0c6da7f-d5e5-4a26-98e5-f7cba77acf5a",
+            "renewalGroup": "ab3851b0-c9b8-4549-83d6-dbd6e64a6b29",
+            "updatedTimestamp": "1646098205979"
+          },
+          {
+            "characteristics": [
+              {
+                "coverageEndTimestamp": "1682719200000",
+                "coverageStartTimestamp": "1645743600000",
+                "createdTimestamp": "1646098205979",
+                "deductible": "10000.00",
+                "deductibleCurrency": "EUR",
+                "exposureCharacteristicsLocator": "73bba6d9-00fb-4534-97c6-3bee7d5bae8b",
+                "fieldGroupsByLocator": {},
+                "fieldValues": {
+                  "cover_code": [
+                    "LEAS"
+                  ],
+                  "mendix_locator": [
+                    "1234567"
+                  ],
+                  "tax_jurisdiction_country": [
+                    "BE"
+                  ]
+                },
+                "indemnityInAggregate": "4000000.00",
+                "indemnityInAggregateCurrency": "EUR",
+                "indemnityPerEvent": "500000.00",
+                "indemnityPerEventCurrency": "EUR",
+                "indemnityPerItemCurrency": "EUR",
+                "locator": "14261f60-9cf8-4fc5-92dd-b0ce033500e2",
+                "lumpSumPaymentCurrency": "EUR",
+                "mediaByLocator": {},
+                "monthPremium": "1.9483333",
+                "monthTechnicalPremium": "1.9483333",
+                "perilLocator": "3d1eb4d4-3f76-456b-9daf-15f67578b7db",
+                "policyCharacteristicsLocator": "8cd4593e-3e70-4e0e-af2b-949af61db3f0",
+                "policyLocator": "100026250",
+                "policyModificationLocator": "0e65f483-c0e9-4330-9fda-0716bdf934b0",
+                "policyholderLocator": "c4bde1d3-aca9-4820-afd7-c16479f253f3",
+                "premium": "27.54",
+                "premiumCurrency": "EUR",
+                "productLocator": "c0c6da7f-d5e5-4a26-98e5-f7cba77acf5a",
+                "technicalPremium": "27.54",
+                "updatedTimestamp": "1646098224442"
+              }
+            ],
+            "createdTimestamp": "1646098205979",
+            "displayId": "100026264",
+            "exposureLocator": "d9d0721c-0f48-45f9-a1ae-043a1b6ff21b",
+            "locator": "3d1eb4d4-3f76-456b-9daf-15f67578b7db",
+            "name": "legal_assistance",
+            "policyLocator": "100026250",
+            "policyholderLocator": "c4bde1d3-aca9-4820-afd7-c16479f253f3",
+            "productLocator": "c0c6da7f-d5e5-4a26-98e5-f7cba77acf5a",
+            "renewalGroup": "3d1eb4d4-3f76-456b-9daf-15f67578b7db",
+            "updatedTimestamp": "1646098205979"
+          }
+        ],
+        "policyLocator": "100026250",
+        "policyholderLocator": "c4bde1d3-aca9-4820-afd7-c16479f253f3",
+        "productLocator": "c0c6da7f-d5e5-4a26-98e5-f7cba77acf5a",
+        "updatedTimestamp": "1646098205979"
+      }
+    ],
+    "fees": [],
+    "grossFees": "0.00",
+    "grossFeesCurrency": "EUR",
+    "invoices": [],
+    "locator": "100025786",
+    "modifications": [
+      {
+        "automatedUnderwritingResult": {
+          "decision": "accept",
+          "decisionTimestamp": "1646098224442",
+          "notes": [
+            "Your premium has been caluclated based on your turnover, consulting activities and tier choice."
+          ]
+        },
+        "configVersion": "325",
+        "createdTimestamp": "1646098205979",
+        "displayId": "100026252",
+        "effectiveTimestamp": "1645743600000",
+        "exposureModifications": [
+          {
+            "exposureLocator": "d9d0721c-0f48-45f9-a1ae-043a1b6ff21b",
+            "locator": "b1422798-8f4f-4389-8cf1-2286a7d3834e",
+            "newExposureCharacteristicsLocator": "73bba6d9-00fb-4534-97c6-3bee7d5bae8b",
+            "perilModifications": [
+              {
+                "exposureModificationLocator": "b1422798-8f4f-4389-8cf1-2286a7d3834e",
+                "locator": "5bbe866a-b886-49a8-8944-6ceaacaaefbd",
+                "newPerilCharacteristicsLocator": "e1d36c21-e0e5-4887-8f60-ecac2841a610",
+                "perilLocator": "6c27fafb-8e31-4860-bb3b-2d842df8e901",
+                "policyLocator": "100026250",
+                "policyholderLocator": "c4bde1d3-aca9-4820-afd7-c16479f253f3",
+                "premiumChange": "53.97",
+                "premiumChangeCurrency": "EUR",
+                "productLocator": "c0c6da7f-d5e5-4a26-98e5-f7cba77acf5a"
+              },
+              {
+                "exposureModificationLocator": "b1422798-8f4f-4389-8cf1-2286a7d3834e",
+                "locator": "b46befab-b32b-4029-8012-da4e252d49cc",
+                "newPerilCharacteristicsLocator": "9c4eca45-3095-4dad-b9a9-560f620edb2e",
+                "perilLocator": "d7f996d7-83aa-4614-9447-010163d0f619",
+                "policyLocator": "100026250",
+                "policyholderLocator": "c4bde1d3-aca9-4820-afd7-c16479f253f3",
+                "premiumChange": "431.68",
+                "premiumChangeCurrency": "EUR",
+                "productLocator": "c0c6da7f-d5e5-4a26-98e5-f7cba77acf5a"
+              },
+              {
+                "exposureModificationLocator": "b1422798-8f4f-4389-8cf1-2286a7d3834e",
+                "locator": "e2903a29-6770-4baa-a307-0100cdd9ff84",
+                "newPerilCharacteristicsLocator": "621eef05-1854-4797-a442-69a0ff7e1df7",
+                "perilLocator": "1ae79580-6d01-4ee3-8724-d637665568e5",
+                "policyLocator": "100026250",
+                "policyholderLocator": "c4bde1d3-aca9-4820-afd7-c16479f253f3",
+                "premiumChange": "26.98",
+                "premiumChangeCurrency": "EUR",
+                "productLocator": "c0c6da7f-d5e5-4a26-98e5-f7cba77acf5a"
+              },
+              {
+                "exposureModificationLocator": "b1422798-8f4f-4389-8cf1-2286a7d3834e",
+                "locator": "6872ff0a-7254-4578-aeaa-b68af78793e8",
+                "newPerilCharacteristicsLocator": "632670ee-0c34-4aa1-900a-fa88d8cca1bc",
+                "perilLocator": "ab3851b0-c9b8-4549-83d6-dbd6e64a6b29",
+                "policyLocator": "100026250",
+                "policyholderLocator": "c4bde1d3-aca9-4820-afd7-c16479f253f3",
+                "premiumChange": "26.98",
+                "premiumChangeCurrency": "EUR",
+                "productLocator": "c0c6da7f-d5e5-4a26-98e5-f7cba77acf5a"
+              },
+              {
+                "exposureModificationLocator": "b1422798-8f4f-4389-8cf1-2286a7d3834e",
+                "locator": "56c9639e-f55e-4ee0-990e-00874e7e746e",
+                "newPerilCharacteristicsLocator": "14261f60-9cf8-4fc5-92dd-b0ce033500e2",
+                "perilLocator": "3d1eb4d4-3f76-456b-9daf-15f67578b7db",
+                "policyLocator": "100026250",
+                "policyholderLocator": "c4bde1d3-aca9-4820-afd7-c16479f253f3",
+                "premiumChange": "27.54",
+                "premiumChangeCurrency": "EUR",
+                "productLocator": "c0c6da7f-d5e5-4a26-98e5-f7cba77acf5a"
+              }
+            ],
+            "policyLocator": "100026250",
+            "policyModificationLocator": "0e65f483-c0e9-4330-9fda-0716bdf934b0",
+            "policyholderLocator": "c4bde1d3-aca9-4820-afd7-c16479f253f3",
+            "productLocator": "c0c6da7f-d5e5-4a26-98e5-f7cba77acf5a"
+          }
+        ],
+        "fieldGroupsByLocator": {},
+        "fieldValues": {},
+        "locator": "0e65f483-c0e9-4330-9fda-0716bdf934b0",
+        "mediaByLocator": {},
+        "name": "modification.policy.create",
+        "newPolicyCharacteristicsLocator": "8cd4593e-3e70-4e0e-af2b-949af61db3f0",
+        "newPolicyCharacteristicsLocators": [
+          "8cd4593e-3e70-4e0e-af2b-949af61db3f0"
+        ],
+        "number": "0",
+        "policyLocator": "100026250",
+        "policyholderLocator": "c4bde1d3-aca9-4820-afd7-c16479f253f3",
+        "premiumChange": "567.15",
+        "premiumChangeCurrency": "EUR",
+        "productLocator": "c0c6da7f-d5e5-4a26-98e5-f7cba77acf5a",
+        "updatedTimestamp": "1646098224442"
+      }
+    ],
+    "originalContractEndTimestamp": "1682719200000",
+    "originalContractStartTimestamp": "1645743600000",
+    "paymentScheduleName": "quarterly",
+    "policyholderLocator": "c4bde1d3-aca9-4820-afd7-c16479f253f3",
+    "productLocator": "c0c6da7f-d5e5-4a26-98e5-f7cba77acf5a",
+    "productName": "BE_Liability_Superior",
+    "quoteSummary": {
+      "notDiscarded": [
+        {
+          "locator": "100025904",
+          "name": "1",
+          "state": "quoted"
+        },
+        {
+          "locator": "100025924",
+          "name": "2",
+          "state": "quoted"
+        },
+        {
+          "locator": "100026072",
+          "name": "3",
+          "state": "quoted"
+        },
+        {
+          "locator": "100026230",
+          "name": "4",
+          "state": "quoted"
+        },
+        {
+          "locator": "100026248",
+          "name": "5",
+          "state": "quoted"
+        },
+        {
+          "locator": "100026198",
+          "name": "6",
+          "state": "quoted"
+        },
+        {
+          "locator": "100026316",
+          "name": "7",
+          "state": "quoted"
+        },
+        {
+          "locator": "100026334",
+          "name": "8",
+          "state": "quoted"
+        },
+        {
+          "locator": "100026266",
+          "name": "9",
+          "state": "draft"
+        }
+      ],
+      "selected": "100026266"
+    },
+    "updatedTimestamp": "1646098224442"
+  },
+  "productName": "BE_Liability_Superior",
+  "tenantTimeZone": "Europe/Amsterdam",
+  "transactionType": "newBusiness"
+}

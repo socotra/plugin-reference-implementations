@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "amount": "1748.40",
+      "followingAmount": "0",
+      "id": "621b6109-be71-48d6-8ebf-f9e09e28d53f_p",
+      "perilCharacteristicsLocator": "621b6109-be71-48d6-8ebf-f9e09e28d53f",
+      "perilName": "thirdPartyLiability",
+      "segmentEndTimestamp": "1962385885701",
+      "segmentStartTimestamp": "1646766685701",
+      "type": "premium"
+    }
+  ],
+  "operation": "endorsement",
+  "paymentPlan": "monthly",
+  "paymentScheduleName": "monthly",
+  "policy": {
+    "locator": "100000253",
+    "policyholderLocator": "ee8ab6e1-c281-4e0e-be92-f43161f49095",
+    "productName": "personal-auto",
+    "originalContractStartTimestamp": "1646766685701"
+  },
+  "segmentSplitTimestamp": "1653004800000",
+  "tenantTimeZone": "UTC"
+}

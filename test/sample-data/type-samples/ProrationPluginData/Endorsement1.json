@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "amount": "210.00",
+      "followingAmount": "0",
+      "id": "621b6109-be71-48d6-8ebf-f9e09e28d53f_p",
+      "perilCharacteristicsLocator": "621b6109-be71-48d6-8ebf-f9e09e28d53f",
+      "perilName": "thirdPartyLiability",
+      "segmentEndTimestamp": "1656399600000",
+      "segmentStartTimestamp": "1624863600000",
+      "type": "premium"
+    },
+    {
+      "amount": "168.00",
+      "followingAmount": "0",
+      "id": "621b6109-be71-48d6-8ebf-f9e09e28d53f_tp",
+      "perilCharacteristicsLocator": "621b6109-be71-48d6-8ebf-f9e09e28d53f",
+      "perilName": "thirdPartyLiability",
+      "segmentEndTimestamp": "1656399600000",
+      "segmentStartTimestamp": "1624863600000",
+      "type": "technicalPremium"
+    },
+    {
+      "amount": "19.43",
+      "followingAmount": "0",
+      "id": "621b6109-be71-48d6-8ebf-f9e09e28d53f_t_36bddc73-7d86-4219-bd1e-3e8f894161a5",
+      "perilCharacteristicsLocator": "621b6109-be71-48d6-8ebf-f9e09e28d53f",
+      "perilName": "thirdPartyLiability",
+      "segmentEndTimestamp": "1656399600000",
+      "segmentStartTimestamp": "1624863600000",
+      "taxLocator": "36bddc73-7d86-4219-bd1e-3e8f894161a5",
+      "taxName": "sales",
+      "type": "tax"
+    },
+    {
+      "amount": "10.50",
+      "commissionLocator": "2fda6a1c-51dd-4111-8e45-500304eb720f",
+      "commissionRecipient": "Agent1234",
+      "followingAmount": "0",
+      "id": "621b6109-be71-48d6-8ebf-f9e09e28d53f_c_2fda6a1c-51dd-4111-8e45-500304eb720f",
+      "perilCharacteristicsLocator": "621b6109-be71-48d6-8ebf-f9e09e28d53f",
+      "perilName": "thirdPartyLiability",
+      "segmentEndTimestamp": "1656399600000",
+      "segmentStartTimestamp": "1624863600000",
+      "type": "commission"
+    }
+  ],
+  "operation": "endorsement",
+  "paymentPlan": "monthly",
+  "paymentScheduleName": "monthly",
+  "policy": {
+    "locator": "100000253",
+    "policyholderLocator": "ee8ab6e1-c281-4e0e-be92-f43161f49095",
+    "productName": "personal-auto",
+    "originalContractStartTimestamp": "1624863600000"
+  },
+  "segmentSplitTimestamp": "1628406000000",
+  "tenantTimeZone": "America/Los_Angeles"
+}

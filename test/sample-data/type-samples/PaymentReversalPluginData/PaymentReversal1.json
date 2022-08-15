@@ -1,0 +1,18 @@
+{
+  "gracePeriodDays": "5",
+  "invoiceAmount": "191.03",
+  "invoiceDueTimestamp": "1656648000000",
+  "invoiceIssueTimestamp": "1656648000000",
+  "invoiceLocator": "8d6114f2-5baa-4671-a11c-90ba40d3a123",
+  "operationType": "payment_reversal",
+  "paymentLocator": "5e007363-581e-41e2-9c58-d3fb8ddad0a1",
+  "policy": {
+    "currency": "USD",
+    "locator": "100000018",
+    "originalContractStartTimestamp": "1641013200000",
+    "policyholderLocator": "1d0f8017-8a83-45a8-8e9f-cb2260a1a097",
+    "productName": "personal-auto",
+    "quoteLocator": "100000028"
+  },
+  "tenantTimeZone": "America/New_York"
+}

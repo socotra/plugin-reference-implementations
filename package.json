@@ -1,0 +1,14 @@
+{
+  "name": "socotra-plugin-reference-implementations",
+  "version": "1.0.0",
+  "description": "Reference implementations of Socotra platform plugins",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}

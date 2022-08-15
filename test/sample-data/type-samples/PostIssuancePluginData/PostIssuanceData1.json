@@ -1,0 +1,50 @@
+{
+  "documents": [
+    {
+      "createdTimestamp": "1659526406232",
+      "displayName": "Policy Schedule",
+      "fileName": "schedule.pdf",
+      "locator": "bc90af1b-1549-4a1a-a40e-9cde1754dc8b",
+      "policyModificationLocator": "0cb2a506-3bac-4643-a6d6-2edc69a664c4",
+      "url": "https://document-c2d51a2e-5dda-474d-835d-68d63d7c8e92.s3.eu-west-1.amazonaws.com/b643e203-2aa6-4665-b22d-4cd95526c244/87d34fd3-fe4d-463b-9f5a-c311dc25f3da/document.original?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220803T113331Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Credential=AKIA5O5V6ZA7B5FTNA5D%2F20220803%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=1329e2406c68cd71e29907aa6badfe2ca6821fab3ab4d828318f5af8588041f6",
+      "urlExpirationTimestamp": "1659528211772"
+    },
+    {
+      "createdTimestamp": "1659526406232",
+      "displayName": "Regulatory Disclosure",
+      "fileName": "regulatory_disclosure.pdf",
+      "locator": "224d4683-276c-4df1-b750-0728276881a3",
+      "policyModificationLocator": "0cb2a506-3bac-4643-a6d6-2edc69a664c4",
+      "url": "https://document-c2d51a2e-5dda-474d-835d-68d63d7c8e92.s3.eu-west-1.amazonaws.com/b643e203-2aa6-4665-b22d-4cd95526c244/33d9f011-78f3-47d7-8d7c-27d1c53d4705/document.original?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220803T113331Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Credential=AKIA5O5V6ZA7B5FTNA5D%2F20220803%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=223c10698868b739e21e65a927886815b9aeb41cdca6603b993453551fcdc9b2",
+      "urlExpirationTimestamp": "1659528211772"
+    },
+    {
+      "createdTimestamp": "1659526410762",
+      "displayName": "Policy Schedule on Issue",
+      "fileName": "schedule.pdf",
+      "locator": "a3cc0f04-2342-4b61-b90c-09010c7f4ec4",
+      "policyModificationLocator": "0cb2a506-3bac-4643-a6d6-2edc69a664c4",
+      "url": "https://document-c2d51a2e-5dda-474d-835d-68d63d7c8e92.s3.eu-west-1.amazonaws.com/b643e203-2aa6-4665-b22d-4cd95526c244/f0db0504-a540-4b13-aaeb-96ae4e35c38a/document.original?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220803T113331Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Credential=AKIA5O5V6ZA7B5FTNA5D%2F20220803%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=bebab40c5c7ee3ba52b8cedc257fdf416f5ff7418fe4673bd10cb6cd88c36d65",
+      "urlExpirationTimestamp": "1659528211772"
+    },
+    {
+      "createdTimestamp": "1659526410762",
+      "displayName": "Regulatory Disclosure on Issue",
+      "fileName": "regulatory_disclosure.pdf",
+      "locator": "04e65574-893d-4060-be65-46bed0033ade",
+      "policyModificationLocator": "0cb2a506-3bac-4643-a6d6-2edc69a664c4",
+      "url": "https://document-c2d51a2e-5dda-474d-835d-68d63d7c8e92.s3.eu-west-1.amazonaws.com/b643e203-2aa6-4665-b22d-4cd95526c244/1ea67522-62ad-492c-b4a1-abfb843e6a91/document.original?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220803T113331Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Credential=AKIA5O5V6ZA7B5FTNA5D%2F20220803%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=7254915fafbbfb8796f2132a34ec51fd451f7ce9647cbbd02e312106d8802826",
+      "urlExpirationTimestamp": "1659528211773"
+    }
+  ],
+  "operation": "newBusiness",
+  "policy": {
+    "currency": "USD",
+    "locator": "100000102",
+    "originalContractStartTimestamp": "1641013200000",
+    "policyholderLocator": "5baff6ad-cb5d-4bcb-8c2a-47cb8088a5d7",
+    "productName": "personal-auto",
+    "quoteLocator": "100000112"
+  },
+  "policyLocator": "100000102"
+}

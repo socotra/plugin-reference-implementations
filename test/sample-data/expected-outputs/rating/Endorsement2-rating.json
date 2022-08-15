@@ -1,0 +1,16 @@
+{
+    "pricedPerilCharacteristics": {
+        "d21e4c3d-9c08-4826-be62-e7190d54c6c6": {
+            "exactPremium": 3.14,
+            "yearlyPremium": 1.25,
+            "yearlyTechnicalPremium": 1,
+            "commissions": []
+        },
+        "a30ca077-d2f3-4c2a-9528-5ee3159edc00": {
+            "exactPremium": 3.14,
+            "yearlyPremium": 1.25,
+            "yearlyTechnicalPremium": 1,
+            "commissions": []
+        }
+    }
+}

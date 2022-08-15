@@ -1,0 +1,3256 @@
+{
+    "charges": [
+        {
+            "amount": "-126.80",
+            "amountCurrency": "USD",
+            "category": "new",
+            "chargeId": "1_premium_c699ceec-d74c-45c4-8a75-7432d4f5e9c3",
+            "coverageEndTimestamp": "1672984800000",
+            "coverageStartTimestamp": "1641448800000",
+            "isNew": true,
+            "originalAmount": "-126.80",
+            "perilCharacteristicsLocator": "c699ceec-d74c-45c4-8a75-7432d4f5e9c3",
+            "perilLocator": "4c5e0a8b-15fa-454b-aab1-cbf475e96b39",
+            "perilName": "insureds_coverages_base",
+            "policyModificationLocator": "140271f5-3d72-43ef-ac63-670a985e24ea",
+            "previouslyInvoicedAmount": "0",
+            "type": "premium"
+        },
+        {
+            "amount": "31.70",
+            "amountCurrency": "USD",
+            "category": "new",
+            "chargeId": "2_premium_6b48559f-b10a-4485-b037-ab9de49ec382",
+            "coverageEndTimestamp": "1649221200000",
+            "coverageStartTimestamp": "1641448800000",
+            "isNew": true,
+            "originalAmount": "31.70",
+            "perilCharacteristicsLocator": "6b48559f-b10a-4485-b037-ab9de49ec382",
+            "perilLocator": "4c5e0a8b-15fa-454b-aab1-cbf475e96b39",
+            "perilName": "insureds_coverages_base",
+            "policyModificationLocator": "140271f5-3d72-43ef-ac63-670a985e24ea",
+            "previouslyInvoicedAmount": "0",
+            "type": "premium"
+        },
+        {
+            "amount": "99.90",
+            "amountCurrency": "USD",
+            "category": "new",
+            "chargeId": "3_premium_f8316893-6c55-4dae-b1d5-1f99c00c1f7d",
+            "coverageEndTimestamp": "1672984800000",
+            "coverageStartTimestamp": "1649221200000",
+            "isNew": true,
+            "originalAmount": "99.90",
+            "perilCharacteristicsLocator": "f8316893-6c55-4dae-b1d5-1f99c00c1f7d",
+            "perilLocator": "4c5e0a8b-15fa-454b-aab1-cbf475e96b39",
+            "perilName": "insureds_coverages_base",
+            "policyModificationLocator": "140271f5-3d72-43ef-ac63-670a985e24ea",
+            "previouslyInvoicedAmount": "0",
+            "type": "premium"
+        },
+        {
+            "amount": "-13.63",
+            "amountCurrency": "USD",
+            "category": "new",
+            "chargeId": "4_premium_ee4bc135-14c1-47ed-8a9d-53f332e6ce4d",
+            "coverageEndTimestamp": "1672984800000",
+            "coverageStartTimestamp": "1641448800000",
+            "isNew": true,
+            "originalAmount": "-13.63",
+            "perilCharacteristicsLocator": "ee4bc135-14c1-47ed-8a9d-53f332e6ce4d",
+            "perilLocator": "87e49ac3-1bcd-4333-a8fe-98e12aaee895",
+            "perilName": "insureds_coverages_sis",
+            "policyModificationLocator": "140271f5-3d72-43ef-ac63-670a985e24ea",
+            "previouslyInvoicedAmount": "0",
+            "type": "premium"
+        },
+        {
+            "amount": "3.41",
+            "amountCurrency": "USD",
+            "category": "new",
+            "chargeId": "5_premium_51ef6e33-0c4c-4919-9e13-8d1f23b3970d",
+            "coverageEndTimestamp": "1649221200000",
+            "coverageStartTimestamp": "1641448800000",
+            "isNew": true,
+            "originalAmount": "3.41",
+            "perilCharacteristicsLocator": "51ef6e33-0c4c-4919-9e13-8d1f23b3970d",
+            "perilLocator": "87e49ac3-1bcd-4333-a8fe-98e12aaee895",
+            "perilName": "insureds_coverages_sis",
+            "policyModificationLocator": "140271f5-3d72-43ef-ac63-670a985e24ea",
+            "previouslyInvoicedAmount": "0",
+            "type": "premium"
+        },
+        {
+            "amount": "10.71",
+            "amountCurrency": "USD",
+            "category": "new",
+            "chargeId": "6_premium_24930419-4ac2-4b11-b642-ca17d66e1882",
+            "coverageEndTimestamp": "1672984800000",
+            "coverageStartTimestamp": "1649221200000",
+            "isNew": true,
+            "originalAmount": "10.71",
+            "perilCharacteristicsLocator": "24930419-4ac2-4b11-b642-ca17d66e1882",
+            "perilLocator": "87e49ac3-1bcd-4333-a8fe-98e12aaee895",
+            "perilName": "insureds_coverages_sis",
+            "policyModificationLocator": "140271f5-3d72-43ef-ac63-670a985e24ea",
+            "previouslyInvoicedAmount": "0",
+            "type": "premium"
+        },
+        {
+            "amount": "0.00",
+            "amountCurrency": "USD",
+            "category": "new",
+            "chargeId": "7_premium_f67ce57c-fa84-4f5b-a3e9-22c1562485e7",
+            "coverageEndTimestamp": "1672984800000",
+            "coverageStartTimestamp": "1641448800000",
+            "isNew": true,
+            "originalAmount": "0.00",
+            "perilCharacteristicsLocator": "f67ce57c-fa84-4f5b-a3e9-22c1562485e7",
+            "perilLocator": "7ffdb685-7d78-4fe9-ba22-b3e22c8f306e",
+            "perilName": "insureds_coverages_autoIncreaseBenefitRider",
+            "policyModificationLocator": "140271f5-3d72-43ef-ac63-670a985e24ea",
+            "previouslyInvoicedAmount": "0",
+            "type": "premium"
+        },
+        {
+            "amount": "0.00",
+            "amountCurrency": "USD",
+            "category": "new",
+            "chargeId": "8_premium_f89bb3f8-1b01-4240-b44e-4cb6d016ff41",
+            "coverageEndTimestamp": "1649221200000",
+            "coverageStartTimestamp": "1641448800000",
+            "isNew": true,
+            "originalAmount": "0.00",
+            "perilCharacteristicsLocator": "f89bb3f8-1b01-4240-b44e-4cb6d016ff41",
+            "perilLocator": "7ffdb685-7d78-4fe9-ba22-b3e22c8f306e",
+            "perilName": "insureds_coverages_autoIncreaseBenefitRider",
+            "policyModificationLocator": "140271f5-3d72-43ef-ac63-670a985e24ea",
+            "previouslyInvoicedAmount": "0",
+            "type": "premium"
+        },
+        {
+            "amount": "0.00",
+            "amountCurrency": "USD",
+            "category": "new",
+            "chargeId": "9_premium_eed081ba-f423-4dbd-baf5-d5b846900aaf",
+            "coverageEndTimestamp": "1672984800000",
+            "coverageStartTimestamp": "1649221200000",
+            "isNew": true,
+            "originalAmount": "0.00",
+            "perilCharacteristicsLocator": "eed081ba-f423-4dbd-baf5-d5b846900aaf",
+            "perilLocator": "7ffdb685-7d78-4fe9-ba22-b3e22c8f306e",
+            "perilName": "insureds_coverages_autoIncreaseBenefitRider",
+            "policyModificationLocator": "140271f5-3d72-43ef-ac63-670a985e24ea",
+            "previouslyInvoicedAmount": "0",
+            "type": "premium"
+        }
+    ],
+    "coverageEndTimestamp": "1672984800000",
+    "coverageStartTimestamp": "1649221200000",
+    "defaultPaymentTerms": {
+        "amount": "7",
+        "unit": "day"
+    },
+    "oldPaymentScheduleName": "annually",
+    "operation": "endorsement",
+    "paymentScheduleName": "monthly",
+    "plannedInvoices": [],
+    "policy": {
+        "characteristics": [
+            {
+                "createdTimestamp": "1648064600092",
+                "endTimestamp": "1672984800000",
+                "fieldGroupsByLocator": {
+                    "b9e473e6-9b60-4323-b468-440b83dc4e76": {
+                        "beneficiaries_additionalFields_beneficiaryFullName": [
+                            "Leia O Solo"
+                        ],
+                        "beneficiaries_additionalFields_beneficiaryRelationshipCalculated": [
+                            "SIBLING"
+                        ],
+                        "beneficiaries_additionalFields_systemKey": [
+                            "000007137BENEFICIARY004"
+                        ],
+                        "beneficiaries_firstName": [
+                            "Leia"
+                        ],
+                        "beneficiaries_lastName": [
+                            "Solo"
+                        ],
+                        "beneficiaries_middleName": [
+                            "O"
+                        ],
+                        "beneficiaries_partyId": [
+                            "613899864"
+                        ],
+                        "beneficiaries_percentOfShare": [
+                            "100"
+                        ],
+                        "beneficiaries_relationshipToInsured": [
+                            "SIBLING"
+                        ]
+                    },
+                    "f99f4602-0c26-4583-8d35-255dc84ec4ec": {
+                        "sellingProducers_additionalFields_commentsInstructions": [
+                            "commentsInstructions"
+                        ],
+                        "sellingProducers_additionalFields_contactName": [
+                            "contactName"
+                        ],
+                        "sellingProducers_additionalFields_contactPhone": [
+                            "contactPhone"
+                        ],
+                        "sellingProducers_additionalFields_officePhoneNumber": [
+                            "officePhoneNumber"
+                        ],
+                        "sellingProducers_additionalFields_sellingProducersFullName": [
+                            "MATT HAFFEMANN"
+                        ],
+                        "sellingProducers_additionalFields_systemKey": [
+                            "000007137SELLINGPRODUCER004"
+                        ],
+                        "sellingProducers_applicationSignature_additionalFields_ipAddress": [
+                            "170.31.98.26"
+                        ],
+                        "sellingProducers_applicationSignature_signatureCity": [
+                            "omaha"
+                        ],
+                        "sellingProducers_applicationSignature_signatureDate": [
+                            "2022-01-06"
+                        ],
+                        "sellingProducers_applicationSignature_signatureName": [
+                            "MATT HAFFEMANN"
+                        ],
+                        "sellingProducers_applicationSignature_signatureState": [
+                            "NE"
+                        ],
+                        "sellingProducers_applicationSignature_signatureTimestamp": [
+                            "2022-01-06T18:56:17.099Z"
+                        ],
+                        "sellingProducers_applicationSignature_signatureType": [
+                            "ELECTRONIC"
+                        ],
+                        "sellingProducers_commissionPercentShare": [
+                            "100"
+                        ],
+                        "sellingProducers_emailAddress": [
+                            "someone@somewhere.com"
+                        ],
+                        "sellingProducers_firstName": [
+                            "ALICE"
+                        ],
+                        "sellingProducers_isPrimaryProducer": [
+                            "YES"
+                        ],
+                        "sellingProducers_lastName": [
+                            "LEE"
+                        ],
+                        "sellingProducers_producerHierarchyId": [
+                            "71JA5L-1X7J57"
+                        ],
+                        "sellingProducers_producerNumber": [
+                            "0675635"
+                        ]
+                    }
+                },
+                "fieldValues": {
+                    "additionalFields_accumulationPeriod": [
+                        "180"
+                    ],
+                    "additionalFields_applyingWithPartnerFullName": [
+                        "applyingWithPartnerFullName"
+                    ],
+                    "additionalFields_askedEachQuestion": [
+                        "YES"
+                    ],
+                    "additionalFields_conductedInterviewInPerson": [
+                        "YES"
+                    ],
+                    "additionalFields_discountAmount": [
+                        "0"
+                    ],
+                    "additionalFields_discountPercent": [
+                        "0"
+                    ],
+                    "additionalFields_naturalDisasterBenefit": [
+                        "NO"
+                    ],
+                    "additionalFields_policyDecision_iccState": [
+                        "true"
+                    ],
+                    "additionalFields_policyDecision_permanentExclusion": [
+                        "FALSE"
+                    ],
+                    "additionalFields_policyDecision_policyStatus": [
+                        "ISSUE"
+                    ],
+                    "additionalFields_policyDecision_premiumAdjustment": [
+                        "FALSE"
+                    ],
+                    "additionalFields_policyDecision_reviewableExclusion": [
+                        "FALSE"
+                    ],
+                    "additionalFields_policyDiscountPercent": [
+                        "1"
+                    ],
+                    "additionalFields_policyFactorPercent": [
+                        "0.8"
+                    ],
+                    "additionalFields_policyFactorPercentAnnual": [
+                        "0.8"
+                    ],
+                    "additionalFields_policyFactorPercentMonthly": [
+                        "0.07"
+                    ],
+                    "additionalFields_policyFactorPercentQuarterly": [
+                        "0.20"
+                    ],
+                    "additionalFields_policyFactorPercentSemiAnnual": [
+                        "0.41"
+                    ],
+                    "additionalFields_policyHierarchyName": [
+                        "DAN SMITH"
+                    ],
+                    "additionalFields_programsStudentProgramCalc": [
+                        "NO"
+                    ],
+                    "additionalFields_programsStudentProgramProgramOfStudyCalc": [
+                        " "
+                    ],
+                    "additionalFields_reasonToBelieveReplacing": [
+                        "NO"
+                    ],
+                    "additionalFields_renewalBenefitMax": [
+                        "5000"
+                    ],
+                    "additionalFields_statSeries": [
+                        "50056"
+                    ],
+                    "additionalFields_stateInsurancePhoneNumber": [
+                        "1-515-281-5705"
+                    ],
+                    "additionalFields_totalAnnualPremium": [
+                        "140.43"
+                    ],
+                    "additionalFields_totalBenefitsWithRenewal": [
+                        "2900"
+                    ],
+                    "additionalFields_totalInternalInForce": [
+                        "0"
+                    ],
+                    "additionalFields_totalMonthlyBenefitAmount": [
+                        "2900"
+                    ],
+                    "additionalFields_totalMonthlyCalcWithoutSE": [
+                        "3500"
+                    ],
+                    "additionalFields_totalMonthlyMaximumCalc": [
+                        "3500"
+                    ],
+                    "additionalFields_totalMonthlyPremium": [
+                        "12.29"
+                    ],
+                    "additionalFields_totalPremiumBeforeDiscount": [
+                        "140.43"
+                    ],
+                    "additionalFields_totalPremiumBeforeDiscountAnnual": [
+                        "140.43"
+                    ],
+                    "additionalFields_totalPremiumBeforeDiscountMonthly": [
+                        "0"
+                    ],
+                    "additionalFields_totalPremiumBeforeDiscountQuarterly": [
+                        "0"
+                    ],
+                    "additionalFields_totalPremiumBeforeDiscountSemiAnnual": [
+                        "0"
+                    ],
+                    "additionalFields_totalQuarterlyPremium": [
+                        "36.51"
+                    ],
+                    "additionalFields_totalSemiAnnualPremium": [
+                        "72.32"
+                    ],
+                    "additionalFields_underwritingReqmnts_mibRequired": [
+                        "true"
+                    ],
+                    "additionalFields_underwritingReqmnts_pharmRequired": [
+                        "true"
+                    ],
+                    "beneficiaries": [
+                        "b9e473e6-9b60-4323-b468-440b83dc4e76"
+                    ],
+                    "benefitPeriod": [
+                        "BENEFIT_PERIOD_10YR"
+                    ],
+                    "businessPurpose": [
+                        "NEW_BUSINESS"
+                    ],
+                    "discountAssociationGroup": [
+                        "NO"
+                    ],
+                    "discountCommonEmployer": [
+                        "NO"
+                    ],
+                    "discountHousehold": [
+                        "NO"
+                    ],
+                    "discountMultiPolicy": [
+                        "NO"
+                    ],
+                    "discountSelfEmployed": [
+                        "NO"
+                    ],
+                    "distributionChannel": [
+                        "AGENCY"
+                    ],
+                    "eliminationPeriod": [
+                        "ELIMINATION_PERIOD_90_DAYS"
+                    ],
+                    "errorMessage": [
+                        "Policy is in good order."
+                    ],
+                    "issueState": [
+                        "IA"
+                    ],
+                    "issuingCompany": [
+                        "MUTUAL"
+                    ],
+                    "onMilitarySuspension": [
+                        "NO"
+                    ],
+                    "onWaiverOfPremium": [
+                        "NO"
+                    ],
+                    "owner_additionalFields_systemKey": [
+                        "000007137OWNER004"
+                    ],
+                    "owner_birthDate": [
+                        "1981-01-02"
+                    ],
+                    "owner_cellPhoneNumber": [
+                        "222-333-3333"
+                    ],
+                    "owner_firstName": [
+                        "HaniPAYMENTMODE"
+                    ],
+                    "owner_gender": [
+                        "FEMALE"
+                    ],
+                    "owner_homePhoneNumber": [
+                        "222-333-3334"
+                    ],
+                    "owner_lastName": [
+                        "Testtest"
+                    ],
+                    "owner_mailingAddress_addressLine1": [
+                        "200 7TH AVE SW"
+                    ],
+                    "owner_mailingAddress_city": [
+                        "BROWNSVILLE"
+                    ],
+                    "owner_mailingAddress_country": [
+                        "USA"
+                    ],
+                    "owner_mailingAddress_state": [
+                        "IA"
+                    ],
+                    "owner_mailingAddress_zipCode": [
+                        "52040"
+                    ],
+                    "owner_partyId": [
+                        "613899999"
+                    ],
+                    "owner_residentialAddress_addressLine1": [
+                        "200 7TH AVE SW"
+                    ],
+                    "owner_residentialAddress_city": [
+                        "BROWNSVILLE"
+                    ],
+                    "owner_residentialAddress_country": [
+                        "USA"
+                    ],
+                    "owner_residentialAddress_state": [
+                        "IA"
+                    ],
+                    "owner_residentialAddress_zipCode": [
+                        "52040"
+                    ],
+                    "owner_socialSecurityNumber": [
+                        "111-11-0000"
+                    ],
+                    "paymentMethod": [
+                        "ACH"
+                    ],
+                    "paymentToken": [
+                        "12345"
+                    ],
+                    "paymentWithdrawalDay": [
+                        "15"
+                    ],
+                    "policyDeliverTo": [
+                        "INSURED"
+                    ],
+                    "policyDeliveryMethod": [
+                        "EMAIL"
+                    ],
+                    "policyForm": [
+                        "D90"
+                    ],
+                    "policyNumber": [
+                        "000000020"
+                    ],
+                    "policyPremiumAmount": [
+                        "140.43"
+                    ],
+                    "policyRenewability": [
+                        "GUARANTEED_RENEWABLE"
+                    ],
+                    "productDefinitionInfo_productDefinitionVersion": [
+                        "10.0.60"
+                    ],
+                    "productDefinitionInfo_productId": [
+                        "DIAO19"
+                    ],
+                    "productInfo_lineOfBusiness": [
+                        "HEALTH"
+                    ],
+                    "productInfo_productGroup": [
+                        "DISABILITY_INCOME"
+                    ],
+                    "productInfo_productName": [
+                        "DI_INDIVIDUAL_ACCIDENT_ONLY"
+                    ],
+                    "productInfo_productType": [
+                        "INDIVIDUAL_DI"
+                    ],
+                    "reinsurance": [
+                        "NO"
+                    ],
+                    "sellingProducers": [
+                        "f99f4602-0c26-4583-8d35-255dc84ec4ec"
+                    ],
+                    "specialRestrictionEmployee": [
+                        "NONE"
+                    ],
+                    "validate": [
+                        "validate"
+                    ]
+                },
+                "grossPremium": "140.43",
+                "grossPremiumCurrency": "USD",
+                "grossTaxes": "0.00",
+                "grossTaxesCurrency": "USD",
+                "issuedTimestamp": "1648064813736",
+                "locator": "c3690db4-589e-42e3-a7d3-36b6515a32a2",
+                "mediaByLocator": {},
+                "policyEndTimestamp": "1672984800000",
+                "policyLocator": "100088100",
+                "policyStartTimestamp": "1641448800000",
+                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                "replacedTimestamp": "1648064963570",
+                "startTimestamp": "1641448800000",
+                "taxGroups": [],
+                "updatedTimestamp": "1648064963570"
+            },
+            {
+                "createdTimestamp": "1648064962367",
+                "endTimestamp": "1672984800000",
+                "fieldGroupsByLocator": {
+                    "b9e473e6-9b60-4323-b468-440b83dc4e76": {
+                        "beneficiaries_additionalFields_beneficiaryFullName": [
+                            "Leia O Solo"
+                        ],
+                        "beneficiaries_additionalFields_beneficiaryRelationshipCalculated": [
+                            "SIBLING"
+                        ],
+                        "beneficiaries_additionalFields_systemKey": [
+                            "000007137BENEFICIARY004"
+                        ],
+                        "beneficiaries_firstName": [
+                            "Leia"
+                        ],
+                        "beneficiaries_lastName": [
+                            "Solo"
+                        ],
+                        "beneficiaries_middleName": [
+                            "O"
+                        ],
+                        "beneficiaries_partyId": [
+                            "613899864"
+                        ],
+                        "beneficiaries_percentOfShare": [
+                            "100"
+                        ],
+                        "beneficiaries_relationshipToInsured": [
+                            "SIBLING"
+                        ]
+                    },
+                    "f99f4602-0c26-4583-8d35-255dc84ec4ec": {
+                        "sellingProducers_additionalFields_commentsInstructions": [
+                            "commentsInstructions"
+                        ],
+                        "sellingProducers_additionalFields_contactName": [
+                            "contactName"
+                        ],
+                        "sellingProducers_additionalFields_contactPhone": [
+                            "contactPhone"
+                        ],
+                        "sellingProducers_additionalFields_officePhoneNumber": [
+                            "officePhoneNumber"
+                        ],
+                        "sellingProducers_additionalFields_sellingProducersFullName": [
+                            "MATT HAFFEMANN"
+                        ],
+                        "sellingProducers_additionalFields_systemKey": [
+                            "000007137SELLINGPRODUCER004"
+                        ],
+                        "sellingProducers_applicationSignature_additionalFields_ipAddress": [
+                            "170.31.98.26"
+                        ],
+                        "sellingProducers_applicationSignature_signatureCity": [
+                            "omaha"
+                        ],
+                        "sellingProducers_applicationSignature_signatureDate": [
+                            "2022-01-06"
+                        ],
+                        "sellingProducers_applicationSignature_signatureName": [
+                            "MATT HAFFEMANN"
+                        ],
+                        "sellingProducers_applicationSignature_signatureState": [
+                            "NE"
+                        ],
+                        "sellingProducers_applicationSignature_signatureTimestamp": [
+                            "2022-01-06T18:56:17.099Z"
+                        ],
+                        "sellingProducers_applicationSignature_signatureType": [
+                            "ELECTRONIC"
+                        ],
+                        "sellingProducers_commissionPercentShare": [
+                            "100"
+                        ],
+                        "sellingProducers_emailAddress": [
+                            "cynthia.lindahl@mutualofomaha.com"
+                        ],
+                        "sellingProducers_firstName": [
+                            "MATT"
+                        ],
+                        "sellingProducers_isPrimaryProducer": [
+                            "YES"
+                        ],
+                        "sellingProducers_lastName": [
+                            "HAFFEMANN"
+                        ],
+                        "sellingProducers_producerHierarchyId": [
+                            "71JA5L-1X7J57"
+                        ],
+                        "sellingProducers_producerNumber": [
+                            "0675635"
+                        ]
+                    }
+                },
+                "fieldValues": {
+                    "additionalFields_accumulationPeriod": [
+                        "180"
+                    ],
+                    "additionalFields_applyingWithPartnerFullName": [
+                        "applyingWithPartnerFullName"
+                    ],
+                    "additionalFields_askedEachQuestion": [
+                        "YES"
+                    ],
+                    "additionalFields_conductedInterviewInPerson": [
+                        "YES"
+                    ],
+                    "additionalFields_discountAmount": [
+                        "0"
+                    ],
+                    "additionalFields_discountPercent": [
+                        "0"
+                    ],
+                    "additionalFields_naturalDisasterBenefit": [
+                        "NO"
+                    ],
+                    "additionalFields_policyDecision_iccState": [
+                        "true"
+                    ],
+                    "additionalFields_policyDecision_permanentExclusion": [
+                        "FALSE"
+                    ],
+                    "additionalFields_policyDecision_policyStatus": [
+                        "ISSUE"
+                    ],
+                    "additionalFields_policyDecision_premiumAdjustment": [
+                        "FALSE"
+                    ],
+                    "additionalFields_policyDecision_reviewableExclusion": [
+                        "FALSE"
+                    ],
+                    "additionalFields_policyDiscountPercent": [
+                        "1"
+                    ],
+                    "additionalFields_policyFactorPercent": [
+                        "0.8"
+                    ],
+                    "additionalFields_policyFactorPercentAnnual": [
+                        "0.8"
+                    ],
+                    "additionalFields_policyFactorPercentMonthly": [
+                        "0.07"
+                    ],
+                    "additionalFields_policyFactorPercentQuarterly": [
+                        "0.20"
+                    ],
+                    "additionalFields_policyFactorPercentSemiAnnual": [
+                        "0.41"
+                    ],
+                    "additionalFields_policyHierarchyName": [
+                        "KIRT A COCHRAN"
+                    ],
+                    "additionalFields_programsStudentProgramCalc": [
+                        "NO"
+                    ],
+                    "additionalFields_programsStudentProgramProgramOfStudyCalc": [
+                        " "
+                    ],
+                    "additionalFields_reasonToBelieveReplacing": [
+                        "NO"
+                    ],
+                    "additionalFields_renewalBenefitMax": [
+                        "5000"
+                    ],
+                    "additionalFields_statSeries": [
+                        "50056"
+                    ],
+                    "additionalFields_stateInsurancePhoneNumber": [
+                        "1-515-281-5705"
+                    ],
+                    "additionalFields_totalAnnualPremium": [
+                        "140.43"
+                    ],
+                    "additionalFields_totalBenefitsWithRenewal": [
+                        "2900"
+                    ],
+                    "additionalFields_totalInternalInForce": [
+                        "0"
+                    ],
+                    "additionalFields_totalMonthlyBenefitAmount": [
+                        "2900"
+                    ],
+                    "additionalFields_totalMonthlyCalcWithoutSE": [
+                        "3500"
+                    ],
+                    "additionalFields_totalMonthlyMaximumCalc": [
+                        "3500"
+                    ],
+                    "additionalFields_totalMonthlyPremium": [
+                        "12.29"
+                    ],
+                    "additionalFields_totalPremiumBeforeDiscount": [
+                        "140.43"
+                    ],
+                    "additionalFields_totalPremiumBeforeDiscountAnnual": [
+                        "140.43"
+                    ],
+                    "additionalFields_totalPremiumBeforeDiscountMonthly": [
+                        "0"
+                    ],
+                    "additionalFields_totalPremiumBeforeDiscountQuarterly": [
+                        "0"
+                    ],
+                    "additionalFields_totalPremiumBeforeDiscountSemiAnnual": [
+                        "0"
+                    ],
+                    "additionalFields_totalQuarterlyPremium": [
+                        "36.51"
+                    ],
+                    "additionalFields_totalSemiAnnualPremium": [
+                        "72.32"
+                    ],
+                    "additionalFields_underwritingReqmnts_mibRequired": [
+                        "true"
+                    ],
+                    "additionalFields_underwritingReqmnts_pharmRequired": [
+                        "true"
+                    ],
+                    "beneficiaries": [
+                        "b9e473e6-9b60-4323-b468-440b83dc4e76"
+                    ],
+                    "benefitPeriod": [
+                        "BENEFIT_PERIOD_10YR"
+                    ],
+                    "businessPurpose": [
+                        "NEW_BUSINESS"
+                    ],
+                    "discountAssociationGroup": [
+                        "NO"
+                    ],
+                    "discountCommonEmployer": [
+                        "NO"
+                    ],
+                    "discountHousehold": [
+                        "NO"
+                    ],
+                    "discountMultiPolicy": [
+                        "NO"
+                    ],
+                    "discountSelfEmployed": [
+                        "NO"
+                    ],
+                    "distributionChannel": [
+                        "AGENCY"
+                    ],
+                    "eliminationPeriod": [
+                        "ELIMINATION_PERIOD_90_DAYS"
+                    ],
+                    "errorMessage": [
+                        "Policy is in good order."
+                    ],
+                    "issueState": [
+                        "IA"
+                    ],
+                    "issuingCompany": [
+                        "MUTUAL"
+                    ],
+                    "onMilitarySuspension": [
+                        "NO"
+                    ],
+                    "onWaiverOfPremium": [
+                        "NO"
+                    ],
+                    "owner_additionalFields_systemKey": [
+                        "000007137OWNER004"
+                    ],
+                    "owner_birthDate": [
+                        "1982-01-03"
+                    ],
+                    "owner_cellPhoneNumber": [
+                        "222-333-3333"
+                    ],
+                    "owner_firstName": [
+                        "HaniPAYMENTMODE"
+                    ],
+                    "owner_gender": [
+                        "FEMALE"
+                    ],
+                    "owner_homePhoneNumber": [
+                        "222-333-3334"
+                    ],
+                    "owner_lastName": [
+                        "Testtest"
+                    ],
+                    "owner_mailingAddress_addressLine1": [
+                        "200 7TH AVE SW"
+                    ],
+                    "owner_mailingAddress_city": [
+                        "BROWNSVILLE"
+                    ],
+                    "owner_mailingAddress_country": [
+                        "USA"
+                    ],
+                    "owner_mailingAddress_state": [
+                        "IA"
+                    ],
+                    "owner_mailingAddress_zipCode": [
+                        "52040"
+                    ],
+                    "owner_partyId": [
+                        "613899999"
+                    ],
+                    "owner_residentialAddress_addressLine1": [
+                        "200 7TH AVE SW"
+                    ],
+                    "owner_residentialAddress_city": [
+                        "BROWNSVILLE"
+                    ],
+                    "owner_residentialAddress_country": [
+                        "USA"
+                    ],
+                    "owner_residentialAddress_state": [
+                        "IA"
+                    ],
+                    "owner_residentialAddress_zipCode": [
+                        "52040"
+                    ],
+                    "owner_socialSecurityNumber": [
+                        "111-11-0000"
+                    ],
+                    "paidToDate": [
+                        "2023-01-06"
+                    ],
+                    "paymentMethod": [
+                        "ACH"
+                    ],
+                    "paymentToken": [
+                        "12345"
+                    ],
+                    "paymentWithdrawalDay": [
+                        "15"
+                    ],
+                    "policyDeliverTo": [
+                        "INSURED"
+                    ],
+                    "policyDeliveryMethod": [
+                        "EMAIL"
+                    ],
+                    "policyForm": [
+                        "D90"
+                    ],
+                    "policyNumber": [
+                        "000000020"
+                    ],
+                    "policyPremiumAmount": [
+                        "140.43"
+                    ],
+                    "policyRenewability": [
+                        "GUARANTEED_RENEWABLE"
+                    ],
+                    "productDefinitionInfo_productDefinitionVersion": [
+                        "10.0.60"
+                    ],
+                    "productDefinitionInfo_productId": [
+                        "DIAO19"
+                    ],
+                    "productInfo_lineOfBusiness": [
+                        "HEALTH"
+                    ],
+                    "productInfo_productGroup": [
+                        "DISABILITY_INCOME"
+                    ],
+                    "productInfo_productName": [
+                        "DI_INDIVIDUAL_ACCIDENT_ONLY"
+                    ],
+                    "productInfo_productType": [
+                        "INDIVIDUAL_DI"
+                    ],
+                    "reinsurance": [
+                        "NO"
+                    ],
+                    "sellingProducers": [
+                        "f99f4602-0c26-4583-8d35-255dc84ec4ec"
+                    ],
+                    "specialRestrictionEmployee": [
+                        "NONE"
+                    ],
+                    "validate": [
+                        "validate"
+                    ]
+                },
+                "grossPremium": "140.43",
+                "grossPremiumCurrency": "USD",
+                "grossTaxes": "0.00",
+                "grossTaxesCurrency": "USD",
+                "issuedTimestamp": "1648064963570",
+                "locator": "87bd7afa-9a82-4bcd-a2ba-fd01ab6cef26",
+                "mediaByLocator": {},
+                "policyEndTimestamp": "1672984800000",
+                "policyLocator": "100088100",
+                "policyStartTimestamp": "1641448800000",
+                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                "replacedTimestamp": "1648065028668",
+                "startTimestamp": "1641448800000",
+                "taxGroups": [],
+                "updatedTimestamp": "1648064963570"
+            },
+            {
+                "createdTimestamp": "1648065028668",
+                "endTimestamp": "1649221200000",
+                "fieldGroupsByLocator": {
+                    "b9e473e6-9b60-4323-b468-440b83dc4e76": {
+                        "beneficiaries_additionalFields_beneficiaryFullName": [
+                            "Leia O Solo"
+                        ],
+                        "beneficiaries_additionalFields_beneficiaryRelationshipCalculated": [
+                            "SIBLING"
+                        ],
+                        "beneficiaries_additionalFields_systemKey": [
+                            "000007137BENEFICIARY004"
+                        ],
+                        "beneficiaries_firstName": [
+                            "Leia"
+                        ],
+                        "beneficiaries_lastName": [
+                            "Solo"
+                        ],
+                        "beneficiaries_middleName": [
+                            "O"
+                        ],
+                        "beneficiaries_partyId": [
+                            "613899864"
+                        ],
+                        "beneficiaries_percentOfShare": [
+                            "100"
+                        ],
+                        "beneficiaries_relationshipToInsured": [
+                            "SIBLING"
+                        ]
+                    },
+                    "f99f4602-0c26-4583-8d35-255dc84ec4ec": {
+                        "sellingProducers_additionalFields_commentsInstructions": [
+                            "commentsInstructions"
+                        ],
+                        "sellingProducers_additionalFields_contactName": [
+                            "contactName"
+                        ],
+                        "sellingProducers_additionalFields_contactPhone": [
+                            "contactPhone"
+                        ],
+                        "sellingProducers_additionalFields_officePhoneNumber": [
+                            "officePhoneNumber"
+                        ],
+                        "sellingProducers_additionalFields_sellingProducersFullName": [
+                            "MATT HAFFEMANN"
+                        ],
+                        "sellingProducers_additionalFields_systemKey": [
+                            "000007137SELLINGPRODUCER004"
+                        ],
+                        "sellingProducers_applicationSignature_additionalFields_ipAddress": [
+                            "170.31.98.26"
+                        ],
+                        "sellingProducers_applicationSignature_signatureCity": [
+                            "omaha"
+                        ],
+                        "sellingProducers_applicationSignature_signatureDate": [
+                            "2022-01-06"
+                        ],
+                        "sellingProducers_applicationSignature_signatureName": [
+                            "MATT HAFFEMANN"
+                        ],
+                        "sellingProducers_applicationSignature_signatureState": [
+                            "NE"
+                        ],
+                        "sellingProducers_applicationSignature_signatureTimestamp": [
+                            "2022-01-06T18:56:17.099Z"
+                        ],
+                        "sellingProducers_applicationSignature_signatureType": [
+                            "ELECTRONIC"
+                        ],
+                        "sellingProducers_commissionPercentShare": [
+                            "100"
+                        ],
+                        "sellingProducers_emailAddress": [
+                            "cynthia.lindahl@mutualofomaha.com"
+                        ],
+                        "sellingProducers_firstName": [
+                            "MATT"
+                        ],
+                        "sellingProducers_isPrimaryProducer": [
+                            "YES"
+                        ],
+                        "sellingProducers_lastName": [
+                            "HAFFEMANN"
+                        ],
+                        "sellingProducers_producerHierarchyId": [
+                            "71JA5L-1X7J57"
+                        ],
+                        "sellingProducers_producerNumber": [
+                            "0675635"
+                        ]
+                    }
+                },
+                "fieldValues": {
+                    "additionalFields_accumulationPeriod": [
+                        "180"
+                    ],
+                    "additionalFields_applyingWithPartnerFullName": [
+                        "applyingWithPartnerFullName"
+                    ],
+                    "additionalFields_askedEachQuestion": [
+                        "YES"
+                    ],
+                    "additionalFields_conductedInterviewInPerson": [
+                        "YES"
+                    ],
+                    "additionalFields_discountAmount": [
+                        "0"
+                    ],
+                    "additionalFields_discountPercent": [
+                        "0"
+                    ],
+                    "additionalFields_naturalDisasterBenefit": [
+                        "NO"
+                    ],
+                    "additionalFields_policyDecision_iccState": [
+                        "true"
+                    ],
+                    "additionalFields_policyDecision_permanentExclusion": [
+                        "FALSE"
+                    ],
+                    "additionalFields_policyDecision_policyStatus": [
+                        "ISSUE"
+                    ],
+                    "additionalFields_policyDecision_premiumAdjustment": [
+                        "FALSE"
+                    ],
+                    "additionalFields_policyDecision_reviewableExclusion": [
+                        "FALSE"
+                    ],
+                    "additionalFields_policyDiscountPercent": [
+                        "1"
+                    ],
+                    "additionalFields_policyFactorPercent": [
+                        "0.8"
+                    ],
+                    "additionalFields_policyFactorPercentAnnual": [
+                        "0.8"
+                    ],
+                    "additionalFields_policyFactorPercentMonthly": [
+                        "0.07"
+                    ],
+                    "additionalFields_policyFactorPercentQuarterly": [
+                        "0.20"
+                    ],
+                    "additionalFields_policyFactorPercentSemiAnnual": [
+                        "0.41"
+                    ],
+                    "additionalFields_policyHierarchyName": [
+                        "KIRT A COCHRAN"
+                    ],
+                    "additionalFields_programsStudentProgramCalc": [
+                        "NO"
+                    ],
+                    "additionalFields_programsStudentProgramProgramOfStudyCalc": [
+                        " "
+                    ],
+                    "additionalFields_reasonToBelieveReplacing": [
+                        "NO"
+                    ],
+                    "additionalFields_renewalBenefitMax": [
+                        "5000"
+                    ],
+                    "additionalFields_statSeries": [
+                        "50056"
+                    ],
+                    "additionalFields_stateInsurancePhoneNumber": [
+                        "1-515-281-5705"
+                    ],
+                    "additionalFields_totalAnnualPremium": [
+                        "140.43"
+                    ],
+                    "additionalFields_totalBenefitsWithRenewal": [
+                        "2900"
+                    ],
+                    "additionalFields_totalInternalInForce": [
+                        "0"
+                    ],
+                    "additionalFields_totalMonthlyBenefitAmount": [
+                        "2900"
+                    ],
+                    "additionalFields_totalMonthlyCalcWithoutSE": [
+                        "3500"
+                    ],
+                    "additionalFields_totalMonthlyMaximumCalc": [
+                        "3500"
+                    ],
+                    "additionalFields_totalMonthlyPremium": [
+                        "12.29"
+                    ],
+                    "additionalFields_totalPremiumBeforeDiscount": [
+                        "140.43"
+                    ],
+                    "additionalFields_totalPremiumBeforeDiscountAnnual": [
+                        "140.43"
+                    ],
+                    "additionalFields_totalPremiumBeforeDiscountMonthly": [
+                        "0"
+                    ],
+                    "additionalFields_totalPremiumBeforeDiscountQuarterly": [
+                        "0"
+                    ],
+                    "additionalFields_totalPremiumBeforeDiscountSemiAnnual": [
+                        "0"
+                    ],
+                    "additionalFields_totalQuarterlyPremium": [
+                        "36.51"
+                    ],
+                    "additionalFields_totalSemiAnnualPremium": [
+                        "72.32"
+                    ],
+                    "additionalFields_underwritingReqmnts_mibRequired": [
+                        "true"
+                    ],
+                    "additionalFields_underwritingReqmnts_pharmRequired": [
+                        "true"
+                    ],
+                    "beneficiaries": [
+                        "b9e473e6-9b60-4323-b468-440b83dc4e76"
+                    ],
+                    "benefitPeriod": [
+                        "BENEFIT_PERIOD_10YR"
+                    ],
+                    "businessPurpose": [
+                        "NEW_BUSINESS"
+                    ],
+                    "discountAssociationGroup": [
+                        "NO"
+                    ],
+                    "discountCommonEmployer": [
+                        "NO"
+                    ],
+                    "discountHousehold": [
+                        "NO"
+                    ],
+                    "discountMultiPolicy": [
+                        "NO"
+                    ],
+                    "discountSelfEmployed": [
+                        "NO"
+                    ],
+                    "distributionChannel": [
+                        "AGENCY"
+                    ],
+                    "eliminationPeriod": [
+                        "ELIMINATION_PERIOD_90_DAYS"
+                    ],
+                    "errorMessage": [
+                        "Policy is in good order."
+                    ],
+                    "issueState": [
+                        "IA"
+                    ],
+                    "issuingCompany": [
+                        "MUTUAL"
+                    ],
+                    "onMilitarySuspension": [
+                        "NO"
+                    ],
+                    "onWaiverOfPremium": [
+                        "NO"
+                    ],
+                    "owner_additionalFields_systemKey": [
+                        "000007137OWNER004"
+                    ],
+                    "owner_birthDate": [
+                        "1982-01-03"
+                    ],
+                    "owner_cellPhoneNumber": [
+                        "222-333-3333"
+                    ],
+                    "owner_firstName": [
+                        "HaniPAYMENTMODE"
+                    ],
+                    "owner_gender": [
+                        "FEMALE"
+                    ],
+                    "owner_homePhoneNumber": [
+                        "222-333-3334"
+                    ],
+                    "owner_lastName": [
+                        "Testtest"
+                    ],
+                    "owner_mailingAddress_addressLine1": [
+                        "200 7TH AVE SW"
+                    ],
+                    "owner_mailingAddress_city": [
+                        "BROWNSVILLE"
+                    ],
+                    "owner_mailingAddress_country": [
+                        "USA"
+                    ],
+                    "owner_mailingAddress_state": [
+                        "IA"
+                    ],
+                    "owner_mailingAddress_zipCode": [
+                        "52040"
+                    ],
+                    "owner_partyId": [
+                        "613899999"
+                    ],
+                    "owner_residentialAddress_addressLine1": [
+                        "200 7TH AVE SW"
+                    ],
+                    "owner_residentialAddress_city": [
+                        "BROWNSVILLE"
+                    ],
+                    "owner_residentialAddress_country": [
+                        "USA"
+                    ],
+                    "owner_residentialAddress_state": [
+                        "IA"
+                    ],
+                    "owner_residentialAddress_zipCode": [
+                        "52040"
+                    ],
+                    "owner_socialSecurityNumber": [
+                        "111-11-0000"
+                    ],
+                    "paidToDate": [
+                        "2023-01-06"
+                    ],
+                    "paymentMethod": [
+                        "ACH"
+                    ],
+                    "paymentToken": [
+                        "12345"
+                    ],
+                    "paymentWithdrawalDay": [
+                        "15"
+                    ],
+                    "policyDeliverTo": [
+                        "INSURED"
+                    ],
+                    "policyDeliveryMethod": [
+                        "EMAIL"
+                    ],
+                    "policyForm": [
+                        "D90"
+                    ],
+                    "policyNumber": [
+                        "000000020"
+                    ],
+                    "policyPremiumAmount": [
+                        "140.43"
+                    ],
+                    "policyRenewability": [
+                        "GUARANTEED_RENEWABLE"
+                    ],
+                    "productDefinitionInfo_productDefinitionVersion": [
+                        "10.0.60"
+                    ],
+                    "productDefinitionInfo_productId": [
+                        "DIAO19"
+                    ],
+                    "productInfo_lineOfBusiness": [
+                        "HEALTH"
+                    ],
+                    "productInfo_productGroup": [
+                        "DISABILITY_INCOME"
+                    ],
+                    "productInfo_productName": [
+                        "DI_INDIVIDUAL_ACCIDENT_ONLY"
+                    ],
+                    "productInfo_productType": [
+                        "INDIVIDUAL_DI"
+                    ],
+                    "reinsurance": [
+                        "NO"
+                    ],
+                    "sellingProducers": [
+                        "f99f4602-0c26-4583-8d35-255dc84ec4ec"
+                    ],
+                    "specialRestrictionEmployee": [
+                        "NONE"
+                    ],
+                    "validate": [
+                        "validate"
+                    ]
+                },
+                "grossPremium": "35.11",
+                "grossPremiumCurrency": "USD",
+                "grossTaxes": "0.00",
+                "grossTaxesCurrency": "USD",
+                "issuedTimestamp": "1648065028668",
+                "locator": "f215ac1f-82a4-4a46-8056-ae037c5bfc73",
+                "mediaByLocator": {},
+                "policyEndTimestamp": "1672984800000",
+                "policyLocator": "100088100",
+                "policyStartTimestamp": "1641448800000",
+                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                "startTimestamp": "1641448800000",
+                "taxGroups": [],
+                "updatedTimestamp": "1648065028668"
+            },
+            {
+                "createdTimestamp": "1648065028668",
+                "endTimestamp": "1672984800000",
+                "fieldGroupsByLocator": {
+                    "b9e473e6-9b60-4323-b468-440b83dc4e76": {
+                        "beneficiaries_additionalFields_beneficiaryFullName": [
+                            "Leia O Solo"
+                        ],
+                        "beneficiaries_additionalFields_beneficiaryRelationshipCalculated": [
+                            "SIBLING"
+                        ],
+                        "beneficiaries_additionalFields_systemKey": [
+                            "000007137BENEFICIARY004"
+                        ],
+                        "beneficiaries_firstName": [
+                            "Leia"
+                        ],
+                        "beneficiaries_lastName": [
+                            "Solo"
+                        ],
+                        "beneficiaries_middleName": [
+                            "O"
+                        ],
+                        "beneficiaries_partyId": [
+                            "613899864"
+                        ],
+                        "beneficiaries_percentOfShare": [
+                            "100"
+                        ],
+                        "beneficiaries_relationshipToInsured": [
+                            "SIBLING"
+                        ]
+                    },
+                    "f99f4602-0c26-4583-8d35-255dc84ec4ec": {
+                        "sellingProducers_additionalFields_commentsInstructions": [
+                            "commentsInstructions"
+                        ],
+                        "sellingProducers_additionalFields_contactName": [
+                            "contactName"
+                        ],
+                        "sellingProducers_additionalFields_contactPhone": [
+                            "contactPhone"
+                        ],
+                        "sellingProducers_additionalFields_officePhoneNumber": [
+                            "officePhoneNumber"
+                        ],
+                        "sellingProducers_additionalFields_sellingProducersFullName": [
+                            "MATT HAFFEMANN"
+                        ],
+                        "sellingProducers_additionalFields_systemKey": [
+                            "000007137SELLINGPRODUCER004"
+                        ],
+                        "sellingProducers_applicationSignature_additionalFields_ipAddress": [
+                            "170.31.98.26"
+                        ],
+                        "sellingProducers_applicationSignature_signatureCity": [
+                            "omaha"
+                        ],
+                        "sellingProducers_applicationSignature_signatureDate": [
+                            "2022-01-06"
+                        ],
+                        "sellingProducers_applicationSignature_signatureName": [
+                            "MATT HAFFEMANN"
+                        ],
+                        "sellingProducers_applicationSignature_signatureState": [
+                            "NE"
+                        ],
+                        "sellingProducers_applicationSignature_signatureTimestamp": [
+                            "2022-01-06T18:56:17.099Z"
+                        ],
+                        "sellingProducers_applicationSignature_signatureType": [
+                            "ELECTRONIC"
+                        ],
+                        "sellingProducers_commissionPercentShare": [
+                            "100"
+                        ],
+                        "sellingProducers_emailAddress": [
+                            "cynthia.lindahl@mutualofomaha.com"
+                        ],
+                        "sellingProducers_firstName": [
+                            "MATT"
+                        ],
+                        "sellingProducers_isPrimaryProducer": [
+                            "YES"
+                        ],
+                        "sellingProducers_lastName": [
+                            "HAFFEMANN"
+                        ],
+                        "sellingProducers_producerHierarchyId": [
+                            "71JA5L-1X7J57"
+                        ],
+                        "sellingProducers_producerNumber": [
+                            "0675635"
+                        ]
+                    }
+                },
+                "fieldValues": {
+                    "additionalFields_accumulationPeriod": [
+                        "180"
+                    ],
+                    "additionalFields_applyingWithPartnerFullName": [
+                        "applyingWithPartnerFullName"
+                    ],
+                    "additionalFields_askedEachQuestion": [
+                        "YES"
+                    ],
+                    "additionalFields_conductedInterviewInPerson": [
+                        "YES"
+                    ],
+                    "additionalFields_discountAmount": [
+                        "0"
+                    ],
+                    "additionalFields_discountPercent": [
+                        "0"
+                    ],
+                    "additionalFields_naturalDisasterBenefit": [
+                        "NO"
+                    ],
+                    "additionalFields_policyDecision_iccState": [
+                        "true"
+                    ],
+                    "additionalFields_policyDecision_permanentExclusion": [
+                        "FALSE"
+                    ],
+                    "additionalFields_policyDecision_policyStatus": [
+                        "ISSUE"
+                    ],
+                    "additionalFields_policyDecision_premiumAdjustment": [
+                        "FALSE"
+                    ],
+                    "additionalFields_policyDecision_reviewableExclusion": [
+                        "FALSE"
+                    ],
+                    "additionalFields_policyDiscountPercent": [
+                        "1"
+                    ],
+                    "additionalFields_policyFactorPercent": [
+                        "0.8"
+                    ],
+                    "additionalFields_policyFactorPercentAnnual": [
+                        "0.8"
+                    ],
+                    "additionalFields_policyFactorPercentMonthly": [
+                        "0.07"
+                    ],
+                    "additionalFields_policyFactorPercentQuarterly": [
+                        "0.20"
+                    ],
+                    "additionalFields_policyFactorPercentSemiAnnual": [
+                        "0.41"
+                    ],
+                    "additionalFields_policyHierarchyName": [
+                        "KIRT A COCHRAN"
+                    ],
+                    "additionalFields_programsStudentProgramCalc": [
+                        "NO"
+                    ],
+                    "additionalFields_programsStudentProgramProgramOfStudyCalc": [
+                        " "
+                    ],
+                    "additionalFields_reasonToBelieveReplacing": [
+                        "NO"
+                    ],
+                    "additionalFields_renewalBenefitMax": [
+                        "5000"
+                    ],
+                    "additionalFields_statSeries": [
+                        "50056"
+                    ],
+                    "additionalFields_stateInsurancePhoneNumber": [
+                        "1-515-281-5705"
+                    ],
+                    "additionalFields_totalAnnualPremium": [
+                        "140.43"
+                    ],
+                    "additionalFields_totalBenefitsWithRenewal": [
+                        "2900"
+                    ],
+                    "additionalFields_totalInternalInForce": [
+                        "0"
+                    ],
+                    "additionalFields_totalMonthlyBenefitAmount": [
+                        "2900"
+                    ],
+                    "additionalFields_totalMonthlyCalcWithoutSE": [
+                        "3500"
+                    ],
+                    "additionalFields_totalMonthlyMaximumCalc": [
+                        "3500"
+                    ],
+                    "additionalFields_totalMonthlyPremium": [
+                        "12.29"
+                    ],
+                    "additionalFields_totalPremiumBeforeDiscount": [
+                        "140.43"
+                    ],
+                    "additionalFields_totalPremiumBeforeDiscountAnnual": [
+                        "140.43"
+                    ],
+                    "additionalFields_totalPremiumBeforeDiscountMonthly": [
+                        "0"
+                    ],
+                    "additionalFields_totalPremiumBeforeDiscountQuarterly": [
+                        "0"
+                    ],
+                    "additionalFields_totalPremiumBeforeDiscountSemiAnnual": [
+                        "0"
+                    ],
+                    "additionalFields_totalQuarterlyPremium": [
+                        "36.51"
+                    ],
+                    "additionalFields_totalSemiAnnualPremium": [
+                        "72.32"
+                    ],
+                    "additionalFields_underwritingReqmnts_mibRequired": [
+                        "true"
+                    ],
+                    "additionalFields_underwritingReqmnts_pharmRequired": [
+                        "true"
+                    ],
+                    "beneficiaries": [
+                        "b9e473e6-9b60-4323-b468-440b83dc4e76"
+                    ],
+                    "benefitPeriod": [
+                        "BENEFIT_PERIOD_10YR"
+                    ],
+                    "businessPurpose": [
+                        "NEW_BUSINESS"
+                    ],
+                    "discountAssociationGroup": [
+                        "NO"
+                    ],
+                    "discountCommonEmployer": [
+                        "NO"
+                    ],
+                    "discountHousehold": [
+                        "NO"
+                    ],
+                    "discountMultiPolicy": [
+                        "NO"
+                    ],
+                    "discountSelfEmployed": [
+                        "NO"
+                    ],
+                    "distributionChannel": [
+                        "AGENCY"
+                    ],
+                    "eliminationPeriod": [
+                        "ELIMINATION_PERIOD_90_DAYS"
+                    ],
+                    "errorMessage": [
+                        "Policy is in good order."
+                    ],
+                    "issueState": [
+                        "IA"
+                    ],
+                    "issuingCompany": [
+                        "MUTUAL"
+                    ],
+                    "onMilitarySuspension": [
+                        "NO"
+                    ],
+                    "onWaiverOfPremium": [
+                        "NO"
+                    ],
+                    "owner_additionalFields_systemKey": [
+                        "000007137OWNER004"
+                    ],
+                    "owner_birthDate": [
+                        "1982-01-03"
+                    ],
+                    "owner_cellPhoneNumber": [
+                        "222-333-3333"
+                    ],
+                    "owner_firstName": [
+                        "HaniPAYMENTMODE"
+                    ],
+                    "owner_gender": [
+                        "FEMALE"
+                    ],
+                    "owner_homePhoneNumber": [
+                        "222-333-3334"
+                    ],
+                    "owner_lastName": [
+                        "Testtest"
+                    ],
+                    "owner_mailingAddress_addressLine1": [
+                        "200 7TH AVE SW"
+                    ],
+                    "owner_mailingAddress_city": [
+                        "BROWNSVILLE"
+                    ],
+                    "owner_mailingAddress_country": [
+                        "USA"
+                    ],
+                    "owner_mailingAddress_state": [
+                        "IA"
+                    ],
+                    "owner_mailingAddress_zipCode": [
+                        "52040"
+                    ],
+                    "owner_partyId": [
+                        "613899999"
+                    ],
+                    "owner_residentialAddress_addressLine1": [
+                        "200 7TH AVE SW"
+                    ],
+                    "owner_residentialAddress_city": [
+                        "BROWNSVILLE"
+                    ],
+                    "owner_residentialAddress_country": [
+                        "USA"
+                    ],
+                    "owner_residentialAddress_state": [
+                        "IA"
+                    ],
+                    "owner_residentialAddress_zipCode": [
+                        "52040"
+                    ],
+                    "owner_socialSecurityNumber": [
+                        "111-11-0000"
+                    ],
+                    "paidToDate": [
+                        "2023-01-06"
+                    ],
+                    "paymentMethod": [
+                        "ACH"
+                    ],
+                    "paymentToken": [
+                        "12345"
+                    ],
+                    "paymentWithdrawalDay": [
+                        "15"
+                    ],
+                    "policyDeliverTo": [
+                        "INSURED"
+                    ],
+                    "policyDeliveryMethod": [
+                        "EMAIL"
+                    ],
+                    "policyForm": [
+                        "D90"
+                    ],
+                    "policyNumber": [
+                        "000000020"
+                    ],
+                    "policyPremiumAmount": [
+                        "140.43"
+                    ],
+                    "policyRenewability": [
+                        "GUARANTEED_RENEWABLE"
+                    ],
+                    "productDefinitionInfo_productDefinitionVersion": [
+                        "10.0.60"
+                    ],
+                    "productDefinitionInfo_productId": [
+                        "DIAO19"
+                    ],
+                    "productInfo_lineOfBusiness": [
+                        "HEALTH"
+                    ],
+                    "productInfo_productGroup": [
+                        "DISABILITY_INCOME"
+                    ],
+                    "productInfo_productName": [
+                        "DI_INDIVIDUAL_ACCIDENT_ONLY"
+                    ],
+                    "productInfo_productType": [
+                        "INDIVIDUAL_DI"
+                    ],
+                    "reinsurance": [
+                        "NO"
+                    ],
+                    "sellingProducers": [
+                        "f99f4602-0c26-4583-8d35-255dc84ec4ec"
+                    ],
+                    "specialRestrictionEmployee": [
+                        "NONE"
+                    ],
+                    "validate": [
+                        "validate"
+                    ]
+                },
+                "grossPremium": "110.61",
+                "grossPremiumCurrency": "USD",
+                "grossTaxes": "0.00",
+                "grossTaxesCurrency": "USD",
+                "issuedTimestamp": "1648065028668",
+                "locator": "4078013b-41d1-4542-b376-abb12841d4c5",
+                "mediaByLocator": {},
+                "policyEndTimestamp": "1672984800000",
+                "policyLocator": "100088100",
+                "policyStartTimestamp": "1641448800000",
+                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                "startTimestamp": "1649221200000",
+                "taxGroups": [],
+                "updatedTimestamp": "1648065028668"
+            }
+        ],
+        "configVersion": "17",
+        "createdTimestamp": "1648064600092",
+        "currency": "USD",
+        "displayId": "100088100",
+        "documents": [],
+        "effectiveContractEndTimestamp": "1672984800000",
+        "exposures": [
+            {
+                "characteristics": [
+                    {
+                        "createdTimestamp": "1648064600092",
+                        "endTimestamp": "1672984800000",
+                        "exposureLocator": "27a3e55e-d1e1-4077-9053-9377edfbd8f9",
+                        "fieldGroupsByLocator": {},
+                        "fieldValues": {
+                            "insureds_additionalFields_age": [
+                                "40"
+                            ],
+                            "insureds_additionalFields_automaticEntryCalculation": [
+                                "YES"
+                            ],
+                            "insureds_additionalFields_birthStateOrCountryField": [
+                                "FL"
+                            ],
+                            "insureds_additionalFields_distributionChannel": [
+                                "AGENCY"
+                            ],
+                            "insureds_additionalFields_eligibleForAnyOtherInsurance": [
+                                "NO"
+                            ],
+                            "insureds_additionalFields_fullMailingAddress": [
+                                "200 7TH AVE SW BROWNSVILLE IA 52040"
+                            ],
+                            "insureds_additionalFields_fullResidentialAddress": [
+                                "200 7TH AVE SW BROWNSVILLE IA 52040"
+                            ],
+                            "insureds_additionalFields_insuranceInForce": [
+                                "NO"
+                            ],
+                            "insureds_additionalFields_insurancePendingOrAppliedFor": [
+                                "NO"
+                            ],
+                            "insureds_additionalFields_insuredFullName": [
+                                "HaniPAYMENTMODE Testtest"
+                            ],
+                            "insureds_additionalFields_issueAge": [
+                                "39"
+                            ],
+                            "insureds_additionalFields_issueLimit": [
+                                "5000"
+                            ],
+                            "insureds_additionalFields_mailingAddressIndicator": [
+                                "NO"
+                            ],
+                            "insureds_additionalFields_occupationCode": [
+                                "OCC_CODE_NA"
+                            ],
+                            "insureds_additionalFields_otherCoverageQuestion": [
+                                "NO"
+                            ],
+                            "insureds_additionalFields_otherNamesUsed": [
+                                "otherNamesUsedData"
+                            ],
+                            "insureds_additionalFields_selfEmployed": [
+                                "NO"
+                            ],
+                            "insureds_additionalFields_systemKey": [
+                                "000007137INSURED004"
+                            ],
+                            "insureds_additionalFields_uwReqsMibReport": [
+                                "YES"
+                            ],
+                            "insureds_additionalFields_uwReqsPharmReport": [
+                                "YES"
+                            ],
+                            "insureds_annualEarnedIncome": [
+                                "60000"
+                            ],
+                            "insureds_applicationSignature_additionalFields_ipAddress": [
+                                "170.31.98.26"
+                            ],
+                            "insureds_applicationSignature_signatureCity": [
+                                "council bluffs"
+                            ],
+                            "insureds_applicationSignature_signatureDate": [
+                                "2022-01-06"
+                            ],
+                            "insureds_applicationSignature_signatureName": [
+                                "Cynthia WaiTestITGAO"
+                            ],
+                            "insureds_applicationSignature_signatureState": [
+                                "IA"
+                            ],
+                            "insureds_applicationSignature_signatureTimestamp": [
+                                "2022-01-06T18:56:17.099Z"
+                            ],
+                            "insureds_applicationSignature_signatureType": [
+                                "ELECTRONIC"
+                            ],
+                            "insureds_birthCountry": [
+                                "UNITED STATES"
+                            ],
+                            "insureds_birthDate": [
+                                "1982-01-03"
+                            ],
+                            "insureds_birthState": [
+                                "FL"
+                            ],
+                            "insureds_cellPhoneNumber": [
+                                "222-333-3333"
+                            ],
+                            "insureds_citizenship_citizen": [
+                                "YES"
+                            ],
+                            "insureds_driversLicenseIssueState": [
+                                "NE"
+                            ],
+                            "insureds_driversLicenseNumber": [
+                                "13352345235"
+                            ],
+                            "insureds_electronicConsentSignature_additionalFields_ipAddress": [
+                                "170.31.98.26"
+                            ],
+                            "insureds_electronicConsentSignature_signatureCity": [
+                                "council bluffs"
+                            ],
+                            "insureds_electronicConsentSignature_signatureDate": [
+                                "2022-01-06"
+                            ],
+                            "insureds_electronicConsentSignature_signatureName": [
+                                "Cynthia WaiTestITGAO"
+                            ],
+                            "insureds_electronicConsentSignature_signatureState": [
+                                "IA"
+                            ],
+                            "insureds_electronicConsentSignature_signatureTimestamp": [
+                                "2022-01-06T18:56:17.099Z"
+                            ],
+                            "insureds_electronicConsentSignature_signatureType": [
+                                "ELECTRONIC"
+                            ],
+                            "insureds_emailAddress": [
+                                "hani.hazimeh@mutualofomaha.com"
+                            ],
+                            "insureds_firstName": [
+                                "HaniPAYMENTMODE"
+                            ],
+                            "insureds_gender": [
+                                "FEMALE"
+                            ],
+                            "insureds_hipaaAuthorizationSignature_additionalFields_ipAddress": [
+                                "170.31.98.26"
+                            ],
+                            "insureds_hipaaAuthorizationSignature_signatureCity": [
+                                "council bluffs"
+                            ],
+                            "insureds_hipaaAuthorizationSignature_signatureDate": [
+                                "2022-01-06"
+                            ],
+                            "insureds_hipaaAuthorizationSignature_signatureName": [
+                                "Cynthia WaiTestITGAO"
+                            ],
+                            "insureds_hipaaAuthorizationSignature_signatureState": [
+                                "IA"
+                            ],
+                            "insureds_hipaaAuthorizationSignature_signatureTimestamp": [
+                                "2022-01-06T18:56:17.099Z"
+                            ],
+                            "insureds_hipaaAuthorizationSignature_signatureType": [
+                                "ELECTRONIC"
+                            ],
+                            "insureds_homePhoneNumber": [
+                                "222-333-3334"
+                            ],
+                            "insureds_lastName": [
+                                "Testtest"
+                            ],
+                            "insureds_mailingAddress_addressLine1": [
+                                "200 7TH AVE SW"
+                            ],
+                            "insureds_mailingAddress_city": [
+                                "BROWNSVILLE"
+                            ],
+                            "insureds_mailingAddress_country": [
+                                "USA"
+                            ],
+                            "insureds_mailingAddress_state": [
+                                "IA"
+                            ],
+                            "insureds_mailingAddress_zipCode": [
+                                "52040"
+                            ],
+                            "insureds_occupationClass": [
+                                "OCCUPATION_CLASS_6A"
+                            ],
+                            "insureds_partyId": [
+                                "613899999"
+                            ],
+                            "insureds_ratedGender": [
+                                "FEMALE"
+                            ],
+                            "insureds_residentialAddress_addressLine1": [
+                                "200 7TH AVE SW"
+                            ],
+                            "insureds_residentialAddress_city": [
+                                "BROWNSVILLE"
+                            ],
+                            "insureds_residentialAddress_country": [
+                                "USA"
+                            ],
+                            "insureds_residentialAddress_state": [
+                                "IA"
+                            ],
+                            "insureds_residentialAddress_zipCode": [
+                                "52040"
+                            ],
+                            "insureds_riskClass": [
+                                "RISK_CLASS_1"
+                            ],
+                            "insureds_socialSecurityNumber": [
+                                "111-11-0000"
+                            ],
+                            "insureds_tobaccoUse": [
+                                "NO"
+                            ],
+                            "insureds_willSignInState": [
+                                "IA"
+                            ],
+                            "occupationDescription": [
+                                "MISC_OCCUPATION"
+                            ],
+                            "occupationSpecialty": [
+                                "OCC_CLASS_6A"
+                            ]
+                        },
+                        "issuedTimestamp": "1648064813736",
+                        "locator": "8c02d414-7dbd-4956-bb54-1ea0684cf027",
+                        "mediaByLocator": {},
+                        "policyLocator": "100088100",
+                        "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                        "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                        "startTimestamp": "1641448800000",
+                        "updatedTimestamp": "1648064813736"
+                    }
+                ],
+                "createdTimestamp": "1648064600092",
+                "displayId": "100088106",
+                "locator": "27a3e55e-d1e1-4077-9053-9377edfbd8f9",
+                "name": "insured",
+                "perils": [
+                    {
+                        "characteristics": [
+                            {
+                                "coverageEndTimestamp": "1672984800000",
+                                "coverageStartTimestamp": "1641448800000",
+                                "createdTimestamp": "1648064600092",
+                                "deductibleCurrency": "USD",
+                                "exposureCharacteristicsLocator": "8c02d414-7dbd-4956-bb54-1ea0684cf027",
+                                "fieldGroupsByLocator": {},
+                                "fieldValues": {
+                                    "insureds_coverages_base_additionalFields_annualPremiumAmount": [
+                                        "126.8"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_attainedAge": [
+                                        "39"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_baseMaximumBenefitAmount": [
+                                        "3100"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_benefitAmountType": [
+                                        "SPECIFY"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_coverageForm": [
+                                        "ICC19-D90-25625"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_coverageId": [
+                                        "ebp-c7a372b1-78b2-4dca-88ed-240700382977"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_discountAmount": [
+                                        "0"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_monthlyPremiumAmount": [
+                                        "11.1"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_premBeforeDiscountAnnual": [
+                                        "126.8"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_premBeforeDiscountMonthly": [
+                                        "11.09"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_premBeforeDiscountQuarterly": [
+                                        "32.96"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_premBeforeDiscountSemiAnnual": [
+                                        "65.30"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_quarterlyPremiumAmount": [
+                                        "32.97"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_semiAnnualPremiumAmount": [
+                                        "65.3"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_specifiedBenefitAmount": [
+                                        "2500"
+                                    ],
+                                    "insureds_coverages_base_benefitAmount": [
+                                        "2500"
+                                    ],
+                                    "insureds_coverages_base_coverageStatus": [
+                                        "ACTIVE"
+                                    ],
+                                    "insureds_coverages_base_premiumAmount": [
+                                        "126.8"
+                                    ]
+                                },
+                                "indemnityInAggregateCurrency": "USD",
+                                "indemnityPerEventCurrency": "USD",
+                                "indemnityPerItemCurrency": "USD",
+                                "issuedTimestamp": "1648064813736",
+                                "locator": "2055eeb9-dff6-48e7-9baa-aac1fec45a60",
+                                "lumpSumPaymentCurrency": "USD",
+                                "mediaByLocator": {},
+                                "monthPremium": "10.5667",
+                                "perilLocator": "4c5e0a8b-15fa-454b-aab1-cbf475e96b39",
+                                "policyCharacteristicsLocator": "c3690db4-589e-42e3-a7d3-36b6515a32a2",
+                                "policyLocator": "100088100",
+                                "policyModificationLocator": "7dde50bd-8b77-4c6a-a876-528fa6df6b62",
+                                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                                "premium": "126.80",
+                                "premiumCurrency": "USD",
+                                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                                "replacedTimestamp": "1648064963570",
+                                "updatedTimestamp": "1648064963570"
+                            },
+                            {
+                                "coverageEndTimestamp": "1672984800000",
+                                "coverageStartTimestamp": "1641448800000",
+                                "createdTimestamp": "1648064962367",
+                                "deductibleCurrency": "USD",
+                                "exposureCharacteristicsLocator": "8c02d414-7dbd-4956-bb54-1ea0684cf027",
+                                "fieldGroupsByLocator": {},
+                                "fieldValues": {
+                                    "insureds_coverages_base_additionalFields_annualPremiumAmount": [
+                                        "126.8"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_attainedAge": [
+                                        "39"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_baseMaximumBenefitAmount": [
+                                        "3100"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_benefitAmountType": [
+                                        "SPECIFY"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_coverageForm": [
+                                        "ICC19-D90-25625"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_coverageId": [
+                                        "ebp-c7a372b1-78b2-4dca-88ed-240700382977"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_discountAmount": [
+                                        "0"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_monthlyPremiumAmount": [
+                                        "11.1"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_premBeforeDiscountAnnual": [
+                                        "126.8"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_premBeforeDiscountMonthly": [
+                                        "11.09"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_premBeforeDiscountQuarterly": [
+                                        "32.96"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_premBeforeDiscountSemiAnnual": [
+                                        "65.30"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_quarterlyPremiumAmount": [
+                                        "32.97"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_semiAnnualPremiumAmount": [
+                                        "65.3"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_specifiedBenefitAmount": [
+                                        "2500"
+                                    ],
+                                    "insureds_coverages_base_benefitAmount": [
+                                        "2500"
+                                    ],
+                                    "insureds_coverages_base_coverageStatus": [
+                                        "ACTIVE"
+                                    ],
+                                    "insureds_coverages_base_premiumAmount": [
+                                        "126.8"
+                                    ]
+                                },
+                                "indemnityInAggregateCurrency": "USD",
+                                "indemnityPerEventCurrency": "USD",
+                                "indemnityPerItemCurrency": "USD",
+                                "issuedTimestamp": "1648064963570",
+                                "locator": "c699ceec-d74c-45c4-8a75-7432d4f5e9c3",
+                                "lumpSumPaymentCurrency": "USD",
+                                "mediaByLocator": {},
+                                "monthPremium": "10.5667",
+                                "perilLocator": "4c5e0a8b-15fa-454b-aab1-cbf475e96b39",
+                                "policyCharacteristicsLocator": "87bd7afa-9a82-4bcd-a2ba-fd01ab6cef26",
+                                "policyLocator": "100088100",
+                                "policyModificationLocator": "75a4d7d2-3f35-4a43-8a58-c57c06a3f224",
+                                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                                "premium": "126.80",
+                                "premiumCurrency": "USD",
+                                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                                "replacedTimestamp": "1648065028668",
+                                "updatedTimestamp": "1648064963570"
+                            },
+                            {
+                                "coverageEndTimestamp": "1649221200000",
+                                "coverageStartTimestamp": "1641448800000",
+                                "createdTimestamp": "1648065028668",
+                                "deductibleCurrency": "USD",
+                                "exposureCharacteristicsLocator": "8c02d414-7dbd-4956-bb54-1ea0684cf027",
+                                "fieldGroupsByLocator": {},
+                                "fieldValues": {
+                                    "insureds_coverages_base_additionalFields_annualPremiumAmount": [
+                                        "126.8"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_attainedAge": [
+                                        "39"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_baseMaximumBenefitAmount": [
+                                        "3100"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_benefitAmountType": [
+                                        "SPECIFY"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_coverageForm": [
+                                        "ICC19-D90-25625"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_coverageId": [
+                                        "ebp-c7a372b1-78b2-4dca-88ed-240700382977"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_discountAmount": [
+                                        "0"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_monthlyPremiumAmount": [
+                                        "11.1"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_premBeforeDiscountAnnual": [
+                                        "126.8"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_premBeforeDiscountMonthly": [
+                                        "11.09"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_premBeforeDiscountQuarterly": [
+                                        "32.96"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_premBeforeDiscountSemiAnnual": [
+                                        "65.30"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_quarterlyPremiumAmount": [
+                                        "32.97"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_semiAnnualPremiumAmount": [
+                                        "65.3"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_specifiedBenefitAmount": [
+                                        "2500"
+                                    ],
+                                    "insureds_coverages_base_benefitAmount": [
+                                        "2500"
+                                    ],
+                                    "insureds_coverages_base_coverageStatus": [
+                                        "ACTIVE"
+                                    ],
+                                    "insureds_coverages_base_premiumAmount": [
+                                        "126.8"
+                                    ]
+                                },
+                                "indemnityInAggregateCurrency": "USD",
+                                "indemnityPerEventCurrency": "USD",
+                                "indemnityPerItemCurrency": "USD",
+                                "issuedTimestamp": "1648065028668",
+                                "locator": "6b48559f-b10a-4485-b037-ab9de49ec382",
+                                "lumpSumPaymentCurrency": "USD",
+                                "mediaByLocator": {},
+                                "monthPremium": "10.5667",
+                                "perilLocator": "4c5e0a8b-15fa-454b-aab1-cbf475e96b39",
+                                "policyCharacteristicsLocator": "f215ac1f-82a4-4a46-8056-ae037c5bfc73",
+                                "policyLocator": "100088100",
+                                "policyModificationLocator": "140271f5-3d72-43ef-ac63-670a985e24ea",
+                                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                                "premium": "31.70",
+                                "premiumCurrency": "USD",
+                                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                                "updatedTimestamp": "1648065028668"
+                            },
+                            {
+                                "coverageEndTimestamp": "1672984800000",
+                                "coverageStartTimestamp": "1649221200000",
+                                "createdTimestamp": "1648065028668",
+                                "deductibleCurrency": "USD",
+                                "exposureCharacteristicsLocator": "8c02d414-7dbd-4956-bb54-1ea0684cf027",
+                                "fieldGroupsByLocator": {},
+                                "fieldValues": {
+                                    "insureds_coverages_base_additionalFields_annualPremiumAmount": [
+                                        "126.8"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_attainedAge": [
+                                        "39"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_baseMaximumBenefitAmount": [
+                                        "3100"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_benefitAmountType": [
+                                        "SPECIFY"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_coverageForm": [
+                                        "ICC19-D90-25625"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_coverageId": [
+                                        "ebp-c7a372b1-78b2-4dca-88ed-240700382977"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_discountAmount": [
+                                        "0"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_monthlyPremiumAmount": [
+                                        "11.1"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_premBeforeDiscountAnnual": [
+                                        "126.8"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_premBeforeDiscountMonthly": [
+                                        "11.09"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_premBeforeDiscountQuarterly": [
+                                        "32.96"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_premBeforeDiscountSemiAnnual": [
+                                        "65.30"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_quarterlyPremiumAmount": [
+                                        "32.97"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_semiAnnualPremiumAmount": [
+                                        "65.3"
+                                    ],
+                                    "insureds_coverages_base_additionalFields_specifiedBenefitAmount": [
+                                        "2500"
+                                    ],
+                                    "insureds_coverages_base_benefitAmount": [
+                                        "2500"
+                                    ],
+                                    "insureds_coverages_base_coverageStatus": [
+                                        "ACTIVE"
+                                    ],
+                                    "insureds_coverages_base_premiumAmount": [
+                                        "126.8"
+                                    ]
+                                },
+                                "indemnityInAggregateCurrency": "USD",
+                                "indemnityPerEventCurrency": "USD",
+                                "indemnityPerItemCurrency": "USD",
+                                "issuedTimestamp": "1648065028668",
+                                "locator": "f8316893-6c55-4dae-b1d5-1f99c00c1f7d",
+                                "lumpSumPaymentCurrency": "USD",
+                                "mediaByLocator": {},
+                                "monthPremium": "11.1000000",
+                                "perilLocator": "4c5e0a8b-15fa-454b-aab1-cbf475e96b39",
+                                "policyCharacteristicsLocator": "4078013b-41d1-4542-b376-abb12841d4c5",
+                                "policyLocator": "100088100",
+                                "policyModificationLocator": "140271f5-3d72-43ef-ac63-670a985e24ea",
+                                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                                "premium": "99.90",
+                                "premiumCurrency": "USD",
+                                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                                "updatedTimestamp": "1648065028668"
+                            }
+                        ],
+                        "createdTimestamp": "1648064600092",
+                        "displayId": "100088108",
+                        "exposureLocator": "27a3e55e-d1e1-4077-9053-9377edfbd8f9",
+                        "locator": "4c5e0a8b-15fa-454b-aab1-cbf475e96b39",
+                        "name": "insureds_coverages_base",
+                        "policyLocator": "100088100",
+                        "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                        "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                        "renewalGroup": "4c5e0a8b-15fa-454b-aab1-cbf475e96b39",
+                        "updatedTimestamp": "1648065028668"
+                    },
+                    {
+                        "characteristics": [
+                            {
+                                "coverageEndTimestamp": "1672984800000",
+                                "coverageStartTimestamp": "1641448800000",
+                                "createdTimestamp": "1648064600092",
+                                "deductibleCurrency": "USD",
+                                "exposureCharacteristicsLocator": "8c02d414-7dbd-4956-bb54-1ea0684cf027",
+                                "fieldGroupsByLocator": {},
+                                "fieldValues": {
+                                    "insureds_coverages_sis_additionalFields_annualPremiumAmount": [
+                                        "13.63"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_coverageForm": [
+                                        "ICC19-0PG5M"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_coverageId": [
+                                        "ebp-74f59735-3f37-407f-9092-d57b652233d1"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_discountAmount": [
+                                        "0"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_monthlyPremiumAmount": [
+                                        "1.19"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_premBeforeDiscountAnnual": [
+                                        "13.63"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_premBeforeDiscountMonthly": [
+                                        "1.19"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_premBeforeDiscountQuarterly": [
+                                        "3.54"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_premBeforeDiscountSemiAnnual": [
+                                        "7.02"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_quarterlyPremiumAmount": [
+                                        "3.54"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_semiAnnualPremiumAmount": [
+                                        "7.02"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_sisBenefitAmountType": [
+                                        "SPECIFY"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_sisCalculatedCheckbox": [
+                                        "YES"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_sisMaximumBenefitAmount": [
+                                        "1900"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_sisSpecifiedBenefitAmount": [
+                                        "400"
+                                    ],
+                                    "insureds_coverages_sis_benefitAmount": [
+                                        "400"
+                                    ],
+                                    "insureds_coverages_sis_coverageStatus": [
+                                        "ACTIVE"
+                                    ],
+                                    "insureds_coverages_sis_premiumAmount": [
+                                        "13.63"
+                                    ]
+                                },
+                                "indemnityInAggregateCurrency": "USD",
+                                "indemnityPerEventCurrency": "USD",
+                                "indemnityPerItemCurrency": "USD",
+                                "issuedTimestamp": "1648064813736",
+                                "locator": "96c9400e-b3f5-41fa-92a8-c1c1e7e2443e",
+                                "lumpSumPaymentCurrency": "USD",
+                                "mediaByLocator": {},
+                                "monthPremium": "1.1358",
+                                "perilLocator": "87e49ac3-1bcd-4333-a8fe-98e12aaee895",
+                                "policyCharacteristicsLocator": "c3690db4-589e-42e3-a7d3-36b6515a32a2",
+                                "policyLocator": "100088100",
+                                "policyModificationLocator": "7dde50bd-8b77-4c6a-a876-528fa6df6b62",
+                                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                                "premium": "13.63",
+                                "premiumCurrency": "USD",
+                                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                                "replacedTimestamp": "1648064963570",
+                                "updatedTimestamp": "1648064963570"
+                            },
+                            {
+                                "coverageEndTimestamp": "1672984800000",
+                                "coverageStartTimestamp": "1641448800000",
+                                "createdTimestamp": "1648064962367",
+                                "deductibleCurrency": "USD",
+                                "exposureCharacteristicsLocator": "8c02d414-7dbd-4956-bb54-1ea0684cf027",
+                                "fieldGroupsByLocator": {},
+                                "fieldValues": {
+                                    "insureds_coverages_sis_additionalFields_annualPremiumAmount": [
+                                        "13.63"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_coverageForm": [
+                                        "ICC19-0PG5M"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_coverageId": [
+                                        "ebp-74f59735-3f37-407f-9092-d57b652233d1"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_discountAmount": [
+                                        "0"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_monthlyPremiumAmount": [
+                                        "1.19"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_premBeforeDiscountAnnual": [
+                                        "13.63"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_premBeforeDiscountMonthly": [
+                                        "1.19"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_premBeforeDiscountQuarterly": [
+                                        "3.54"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_premBeforeDiscountSemiAnnual": [
+                                        "7.02"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_quarterlyPremiumAmount": [
+                                        "3.54"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_semiAnnualPremiumAmount": [
+                                        "7.02"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_sisBenefitAmountType": [
+                                        "SPECIFY"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_sisCalculatedCheckbox": [
+                                        "YES"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_sisMaximumBenefitAmount": [
+                                        "1900"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_sisSpecifiedBenefitAmount": [
+                                        "400"
+                                    ],
+                                    "insureds_coverages_sis_benefitAmount": [
+                                        "400"
+                                    ],
+                                    "insureds_coverages_sis_coverageStatus": [
+                                        "ACTIVE"
+                                    ],
+                                    "insureds_coverages_sis_premiumAmount": [
+                                        "13.63"
+                                    ]
+                                },
+                                "indemnityInAggregateCurrency": "USD",
+                                "indemnityPerEventCurrency": "USD",
+                                "indemnityPerItemCurrency": "USD",
+                                "issuedTimestamp": "1648064963570",
+                                "locator": "ee4bc135-14c1-47ed-8a9d-53f332e6ce4d",
+                                "lumpSumPaymentCurrency": "USD",
+                                "mediaByLocator": {},
+                                "monthPremium": "1.1358",
+                                "perilLocator": "87e49ac3-1bcd-4333-a8fe-98e12aaee895",
+                                "policyCharacteristicsLocator": "87bd7afa-9a82-4bcd-a2ba-fd01ab6cef26",
+                                "policyLocator": "100088100",
+                                "policyModificationLocator": "75a4d7d2-3f35-4a43-8a58-c57c06a3f224",
+                                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                                "premium": "13.63",
+                                "premiumCurrency": "USD",
+                                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                                "replacedTimestamp": "1648065028668",
+                                "updatedTimestamp": "1648064963570"
+                            },
+                            {
+                                "coverageEndTimestamp": "1649221200000",
+                                "coverageStartTimestamp": "1641448800000",
+                                "createdTimestamp": "1648065028668",
+                                "deductibleCurrency": "USD",
+                                "exposureCharacteristicsLocator": "8c02d414-7dbd-4956-bb54-1ea0684cf027",
+                                "fieldGroupsByLocator": {},
+                                "fieldValues": {
+                                    "insureds_coverages_sis_additionalFields_annualPremiumAmount": [
+                                        "13.63"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_coverageForm": [
+                                        "ICC19-0PG5M"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_coverageId": [
+                                        "ebp-74f59735-3f37-407f-9092-d57b652233d1"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_discountAmount": [
+                                        "0"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_monthlyPremiumAmount": [
+                                        "1.19"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_premBeforeDiscountAnnual": [
+                                        "13.63"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_premBeforeDiscountMonthly": [
+                                        "1.19"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_premBeforeDiscountQuarterly": [
+                                        "3.54"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_premBeforeDiscountSemiAnnual": [
+                                        "7.02"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_quarterlyPremiumAmount": [
+                                        "3.54"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_semiAnnualPremiumAmount": [
+                                        "7.02"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_sisBenefitAmountType": [
+                                        "SPECIFY"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_sisCalculatedCheckbox": [
+                                        "YES"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_sisMaximumBenefitAmount": [
+                                        "1900"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_sisSpecifiedBenefitAmount": [
+                                        "400"
+                                    ],
+                                    "insureds_coverages_sis_benefitAmount": [
+                                        "400"
+                                    ],
+                                    "insureds_coverages_sis_coverageStatus": [
+                                        "ACTIVE"
+                                    ],
+                                    "insureds_coverages_sis_premiumAmount": [
+                                        "13.63"
+                                    ]
+                                },
+                                "indemnityInAggregateCurrency": "USD",
+                                "indemnityPerEventCurrency": "USD",
+                                "indemnityPerItemCurrency": "USD",
+                                "issuedTimestamp": "1648065028668",
+                                "locator": "51ef6e33-0c4c-4919-9e13-8d1f23b3970d",
+                                "lumpSumPaymentCurrency": "USD",
+                                "mediaByLocator": {},
+                                "monthPremium": "1.1358",
+                                "perilLocator": "87e49ac3-1bcd-4333-a8fe-98e12aaee895",
+                                "policyCharacteristicsLocator": "f215ac1f-82a4-4a46-8056-ae037c5bfc73",
+                                "policyLocator": "100088100",
+                                "policyModificationLocator": "140271f5-3d72-43ef-ac63-670a985e24ea",
+                                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                                "premium": "3.41",
+                                "premiumCurrency": "USD",
+                                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                                "updatedTimestamp": "1648065028668"
+                            },
+                            {
+                                "coverageEndTimestamp": "1672984800000",
+                                "coverageStartTimestamp": "1649221200000",
+                                "createdTimestamp": "1648065028668",
+                                "deductibleCurrency": "USD",
+                                "exposureCharacteristicsLocator": "8c02d414-7dbd-4956-bb54-1ea0684cf027",
+                                "fieldGroupsByLocator": {},
+                                "fieldValues": {
+                                    "insureds_coverages_sis_additionalFields_annualPremiumAmount": [
+                                        "13.63"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_coverageForm": [
+                                        "ICC19-0PG5M"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_coverageId": [
+                                        "ebp-74f59735-3f37-407f-9092-d57b652233d1"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_discountAmount": [
+                                        "0"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_monthlyPremiumAmount": [
+                                        "1.19"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_premBeforeDiscountAnnual": [
+                                        "13.63"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_premBeforeDiscountMonthly": [
+                                        "1.19"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_premBeforeDiscountQuarterly": [
+                                        "3.54"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_premBeforeDiscountSemiAnnual": [
+                                        "7.02"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_quarterlyPremiumAmount": [
+                                        "3.54"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_semiAnnualPremiumAmount": [
+                                        "7.02"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_sisBenefitAmountType": [
+                                        "SPECIFY"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_sisCalculatedCheckbox": [
+                                        "YES"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_sisMaximumBenefitAmount": [
+                                        "1900"
+                                    ],
+                                    "insureds_coverages_sis_additionalFields_sisSpecifiedBenefitAmount": [
+                                        "400"
+                                    ],
+                                    "insureds_coverages_sis_benefitAmount": [
+                                        "400"
+                                    ],
+                                    "insureds_coverages_sis_coverageStatus": [
+                                        "ACTIVE"
+                                    ],
+                                    "insureds_coverages_sis_premiumAmount": [
+                                        "13.63"
+                                    ]
+                                },
+                                "indemnityInAggregateCurrency": "USD",
+                                "indemnityPerEventCurrency": "USD",
+                                "indemnityPerItemCurrency": "USD",
+                                "issuedTimestamp": "1648065028668",
+                                "locator": "24930419-4ac2-4b11-b642-ca17d66e1882",
+                                "lumpSumPaymentCurrency": "USD",
+                                "mediaByLocator": {},
+                                "monthPremium": "1.1900000",
+                                "perilLocator": "87e49ac3-1bcd-4333-a8fe-98e12aaee895",
+                                "policyCharacteristicsLocator": "4078013b-41d1-4542-b376-abb12841d4c5",
+                                "policyLocator": "100088100",
+                                "policyModificationLocator": "140271f5-3d72-43ef-ac63-670a985e24ea",
+                                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                                "premium": "10.71",
+                                "premiumCurrency": "USD",
+                                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                                "updatedTimestamp": "1648065028668"
+                            }
+                        ],
+                        "createdTimestamp": "1648064600092",
+                        "displayId": "100088110",
+                        "exposureLocator": "27a3e55e-d1e1-4077-9053-9377edfbd8f9",
+                        "locator": "87e49ac3-1bcd-4333-a8fe-98e12aaee895",
+                        "name": "insureds_coverages_sis",
+                        "policyLocator": "100088100",
+                        "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                        "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                        "renewalGroup": "87e49ac3-1bcd-4333-a8fe-98e12aaee895",
+                        "updatedTimestamp": "1648065028668"
+                    },
+                    {
+                        "characteristics": [
+                            {
+                                "coverageEndTimestamp": "1672984800000",
+                                "coverageStartTimestamp": "1641448800000",
+                                "createdTimestamp": "1648064600092",
+                                "deductibleCurrency": "USD",
+                                "exposureCharacteristicsLocator": "8c02d414-7dbd-4956-bb54-1ea0684cf027",
+                                "fieldGroupsByLocator": {},
+                                "fieldValues": {
+                                    "insureds_coverages_autoIncreaseBenefitRider_additionalFields_aibCalculatedCheckbox": [
+                                        "YES"
+                                    ],
+                                    "insureds_coverages_autoIncreaseBenefitRider_additionalFields_coverageForm": [
+                                        "ICC19-0PG8M"
+                                    ],
+                                    "insureds_coverages_autoIncreaseBenefitRider_additionalFields_coverageId": [
+                                        "ebp-7a16fe31-98be-487a-bd38-12f07c049289"
+                                    ],
+                                    "insureds_coverages_autoIncreaseBenefitRider_coverageStatus": [
+                                        "ACTIVE"
+                                    ],
+                                    "insureds_coverages_autoIncreaseBenefitRider_premiumAmount": [
+                                        "0"
+                                    ]
+                                },
+                                "indemnityInAggregateCurrency": "USD",
+                                "indemnityPerEventCurrency": "USD",
+                                "indemnityPerItemCurrency": "USD",
+                                "issuedTimestamp": "1648064813736",
+                                "locator": "5ccf6107-f0bd-4827-945c-2c84a007b2fe",
+                                "lumpSumPaymentCurrency": "USD",
+                                "mediaByLocator": {},
+                                "monthPremium": "0.0000",
+                                "perilLocator": "7ffdb685-7d78-4fe9-ba22-b3e22c8f306e",
+                                "policyCharacteristicsLocator": "c3690db4-589e-42e3-a7d3-36b6515a32a2",
+                                "policyLocator": "100088100",
+                                "policyModificationLocator": "7dde50bd-8b77-4c6a-a876-528fa6df6b62",
+                                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                                "premium": "0.00",
+                                "premiumCurrency": "USD",
+                                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                                "replacedTimestamp": "1648064963570",
+                                "updatedTimestamp": "1648064963570"
+                            },
+                            {
+                                "coverageEndTimestamp": "1672984800000",
+                                "coverageStartTimestamp": "1641448800000",
+                                "createdTimestamp": "1648064962367",
+                                "deductibleCurrency": "USD",
+                                "exposureCharacteristicsLocator": "8c02d414-7dbd-4956-bb54-1ea0684cf027",
+                                "fieldGroupsByLocator": {},
+                                "fieldValues": {
+                                    "insureds_coverages_autoIncreaseBenefitRider_additionalFields_aibCalculatedCheckbox": [
+                                        "YES"
+                                    ],
+                                    "insureds_coverages_autoIncreaseBenefitRider_additionalFields_coverageForm": [
+                                        "ICC19-0PG8M"
+                                    ],
+                                    "insureds_coverages_autoIncreaseBenefitRider_additionalFields_coverageId": [
+                                        "ebp-7a16fe31-98be-487a-bd38-12f07c049289"
+                                    ],
+                                    "insureds_coverages_autoIncreaseBenefitRider_coverageStatus": [
+                                        "ACTIVE"
+                                    ],
+                                    "insureds_coverages_autoIncreaseBenefitRider_premiumAmount": [
+                                        "0"
+                                    ]
+                                },
+                                "indemnityInAggregateCurrency": "USD",
+                                "indemnityPerEventCurrency": "USD",
+                                "indemnityPerItemCurrency": "USD",
+                                "issuedTimestamp": "1648064963570",
+                                "locator": "f67ce57c-fa84-4f5b-a3e9-22c1562485e7",
+                                "lumpSumPaymentCurrency": "USD",
+                                "mediaByLocator": {},
+                                "monthPremium": "0.0000",
+                                "perilLocator": "7ffdb685-7d78-4fe9-ba22-b3e22c8f306e",
+                                "policyCharacteristicsLocator": "87bd7afa-9a82-4bcd-a2ba-fd01ab6cef26",
+                                "policyLocator": "100088100",
+                                "policyModificationLocator": "75a4d7d2-3f35-4a43-8a58-c57c06a3f224",
+                                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                                "premium": "0.00",
+                                "premiumCurrency": "USD",
+                                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                                "replacedTimestamp": "1648065028668",
+                                "updatedTimestamp": "1648064963570"
+                            },
+                            {
+                                "coverageEndTimestamp": "1649221200000",
+                                "coverageStartTimestamp": "1641448800000",
+                                "createdTimestamp": "1648065028668",
+                                "deductibleCurrency": "USD",
+                                "exposureCharacteristicsLocator": "8c02d414-7dbd-4956-bb54-1ea0684cf027",
+                                "fieldGroupsByLocator": {},
+                                "fieldValues": {
+                                    "insureds_coverages_autoIncreaseBenefitRider_additionalFields_aibCalculatedCheckbox": [
+                                        "YES"
+                                    ],
+                                    "insureds_coverages_autoIncreaseBenefitRider_additionalFields_coverageForm": [
+                                        "ICC19-0PG8M"
+                                    ],
+                                    "insureds_coverages_autoIncreaseBenefitRider_additionalFields_coverageId": [
+                                        "ebp-7a16fe31-98be-487a-bd38-12f07c049289"
+                                    ],
+                                    "insureds_coverages_autoIncreaseBenefitRider_coverageStatus": [
+                                        "ACTIVE"
+                                    ],
+                                    "insureds_coverages_autoIncreaseBenefitRider_premiumAmount": [
+                                        "0"
+                                    ]
+                                },
+                                "indemnityInAggregateCurrency": "USD",
+                                "indemnityPerEventCurrency": "USD",
+                                "indemnityPerItemCurrency": "USD",
+                                "issuedTimestamp": "1648065028668",
+                                "locator": "f89bb3f8-1b01-4240-b44e-4cb6d016ff41",
+                                "lumpSumPaymentCurrency": "USD",
+                                "mediaByLocator": {},
+                                "monthPremium": "0.0000",
+                                "perilLocator": "7ffdb685-7d78-4fe9-ba22-b3e22c8f306e",
+                                "policyCharacteristicsLocator": "f215ac1f-82a4-4a46-8056-ae037c5bfc73",
+                                "policyLocator": "100088100",
+                                "policyModificationLocator": "140271f5-3d72-43ef-ac63-670a985e24ea",
+                                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                                "premium": "0.00",
+                                "premiumCurrency": "USD",
+                                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                                "updatedTimestamp": "1648065028668"
+                            },
+                            {
+                                "coverageEndTimestamp": "1672984800000",
+                                "coverageStartTimestamp": "1649221200000",
+                                "createdTimestamp": "1648065028668",
+                                "deductibleCurrency": "USD",
+                                "exposureCharacteristicsLocator": "8c02d414-7dbd-4956-bb54-1ea0684cf027",
+                                "fieldGroupsByLocator": {},
+                                "fieldValues": {
+                                    "insureds_coverages_autoIncreaseBenefitRider_additionalFields_aibCalculatedCheckbox": [
+                                        "YES"
+                                    ],
+                                    "insureds_coverages_autoIncreaseBenefitRider_additionalFields_coverageForm": [
+                                        "ICC19-0PG8M"
+                                    ],
+                                    "insureds_coverages_autoIncreaseBenefitRider_additionalFields_coverageId": [
+                                        "ebp-7a16fe31-98be-487a-bd38-12f07c049289"
+                                    ],
+                                    "insureds_coverages_autoIncreaseBenefitRider_coverageStatus": [
+                                        "ACTIVE"
+                                    ],
+                                    "insureds_coverages_autoIncreaseBenefitRider_premiumAmount": [
+                                        "0"
+                                    ]
+                                },
+                                "indemnityInAggregateCurrency": "USD",
+                                "indemnityPerEventCurrency": "USD",
+                                "indemnityPerItemCurrency": "USD",
+                                "issuedTimestamp": "1648065028668",
+                                "locator": "eed081ba-f423-4dbd-baf5-d5b846900aaf",
+                                "lumpSumPaymentCurrency": "USD",
+                                "mediaByLocator": {},
+                                "monthPremium": "0.0000000",
+                                "perilLocator": "7ffdb685-7d78-4fe9-ba22-b3e22c8f306e",
+                                "policyCharacteristicsLocator": "4078013b-41d1-4542-b376-abb12841d4c5",
+                                "policyLocator": "100088100",
+                                "policyModificationLocator": "140271f5-3d72-43ef-ac63-670a985e24ea",
+                                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                                "premium": "0.00",
+                                "premiumCurrency": "USD",
+                                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                                "updatedTimestamp": "1648065028668"
+                            }
+                        ],
+                        "createdTimestamp": "1648064600092",
+                        "displayId": "100088112",
+                        "exposureLocator": "27a3e55e-d1e1-4077-9053-9377edfbd8f9",
+                        "locator": "7ffdb685-7d78-4fe9-ba22-b3e22c8f306e",
+                        "name": "insureds_coverages_autoIncreaseBenefitRider",
+                        "policyLocator": "100088100",
+                        "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                        "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                        "renewalGroup": "7ffdb685-7d78-4fe9-ba22-b3e22c8f306e",
+                        "updatedTimestamp": "1648065028668"
+                    }
+                ],
+                "policyLocator": "100088100",
+                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                "updatedTimestamp": "1648065028668"
+            }
+        ],
+        "fees": [],
+        "grossFees": "0.00",
+        "grossFeesCurrency": "USD",
+        "invoices": [
+            {
+                "createdTimestamp": "1648064813736",
+                "displayId": "100088200",
+                "documents": [
+                    {
+                        "createdTimestamp": "1648064813736",
+                        "displayName": "invoice_100088200.pdf",
+                        "fileName": "invoice_100088200.pdf",
+                        "locator": "119865a9-392c-4158-a7cc-2d6391b8a110",
+                        "type": "pdf",
+                        "url": "https://document-c2d51a2e-5dda-474d-835d-68d63d7c8e92.s3.eu-west-1.amazonaws.com/be1c0aca-4220-429e-8ac7-d106f00d5757/2231da11-4e92-4b7b-b15d-28a3a8929910/document.original?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220323T195028Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Credential=AKIA5O5V6ZA7B5FTNA5D%2F20220323%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=fbaae77b570fc5bd6a68d63cb2650e58f5274155bff92d3155a9b9b86e8c777d",
+                        "urlExpirationTimestamp": "1648066828803"
+                    }
+                ],
+                "dueTimestamp": "1648097999999",
+                "endTimestamp": "1672984800000",
+                "invoiceType": "newBusiness",
+                "locator": "2f70516b-0eca-495d-9d48-49fedaf3f745",
+                "payments": [
+                    {
+                        "amount": "140.43",
+                        "amountCurrency": "USD",
+                        "displayId": "100088118",
+                        "fieldValues": {},
+                        "invoiceLocator": "2f70516b-0eca-495d-9d48-49fedaf3f745",
+                        "locator": "83958f4d-951e-4739-bfd0-f89c729557b7",
+                        "mediaByLocator": {},
+                        "postedTimestamp": "1648064832271"
+                    }
+                ],
+                "policyLocator": "100088100",
+                "settlementStatus": "settled",
+                "settlementType": "paid",
+                "startTimestamp": "1641448800000",
+                "statuses": [
+                    {
+                        "status": "paid",
+                        "timestamp": "1648064832271"
+                    },
+                    {
+                        "status": "unfulfilled",
+                        "timestamp": "1648064813736"
+                    }
+                ],
+                "totalDue": "140.43",
+                "totalDueCurrency": "USD",
+                "transactionIssued": true,
+                "updatedTimestamp": "1648064832271"
+            },
+            {
+                "createdTimestamp": "1648064962367",
+                "displayId": "100088222",
+                "documents": [
+                    {
+                        "createdTimestamp": "1648064962367",
+                        "displayName": "invoice_100088222.pdf",
+                        "fileName": "invoice_100088222.pdf",
+                        "locator": "487f8382-d0b9-4551-af46-d6a742ce3984",
+                        "type": "pdf",
+                        "url": "https://document-c2d51a2e-5dda-474d-835d-68d63d7c8e92.s3.eu-west-1.amazonaws.com/be1c0aca-4220-429e-8ac7-d106f00d5757/95f5572d-1800-45bb-81a7-c628ddcb4a70/document.original?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220323T195028Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Credential=AKIA5O5V6ZA7B5FTNA5D%2F20220323%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=7870bf673c7f05e0ee09ad4ac75dec23639f74312be786003499c42ab1e339ed",
+                        "urlExpirationTimestamp": "1648066828807"
+                    }
+                ],
+                "dueTimestamp": "1648097999999",
+                "endTimestamp": "1672984800000",
+                "invoiceType": "endorsement",
+                "locator": "473d1a01-e9c3-4b87-8699-f4760f4ce510",
+                "payments": [],
+                "policyLocator": "100088100",
+                "policyModificationLocator": "75a4d7d2-3f35-4a43-8a58-c57c06a3f224",
+                "settlementStatus": "settled",
+                "settlementType": "zeroDue",
+                "startTimestamp": "1641448800000",
+                "statuses": [
+                    {
+                        "status": "zeroDue",
+                        "timestamp": "1648064962367"
+                    }
+                ],
+                "totalDue": "0.00",
+                "totalDueCurrency": "USD",
+                "transactionIssued": true,
+                "updatedTimestamp": "1648064962367"
+            }
+        ],
+        "issuedTimestamp": "1648064813736",
+        "locator": "100088100",
+        "modifications": [
+            {
+                "automatedUnderwritingResult": {
+                    "decision": "accept",
+                    "decisionTimestamp": "1648064791358",
+                    "notes": [
+                        "Underwriting Note"
+                    ]
+                },
+                "configVersion": "17",
+                "createdTimestamp": "1648064600092",
+                "displayId": "100088104",
+                "effectiveTimestamp": "1641448800000",
+                "exposureModifications": [
+                    {
+                        "exposureLocator": "27a3e55e-d1e1-4077-9053-9377edfbd8f9",
+                        "locator": "6fe4392c-3b24-4a6b-aaa1-c154776d86e2",
+                        "newExposureCharacteristicsLocator": "8c02d414-7dbd-4956-bb54-1ea0684cf027",
+                        "perilModifications": [
+                            {
+                                "exposureModificationLocator": "6fe4392c-3b24-4a6b-aaa1-c154776d86e2",
+                                "locator": "6d19bb62-e171-412f-95d3-443c71ed523c",
+                                "newPerilCharacteristicsLocator": "2055eeb9-dff6-48e7-9baa-aac1fec45a60",
+                                "perilLocator": "4c5e0a8b-15fa-454b-aab1-cbf475e96b39",
+                                "policyLocator": "100088100",
+                                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                                "premiumChange": "126.80",
+                                "premiumChangeCurrency": "USD",
+                                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99"
+                            },
+                            {
+                                "exposureModificationLocator": "6fe4392c-3b24-4a6b-aaa1-c154776d86e2",
+                                "locator": "e1ea7d42-5f52-438c-affc-b97b917c938a",
+                                "newPerilCharacteristicsLocator": "96c9400e-b3f5-41fa-92a8-c1c1e7e2443e",
+                                "perilLocator": "87e49ac3-1bcd-4333-a8fe-98e12aaee895",
+                                "policyLocator": "100088100",
+                                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                                "premiumChange": "13.63",
+                                "premiumChangeCurrency": "USD",
+                                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99"
+                            },
+                            {
+                                "exposureModificationLocator": "6fe4392c-3b24-4a6b-aaa1-c154776d86e2",
+                                "locator": "8296a47a-6cf0-4eb1-b259-ec5502042591",
+                                "newPerilCharacteristicsLocator": "5ccf6107-f0bd-4827-945c-2c84a007b2fe",
+                                "perilLocator": "7ffdb685-7d78-4fe9-ba22-b3e22c8f306e",
+                                "policyLocator": "100088100",
+                                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                                "premiumChange": "0.00",
+                                "premiumChangeCurrency": "USD",
+                                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99"
+                            }
+                        ],
+                        "policyLocator": "100088100",
+                        "policyModificationLocator": "7dde50bd-8b77-4c6a-a876-528fa6df6b62",
+                        "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                        "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99"
+                    }
+                ],
+                "fieldGroupsByLocator": {},
+                "fieldValues": {},
+                "issuedTimestamp": "1648064813736",
+                "locator": "7dde50bd-8b77-4c6a-a876-528fa6df6b62",
+                "mediaByLocator": {},
+                "name": "modification.policy.create",
+                "newPolicyCharacteristicsLocator": "c3690db4-589e-42e3-a7d3-36b6515a32a2",
+                "newPolicyCharacteristicsLocators": [
+                    "c3690db4-589e-42e3-a7d3-36b6515a32a2"
+                ],
+                "number": "0",
+                "policyEndTimestamp": "1672984800000",
+                "policyLocator": "100088100",
+                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                "premiumChange": "140.43",
+                "premiumChangeCurrency": "USD",
+                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                "updatedTimestamp": "1648064813736"
+            },
+            {
+                "automatedUnderwritingResult": {
+                    "decision": "accept",
+                    "decisionTimestamp": "1648064962367",
+                    "notes": [
+                        "Underwriting Note"
+                    ]
+                },
+                "configVersion": "17",
+                "createdTimestamp": "1648064962087",
+                "displayId": "100088138",
+                "effectiveTimestamp": "1641448800000",
+                "endorsementLocator": "100088140",
+                "exposureModifications": [
+                    {
+                        "exposureLocator": "27a3e55e-d1e1-4077-9053-9377edfbd8f9",
+                        "locator": "8fc7f83d-137e-4d50-b773-9e3c00e080b7",
+                        "perilModifications": [
+                            {
+                                "exposureModificationLocator": "8fc7f83d-137e-4d50-b773-9e3c00e080b7",
+                                "locator": "eff2615b-45c3-4443-87bf-87193c2d0b24",
+                                "newPerilCharacteristicsLocator": "c699ceec-d74c-45c4-8a75-7432d4f5e9c3",
+                                "perilLocator": "4c5e0a8b-15fa-454b-aab1-cbf475e96b39",
+                                "policyLocator": "100088100",
+                                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                                "premiumChange": "0.00",
+                                "premiumChangeCurrency": "USD",
+                                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                                "replacedPerilCharacteristicsLocator": "2055eeb9-dff6-48e7-9baa-aac1fec45a60"
+                            },
+                            {
+                                "exposureModificationLocator": "8fc7f83d-137e-4d50-b773-9e3c00e080b7",
+                                "locator": "bd0e575c-30b7-4770-8406-18b38de67918",
+                                "newPerilCharacteristicsLocator": "ee4bc135-14c1-47ed-8a9d-53f332e6ce4d",
+                                "perilLocator": "87e49ac3-1bcd-4333-a8fe-98e12aaee895",
+                                "policyLocator": "100088100",
+                                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                                "premiumChange": "0.00",
+                                "premiumChangeCurrency": "USD",
+                                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                                "replacedPerilCharacteristicsLocator": "96c9400e-b3f5-41fa-92a8-c1c1e7e2443e"
+                            },
+                            {
+                                "exposureModificationLocator": "8fc7f83d-137e-4d50-b773-9e3c00e080b7",
+                                "locator": "e7ca7bbd-9ade-4a4f-b764-939a5a1515d0",
+                                "newPerilCharacteristicsLocator": "f67ce57c-fa84-4f5b-a3e9-22c1562485e7",
+                                "perilLocator": "7ffdb685-7d78-4fe9-ba22-b3e22c8f306e",
+                                "policyLocator": "100088100",
+                                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                                "premiumChange": "0.00",
+                                "premiumChangeCurrency": "USD",
+                                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                                "replacedPerilCharacteristicsLocator": "5ccf6107-f0bd-4827-945c-2c84a007b2fe"
+                            }
+                        ],
+                        "policyLocator": "100088100",
+                        "policyModificationLocator": "75a4d7d2-3f35-4a43-8a58-c57c06a3f224",
+                        "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                        "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99"
+                    }
+                ],
+                "fieldGroupsByLocator": {},
+                "fieldValues": {},
+                "issuedTimestamp": "1648064963570",
+                "locator": "75a4d7d2-3f35-4a43-8a58-c57c06a3f224",
+                "mediaByLocator": {},
+                "name": "not-rated.automated.policy.change",
+                "newPolicyCharacteristicsLocator": "87bd7afa-9a82-4bcd-a2ba-fd01ab6cef26",
+                "newPolicyCharacteristicsLocators": [
+                    "87bd7afa-9a82-4bcd-a2ba-fd01ab6cef26"
+                ],
+                "number": "1",
+                "policyEndTimestamp": "1672984800000",
+                "policyLocator": "100088100",
+                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                "premiumChange": "0.00",
+                "premiumChangeCurrency": "USD",
+                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                "updatedTimestamp": "1648064963570"
+            },
+            {
+                "configVersion": "17",
+                "createdTimestamp": "1648065028668",
+                "displayId": "100088224",
+                "effectiveTimestamp": "1649221200000",
+                "exposureModifications": [
+                    {
+                        "exposureLocator": "27a3e55e-d1e1-4077-9053-9377edfbd8f9",
+                        "locator": "f2e275a8-e701-4238-ac09-265084efaeb7",
+                        "perilModifications": [
+                            {
+                                "exposureModificationLocator": "f2e275a8-e701-4238-ac09-265084efaeb7",
+                                "locator": "5caaef17-0988-4d40-a827-1754de81e4c9",
+                                "newPerilCharacteristicsLocator": "6b48559f-b10a-4485-b037-ab9de49ec382",
+                                "perilLocator": "4c5e0a8b-15fa-454b-aab1-cbf475e96b39",
+                                "policyLocator": "100088100",
+                                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                                "premiumChange": "-95.10",
+                                "premiumChangeCurrency": "USD",
+                                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                                "replacedPerilCharacteristicsLocator": "c699ceec-d74c-45c4-8a75-7432d4f5e9c3"
+                            },
+                            {
+                                "exposureModificationLocator": "f2e275a8-e701-4238-ac09-265084efaeb7",
+                                "locator": "fcbecec4-a5af-498d-ab17-b7612bf9bef8",
+                                "newPerilCharacteristicsLocator": "f8316893-6c55-4dae-b1d5-1f99c00c1f7d",
+                                "perilLocator": "4c5e0a8b-15fa-454b-aab1-cbf475e96b39",
+                                "policyLocator": "100088100",
+                                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                                "premiumChange": "-26.90",
+                                "premiumChangeCurrency": "USD",
+                                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                                "replacedPerilCharacteristicsLocator": "c699ceec-d74c-45c4-8a75-7432d4f5e9c3"
+                            },
+                            {
+                                "exposureModificationLocator": "f2e275a8-e701-4238-ac09-265084efaeb7",
+                                "locator": "55ce4848-a5f4-48ef-853c-c975c52011d2",
+                                "newPerilCharacteristicsLocator": "51ef6e33-0c4c-4919-9e13-8d1f23b3970d",
+                                "perilLocator": "87e49ac3-1bcd-4333-a8fe-98e12aaee895",
+                                "policyLocator": "100088100",
+                                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                                "premiumChange": "-10.22",
+                                "premiumChangeCurrency": "USD",
+                                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                                "replacedPerilCharacteristicsLocator": "ee4bc135-14c1-47ed-8a9d-53f332e6ce4d"
+                            },
+                            {
+                                "exposureModificationLocator": "f2e275a8-e701-4238-ac09-265084efaeb7",
+                                "locator": "80d4f19b-54a9-4d9f-96be-e98f822f075e",
+                                "newPerilCharacteristicsLocator": "24930419-4ac2-4b11-b642-ca17d66e1882",
+                                "perilLocator": "87e49ac3-1bcd-4333-a8fe-98e12aaee895",
+                                "policyLocator": "100088100",
+                                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                                "premiumChange": "-2.92",
+                                "premiumChangeCurrency": "USD",
+                                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                                "replacedPerilCharacteristicsLocator": "ee4bc135-14c1-47ed-8a9d-53f332e6ce4d"
+                            },
+                            {
+                                "exposureModificationLocator": "f2e275a8-e701-4238-ac09-265084efaeb7",
+                                "locator": "f6302ff1-fb7b-4e3d-a0dc-f0d67caf85fc",
+                                "newPerilCharacteristicsLocator": "f89bb3f8-1b01-4240-b44e-4cb6d016ff41",
+                                "perilLocator": "7ffdb685-7d78-4fe9-ba22-b3e22c8f306e",
+                                "policyLocator": "100088100",
+                                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                                "premiumChange": "0.00",
+                                "premiumChangeCurrency": "USD",
+                                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                                "replacedPerilCharacteristicsLocator": "f67ce57c-fa84-4f5b-a3e9-22c1562485e7"
+                            },
+                            {
+                                "exposureModificationLocator": "f2e275a8-e701-4238-ac09-265084efaeb7",
+                                "locator": "06c5adab-ca91-4ee2-aba0-2165241efa44",
+                                "newPerilCharacteristicsLocator": "eed081ba-f423-4dbd-baf5-d5b846900aaf",
+                                "perilLocator": "7ffdb685-7d78-4fe9-ba22-b3e22c8f306e",
+                                "policyLocator": "100088100",
+                                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                                "premiumChange": "0.00",
+                                "premiumChangeCurrency": "USD",
+                                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                                "replacedPerilCharacteristicsLocator": "f67ce57c-fa84-4f5b-a3e9-22c1562485e7"
+                            }
+                        ],
+                        "policyLocator": "100088100",
+                        "policyModificationLocator": "140271f5-3d72-43ef-ac63-670a985e24ea",
+                        "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                        "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99"
+                    }
+                ],
+                "fieldGroupsByLocator": {},
+                "fieldValues": {},
+                "issuedTimestamp": "1648065028668",
+                "locator": "140271f5-3d72-43ef-ac63-670a985e24ea",
+                "mediaByLocator": {},
+                "name": "rated.policy.change",
+                "newPolicyCharacteristicsLocators": [
+                    "f215ac1f-82a4-4a46-8056-ae037c5bfc73",
+                    "4078013b-41d1-4542-b376-abb12841d4c5"
+                ],
+                "number": "2",
+                "policyEndTimestamp": "1672984800000",
+                "policyLocator": "100088100",
+                "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+                "premiumChange": "5.29",
+                "premiumChangeCurrency": "USD",
+                "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+                "updatedTimestamp": "1648065028668"
+            }
+        ],
+        "originalContractEndTimestamp": "1672984800000",
+        "originalContractStartTimestamp": "1641448800000",
+        "paymentScheduleName": "monthly",
+        "policyholderLocator": "f2ba4c95-2a58-412d-bd4e-8c77c9359559",
+        "productLocator": "a98c1a1f-a69c-48f5-b4a4-dd84966fac99",
+        "productName": "DIAO19",
+        "quoteSummary": {
+            "notDiscarded": [
+                {
+                    "locator": "100088114",
+                    "name": "As Applied For",
+                    "state": "accepted"
+                }
+            ],
+            "selected": "100088114"
+        },
+        "updatedTimestamp": "1648065028668"
+    },
+    "productName": "DIAO19",
+    "tenantTimeZone": "America/Chicago",
+    "transactionType": "endorsement"
+}

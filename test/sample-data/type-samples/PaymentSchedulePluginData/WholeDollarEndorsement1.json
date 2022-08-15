@@ -1,0 +1,1709 @@
+{
+  "charges": [
+    {
+      "amount": "-57834.00",
+      "amountCurrency": "AUD",
+      "category": "new",
+      "chargeId": "1_premium_c17636ab-09fb-4479-a30e-2cf5350affd4",
+      "coverageEndTimestamp": "1956556800000",
+      "coverageStartTimestamp": "1641024000000",
+      "isNew": true,
+      "originalAmount": "-57834.00",
+      "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+      "perilLocator": "f29ed853-2b3b-4216-ae7f-816339dee55d",
+      "perilName": "collision",
+      "policyModificationLocator": "c10bb402-4547-4aa5-a43d-b1a0c028585b",
+      "previouslyInvoicedAmount": "0",
+      "type": "premium"
+    },
+    {
+      "amount": "-5350.00",
+      "amountCurrency": "AUD",
+      "category": "new",
+      "chargeId": "2_tax_0938c4d1-73d3-4e69-891d-a8273d54e066",
+      "coverageEndTimestamp": "1956556800000",
+      "coverageStartTimestamp": "1641024000000",
+      "isNew": true,
+      "originalAmount": "-5350.00",
+      "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+      "perilLocator": "f29ed853-2b3b-4216-ae7f-816339dee55d",
+      "perilName": "collision",
+      "policyModificationLocator": "c10bb402-4547-4aa5-a43d-b1a0c028585b",
+      "previouslyInvoicedAmount": "0",
+      "taxLocator": "0938c4d1-73d3-4e69-891d-a8273d54e066",
+      "taxName": "sales",
+      "type": "tax"
+    },
+    {
+      "amount": "16.00",
+      "amountCurrency": "AUD",
+      "category": "new",
+      "chargeId": "3_premium_b9950be5-cf09-492d-9062-c09b24741b37",
+      "coverageEndTimestamp": "1641110400000",
+      "coverageStartTimestamp": "1641024000000",
+      "isNew": true,
+      "originalAmount": "16.00",
+      "perilCharacteristicsLocator": "b9950be5-cf09-492d-9062-c09b24741b37",
+      "perilLocator": "f29ed853-2b3b-4216-ae7f-816339dee55d",
+      "perilName": "collision",
+      "policyModificationLocator": "c10bb402-4547-4aa5-a43d-b1a0c028585b",
+      "previouslyInvoicedAmount": "0",
+      "type": "premium"
+    },
+    {
+      "amount": "1.00",
+      "amountCurrency": "AUD",
+      "category": "new",
+      "chargeId": "4_tax_172e1da7-7171-4acf-a998-86bb6b5b785a",
+      "coverageEndTimestamp": "1641110400000",
+      "coverageStartTimestamp": "1641024000000",
+      "isNew": true,
+      "originalAmount": "1.00",
+      "perilCharacteristicsLocator": "b9950be5-cf09-492d-9062-c09b24741b37",
+      "perilLocator": "f29ed853-2b3b-4216-ae7f-816339dee55d",
+      "perilName": "collision",
+      "policyModificationLocator": "c10bb402-4547-4aa5-a43d-b1a0c028585b",
+      "previouslyInvoicedAmount": "0",
+      "taxLocator": "172e1da7-7171-4acf-a998-86bb6b5b785a",
+      "taxName": "sales",
+      "type": "tax"
+    },
+    {
+      "amount": "64242.00",
+      "amountCurrency": "AUD",
+      "category": "new",
+      "chargeId": "5_premium_65778c7f-3380-41ac-b0b2-b5caeb33f8f8",
+      "coverageEndTimestamp": "1956556800000",
+      "coverageStartTimestamp": "1641110400000",
+      "isNew": true,
+      "originalAmount": "64242.00",
+      "perilCharacteristicsLocator": "65778c7f-3380-41ac-b0b2-b5caeb33f8f8",
+      "perilLocator": "f29ed853-2b3b-4216-ae7f-816339dee55d",
+      "perilName": "collision",
+      "policyModificationLocator": "c10bb402-4547-4aa5-a43d-b1a0c028585b",
+      "previouslyInvoicedAmount": "0",
+      "type": "premium"
+    },
+    {
+      "amount": "5942.00",
+      "amountCurrency": "AUD",
+      "category": "new",
+      "chargeId": "6_tax_63777af9-e971-49e0-9b80-3ecfcd217c5d",
+      "coverageEndTimestamp": "1956556800000",
+      "coverageStartTimestamp": "1641110400000",
+      "isNew": true,
+      "originalAmount": "5942.00",
+      "perilCharacteristicsLocator": "65778c7f-3380-41ac-b0b2-b5caeb33f8f8",
+      "perilLocator": "f29ed853-2b3b-4216-ae7f-816339dee55d",
+      "perilName": "collision",
+      "policyModificationLocator": "c10bb402-4547-4aa5-a43d-b1a0c028585b",
+      "previouslyInvoicedAmount": "0",
+      "taxLocator": "63777af9-e971-49e0-9b80-3ecfcd217c5d",
+      "taxName": "sales",
+      "type": "tax"
+    },
+    {
+      "amount": "-107.07",
+      "amountCurrency": "AUD",
+      "category": "new",
+      "chargeId": "7_comm_aa02aa10-654d-40da-9a9c-10917ccf169b",
+      "commissionLocator": "aa02aa10-654d-40da-9a9c-10917ccf169b",
+      "commissionRecipient": "Agent1234",
+      "coverageEndTimestamp": "1956556800000",
+      "coverageStartTimestamp": "1641110400000",
+      "isNew": true,
+      "originalAmount": "-107.07",
+      "perilCharacteristicsLocator": "65778c7f-3380-41ac-b0b2-b5caeb33f8f8",
+      "perilLocator": "f29ed853-2b3b-4216-ae7f-816339dee55d",
+      "perilName": "collision",
+      "policyModificationLocator": "c10bb402-4547-4aa5-a43d-b1a0c028585b",
+      "previouslyInvoicedAmount": "0",
+      "type": "commission"
+    },
+    {
+      "amount": "5083.00",
+      "amountCurrency": "AUD",
+      "category": "previously_invoiced",
+      "chargeId": "8_tax_0938c4d1-73d3-4e69-891d-a8273d54e066",
+      "coverageEndTimestamp": "1956556800000",
+      "coverageStartTimestamp": "1656666000000",
+      "isNew": false,
+      "originalAmount": "5350.00",
+      "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+      "perilLocator": "f29ed853-2b3b-4216-ae7f-816339dee55d",
+      "perilName": "collision",
+      "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+      "previouslyInvoicedAmount": "267.00",
+      "taxLocator": "0938c4d1-73d3-4e69-891d-a8273d54e066",
+      "taxName": "sales",
+      "type": "tax"
+    },
+    {
+      "amount": "10.00",
+      "amountCurrency": "AUD",
+      "category": "previously_invoiced",
+      "chargeId": "9_fee_8cf10333-62b2-4527-b86c-cc5ea7fff479",
+      "coverageEndTimestamp": "1956556800000",
+      "coverageStartTimestamp": "1798790400000",
+      "feeLocator": "8cf10333-62b2-4527-b86c-cc5ea7fff479",
+      "feeName": "underwriting",
+      "isNew": false,
+      "originalAmount": "10.00",
+      "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+      "previouslyInvoicedAmount": "0",
+      "type": "fee"
+    },
+    {
+      "amount": "1649.00",
+      "amountCurrency": "AUD",
+      "category": "previously_invoiced",
+      "chargeId": "10_fee_61f73a91-4a92-4999-b8bd-c864f1beb36a",
+      "coverageEndTimestamp": "1956556800000",
+      "coverageStartTimestamp": "1656666000000",
+      "feeLocator": "61f73a91-4a92-4999-b8bd-c864f1beb36a",
+      "feeName": "transaction",
+      "isNew": false,
+      "originalAmount": "1735.00",
+      "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+      "previouslyInvoicedAmount": "86.00",
+      "type": "fee"
+    },
+    {
+      "amount": "54943.00",
+      "amountCurrency": "AUD",
+      "category": "previously_invoiced",
+      "chargeId": "11_premium_c17636ab-09fb-4479-a30e-2cf5350affd4",
+      "coverageEndTimestamp": "1956556800000",
+      "coverageStartTimestamp": "1656666000000",
+      "isNew": false,
+      "originalAmount": "57834.00",
+      "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+      "perilLocator": "f29ed853-2b3b-4216-ae7f-816339dee55d",
+      "perilName": "collision",
+      "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+      "previouslyInvoicedAmount": "2891.00",
+      "type": "premium"
+    }
+  ],
+  "coverageEndTimestamp": "1956556800000",
+  "coverageStartTimestamp": "1641110400000",
+  "defaultPaymentTerms": {
+    "amount": "0",
+    "unit": "day"
+  },
+  "oldPaymentScheduleName": "semiannually",
+  "operation": "endorsement",
+  "paymentScheduleName": "semiannually",
+  "plannedInvoices": [
+    {
+      "dueTimestamp": "1656683999999",
+      "endTimestamp": "1672560000000",
+      "financialTransactions": [
+        {
+          "amount": "2891.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1672560000000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1656666000000",
+          "type": "premium"
+        },
+        {
+          "amount": "267.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1672560000000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1656666000000",
+          "taxLocator": "0938c4d1-73d3-4e69-891d-a8273d54e066",
+          "taxName": "sales",
+          "type": "tax"
+        },
+        {
+          "amount": "86.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1672560000000",
+          "feeLocator": "61f73a91-4a92-4999-b8bd-c864f1beb36a",
+          "feeName": "transaction",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1656666000000",
+          "type": "fee"
+        }
+      ],
+      "issueTimestamp": "1656666000000",
+      "startTimestamp": "1656666000000",
+      "writeOff": false
+    },
+    {
+      "dueTimestamp": "1672577999999",
+      "endTimestamp": "1688202000000",
+      "financialTransactions": [
+        {
+          "amount": "2891.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1688202000000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1672560000000",
+          "type": "premium"
+        },
+        {
+          "amount": "267.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1688202000000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1672560000000",
+          "taxLocator": "0938c4d1-73d3-4e69-891d-a8273d54e066",
+          "taxName": "sales",
+          "type": "tax"
+        },
+        {
+          "amount": "86.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1688202000000",
+          "feeLocator": "61f73a91-4a92-4999-b8bd-c864f1beb36a",
+          "feeName": "transaction",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1672560000000",
+          "type": "fee"
+        }
+      ],
+      "issueTimestamp": "1672560000000",
+      "startTimestamp": "1672560000000",
+      "writeOff": false
+    },
+    {
+      "dueTimestamp": "1688219999999",
+      "endTimestamp": "1704096000000",
+      "financialTransactions": [
+        {
+          "amount": "2891.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1704096000000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1688202000000",
+          "type": "premium"
+        },
+        {
+          "amount": "267.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1704096000000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1688202000000",
+          "taxLocator": "0938c4d1-73d3-4e69-891d-a8273d54e066",
+          "taxName": "sales",
+          "type": "tax"
+        },
+        {
+          "amount": "86.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1704096000000",
+          "feeLocator": "61f73a91-4a92-4999-b8bd-c864f1beb36a",
+          "feeName": "transaction",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1688202000000",
+          "type": "fee"
+        }
+      ],
+      "issueTimestamp": "1688202000000",
+      "startTimestamp": "1688202000000",
+      "writeOff": false
+    },
+    {
+      "dueTimestamp": "1704113999999",
+      "endTimestamp": "1719824400000",
+      "financialTransactions": [
+        {
+          "amount": "2891.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1719824400000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1704096000000",
+          "type": "premium"
+        },
+        {
+          "amount": "267.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1719824400000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1704096000000",
+          "taxLocator": "0938c4d1-73d3-4e69-891d-a8273d54e066",
+          "taxName": "sales",
+          "type": "tax"
+        },
+        {
+          "amount": "86.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1719824400000",
+          "feeLocator": "61f73a91-4a92-4999-b8bd-c864f1beb36a",
+          "feeName": "transaction",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1704096000000",
+          "type": "fee"
+        }
+      ],
+      "issueTimestamp": "1704096000000",
+      "startTimestamp": "1704096000000",
+      "writeOff": false
+    },
+    {
+      "dueTimestamp": "1719842399999",
+      "endTimestamp": "1735718400000",
+      "financialTransactions": [
+        {
+          "amount": "2890.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1735718400000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1719824400000",
+          "type": "premium"
+        },
+        {
+          "amount": "267.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1735718400000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1719824400000",
+          "taxLocator": "0938c4d1-73d3-4e69-891d-a8273d54e066",
+          "taxName": "sales",
+          "type": "tax"
+        },
+        {
+          "amount": "87.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1735718400000",
+          "feeLocator": "61f73a91-4a92-4999-b8bd-c864f1beb36a",
+          "feeName": "transaction",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1719824400000",
+          "type": "fee"
+        }
+      ],
+      "issueTimestamp": "1719824400000",
+      "startTimestamp": "1719824400000",
+      "writeOff": false
+    },
+    {
+      "dueTimestamp": "1735736399999",
+      "endTimestamp": "1751360400000",
+      "financialTransactions": [
+        {
+          "amount": "2894.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1751360400000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1735718400000",
+          "type": "premium"
+        },
+        {
+          "amount": "267.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1751360400000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1735718400000",
+          "taxLocator": "0938c4d1-73d3-4e69-891d-a8273d54e066",
+          "taxName": "sales",
+          "type": "tax"
+        },
+        {
+          "amount": "87.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1751360400000",
+          "feeLocator": "61f73a91-4a92-4999-b8bd-c864f1beb36a",
+          "feeName": "transaction",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1735718400000",
+          "type": "fee"
+        }
+      ],
+      "issueTimestamp": "1735718400000",
+      "startTimestamp": "1735718400000",
+      "writeOff": false
+    },
+    {
+      "dueTimestamp": "1751378399999",
+      "endTimestamp": "1767254400000",
+      "financialTransactions": [
+        {
+          "amount": "2894.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1767254400000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1751360400000",
+          "type": "premium"
+        },
+        {
+          "amount": "267.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1767254400000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1751360400000",
+          "taxLocator": "0938c4d1-73d3-4e69-891d-a8273d54e066",
+          "taxName": "sales",
+          "type": "tax"
+        },
+        {
+          "amount": "87.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1767254400000",
+          "feeLocator": "61f73a91-4a92-4999-b8bd-c864f1beb36a",
+          "feeName": "transaction",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1751360400000",
+          "type": "fee"
+        }
+      ],
+      "issueTimestamp": "1751360400000",
+      "startTimestamp": "1751360400000",
+      "writeOff": false
+    },
+    {
+      "dueTimestamp": "1767272399999",
+      "endTimestamp": "1782896400000",
+      "financialTransactions": [
+        {
+          "amount": "2894.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1782896400000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1767254400000",
+          "type": "premium"
+        },
+        {
+          "amount": "267.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1782896400000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1767254400000",
+          "taxLocator": "0938c4d1-73d3-4e69-891d-a8273d54e066",
+          "taxName": "sales",
+          "type": "tax"
+        },
+        {
+          "amount": "87.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1782896400000",
+          "feeLocator": "61f73a91-4a92-4999-b8bd-c864f1beb36a",
+          "feeName": "transaction",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1767254400000",
+          "type": "fee"
+        }
+      ],
+      "issueTimestamp": "1767254400000",
+      "startTimestamp": "1767254400000",
+      "writeOff": false
+    },
+    {
+      "dueTimestamp": "1782914399999",
+      "endTimestamp": "1798790400000",
+      "financialTransactions": [
+        {
+          "amount": "2894.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1798790400000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1782896400000",
+          "type": "premium"
+        },
+        {
+          "amount": "267.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1798790400000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1782896400000",
+          "taxLocator": "0938c4d1-73d3-4e69-891d-a8273d54e066",
+          "taxName": "sales",
+          "type": "tax"
+        },
+        {
+          "amount": "87.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1798790400000",
+          "feeLocator": "61f73a91-4a92-4999-b8bd-c864f1beb36a",
+          "feeName": "transaction",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1782896400000",
+          "type": "fee"
+        }
+      ],
+      "issueTimestamp": "1782896400000",
+      "startTimestamp": "1782896400000",
+      "writeOff": false
+    },
+    {
+      "dueTimestamp": "1798808399999",
+      "endTimestamp": "1814432400000",
+      "financialTransactions": [
+        {
+          "amount": "2892.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1814432400000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1798790400000",
+          "type": "premium"
+        },
+        {
+          "amount": "268.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1814432400000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1798790400000",
+          "taxLocator": "0938c4d1-73d3-4e69-891d-a8273d54e066",
+          "taxName": "sales",
+          "type": "tax"
+        },
+        {
+          "amount": "1.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1814432400000",
+          "feeLocator": "8cf10333-62b2-4527-b86c-cc5ea7fff479",
+          "feeName": "underwriting",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1798790400000",
+          "type": "fee"
+        },
+        {
+          "amount": "87.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1814432400000",
+          "feeLocator": "61f73a91-4a92-4999-b8bd-c864f1beb36a",
+          "feeName": "transaction",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1798790400000",
+          "type": "fee"
+        }
+      ],
+      "issueTimestamp": "1798790400000",
+      "startTimestamp": "1798790400000",
+      "writeOff": false
+    },
+    {
+      "dueTimestamp": "1814450399999",
+      "endTimestamp": "1830326400000",
+      "financialTransactions": [
+        {
+          "amount": "2892.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1830326400000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1814432400000",
+          "type": "premium"
+        },
+        {
+          "amount": "268.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1830326400000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1814432400000",
+          "taxLocator": "0938c4d1-73d3-4e69-891d-a8273d54e066",
+          "taxName": "sales",
+          "type": "tax"
+        },
+        {
+          "amount": "1.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1830326400000",
+          "feeLocator": "8cf10333-62b2-4527-b86c-cc5ea7fff479",
+          "feeName": "underwriting",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1814432400000",
+          "type": "fee"
+        },
+        {
+          "amount": "87.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1830326400000",
+          "feeLocator": "61f73a91-4a92-4999-b8bd-c864f1beb36a",
+          "feeName": "transaction",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1814432400000",
+          "type": "fee"
+        }
+      ],
+      "issueTimestamp": "1814432400000",
+      "startTimestamp": "1814432400000",
+      "writeOff": false
+    },
+    {
+      "dueTimestamp": "1830344399999",
+      "endTimestamp": "1846054800000",
+      "financialTransactions": [
+        {
+          "amount": "2892.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1846054800000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1830326400000",
+          "type": "premium"
+        },
+        {
+          "amount": "268.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1846054800000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1830326400000",
+          "taxLocator": "0938c4d1-73d3-4e69-891d-a8273d54e066",
+          "taxName": "sales",
+          "type": "tax"
+        },
+        {
+          "amount": "1.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1846054800000",
+          "feeLocator": "8cf10333-62b2-4527-b86c-cc5ea7fff479",
+          "feeName": "underwriting",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1830326400000",
+          "type": "fee"
+        },
+        {
+          "amount": "87.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1846054800000",
+          "feeLocator": "61f73a91-4a92-4999-b8bd-c864f1beb36a",
+          "feeName": "transaction",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1830326400000",
+          "type": "fee"
+        }
+      ],
+      "issueTimestamp": "1830326400000",
+      "startTimestamp": "1830326400000",
+      "writeOff": false
+    },
+    {
+      "dueTimestamp": "1846072799999",
+      "endTimestamp": "1861948800000",
+      "financialTransactions": [
+        {
+          "amount": "2892.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1861948800000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1846054800000",
+          "type": "premium"
+        },
+        {
+          "amount": "268.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1861948800000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1846054800000",
+          "taxLocator": "0938c4d1-73d3-4e69-891d-a8273d54e066",
+          "taxName": "sales",
+          "type": "tax"
+        },
+        {
+          "amount": "1.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1861948800000",
+          "feeLocator": "8cf10333-62b2-4527-b86c-cc5ea7fff479",
+          "feeName": "underwriting",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1846054800000",
+          "type": "fee"
+        },
+        {
+          "amount": "87.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1861948800000",
+          "feeLocator": "61f73a91-4a92-4999-b8bd-c864f1beb36a",
+          "feeName": "transaction",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1846054800000",
+          "type": "fee"
+        }
+      ],
+      "issueTimestamp": "1846054800000",
+      "startTimestamp": "1846054800000",
+      "writeOff": false
+    },
+    {
+      "dueTimestamp": "1861966799999",
+      "endTimestamp": "1877590800000",
+      "financialTransactions": [
+        {
+          "amount": "2892.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1877590800000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1861948800000",
+          "type": "premium"
+        },
+        {
+          "amount": "268.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1877590800000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1861948800000",
+          "taxLocator": "0938c4d1-73d3-4e69-891d-a8273d54e066",
+          "taxName": "sales",
+          "type": "tax"
+        },
+        {
+          "amount": "1.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1877590800000",
+          "feeLocator": "8cf10333-62b2-4527-b86c-cc5ea7fff479",
+          "feeName": "underwriting",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1861948800000",
+          "type": "fee"
+        },
+        {
+          "amount": "87.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1877590800000",
+          "feeLocator": "61f73a91-4a92-4999-b8bd-c864f1beb36a",
+          "feeName": "transaction",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1861948800000",
+          "type": "fee"
+        }
+      ],
+      "issueTimestamp": "1861948800000",
+      "startTimestamp": "1861948800000",
+      "writeOff": false
+    },
+    {
+      "dueTimestamp": "1877608799999",
+      "endTimestamp": "1893484800000",
+      "financialTransactions": [
+        {
+          "amount": "2892.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1893484800000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1877590800000",
+          "type": "premium"
+        },
+        {
+          "amount": "268.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1893484800000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1877590800000",
+          "taxLocator": "0938c4d1-73d3-4e69-891d-a8273d54e066",
+          "taxName": "sales",
+          "type": "tax"
+        },
+        {
+          "amount": "1.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1893484800000",
+          "feeLocator": "8cf10333-62b2-4527-b86c-cc5ea7fff479",
+          "feeName": "underwriting",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1877590800000",
+          "type": "fee"
+        },
+        {
+          "amount": "87.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1893484800000",
+          "feeLocator": "61f73a91-4a92-4999-b8bd-c864f1beb36a",
+          "feeName": "transaction",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1877590800000",
+          "type": "fee"
+        }
+      ],
+      "issueTimestamp": "1877590800000",
+      "startTimestamp": "1877590800000",
+      "writeOff": false
+    },
+    {
+      "dueTimestamp": "1893502799999",
+      "endTimestamp": "1909126800000",
+      "financialTransactions": [
+        {
+          "amount": "2892.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1909126800000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1893484800000",
+          "type": "premium"
+        },
+        {
+          "amount": "268.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1909126800000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1893484800000",
+          "taxLocator": "0938c4d1-73d3-4e69-891d-a8273d54e066",
+          "taxName": "sales",
+          "type": "tax"
+        },
+        {
+          "amount": "1.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1909126800000",
+          "feeLocator": "8cf10333-62b2-4527-b86c-cc5ea7fff479",
+          "feeName": "underwriting",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1893484800000",
+          "type": "fee"
+        },
+        {
+          "amount": "87.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1909126800000",
+          "feeLocator": "61f73a91-4a92-4999-b8bd-c864f1beb36a",
+          "feeName": "transaction",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1893484800000",
+          "type": "fee"
+        }
+      ],
+      "issueTimestamp": "1893484800000",
+      "startTimestamp": "1893484800000",
+      "writeOff": false
+    },
+    {
+      "dueTimestamp": "1909144799999",
+      "endTimestamp": "1925020800000",
+      "financialTransactions": [
+        {
+          "amount": "2892.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1925020800000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1909126800000",
+          "type": "premium"
+        },
+        {
+          "amount": "268.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1925020800000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1909126800000",
+          "taxLocator": "0938c4d1-73d3-4e69-891d-a8273d54e066",
+          "taxName": "sales",
+          "type": "tax"
+        },
+        {
+          "amount": "1.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1925020800000",
+          "feeLocator": "8cf10333-62b2-4527-b86c-cc5ea7fff479",
+          "feeName": "underwriting",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1909126800000",
+          "type": "fee"
+        },
+        {
+          "amount": "87.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1925020800000",
+          "feeLocator": "61f73a91-4a92-4999-b8bd-c864f1beb36a",
+          "feeName": "transaction",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1909126800000",
+          "type": "fee"
+        }
+      ],
+      "issueTimestamp": "1909126800000",
+      "startTimestamp": "1909126800000",
+      "writeOff": false
+    },
+    {
+      "dueTimestamp": "1925038799999",
+      "endTimestamp": "1940659200000",
+      "financialTransactions": [
+        {
+          "amount": "2892.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1940659200000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1925020800000",
+          "type": "premium"
+        },
+        {
+          "amount": "268.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1940659200000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1925020800000",
+          "taxLocator": "0938c4d1-73d3-4e69-891d-a8273d54e066",
+          "taxName": "sales",
+          "type": "tax"
+        },
+        {
+          "amount": "1.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1940659200000",
+          "feeLocator": "8cf10333-62b2-4527-b86c-cc5ea7fff479",
+          "feeName": "underwriting",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1925020800000",
+          "type": "fee"
+        },
+        {
+          "amount": "87.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1940659200000",
+          "feeLocator": "61f73a91-4a92-4999-b8bd-c864f1beb36a",
+          "feeName": "transaction",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1925020800000",
+          "type": "fee"
+        }
+      ],
+      "issueTimestamp": "1925020800000",
+      "startTimestamp": "1925020800000",
+      "writeOff": false
+    },
+    {
+      "dueTimestamp": "1940677199999",
+      "endTimestamp": "1956556800000",
+      "financialTransactions": [
+        {
+          "amount": "2885.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1956556800000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1940659200000",
+          "type": "premium"
+        },
+        {
+          "amount": "268.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1956556800000",
+          "perilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+          "perilName": "collision",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1940659200000",
+          "taxLocator": "0938c4d1-73d3-4e69-891d-a8273d54e066",
+          "taxName": "sales",
+          "type": "tax"
+        },
+        {
+          "amount": "1.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1956556800000",
+          "feeLocator": "8cf10333-62b2-4527-b86c-cc5ea7fff479",
+          "feeName": "underwriting",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1940659200000",
+          "type": "fee"
+        },
+        {
+          "amount": "87.00",
+          "amountCurrency": "AUD",
+          "endTimestamp": "1956556800000",
+          "feeLocator": "61f73a91-4a92-4999-b8bd-c864f1beb36a",
+          "feeName": "transaction",
+          "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+          "postedTimestamp": "1645816222574",
+          "startTimestamp": "1940659200000",
+          "type": "fee"
+        }
+      ],
+      "issueTimestamp": "1940659200000",
+      "startTimestamp": "1940659200000",
+      "writeOff": false
+    }
+  ],
+  "policy": {
+    "characteristics": [
+      {
+        "createdTimestamp": "1645816222574",
+        "endTimestamp": "1956556800000",
+        "fieldGroupsByLocator": {},
+        "fieldValues": {
+          "10_year_felony_conviction": [
+            "No"
+          ],
+          "atfault_claims_past_5_years": [
+            "None"
+          ],
+          "channel": [
+            "Direct"
+          ],
+          "insurance_fraud_conviction": [
+            "No"
+          ],
+          "multiple_drivers": [
+            "No - Just Policyholder"
+          ],
+          "run_third_party_reports": [
+            "Yes - Please Run Reports - To Provide the Best Quote"
+          ]
+        },
+        "grossPremium": "57834.00",
+        "grossPremiumCurrency": "AUD",
+        "grossTaxes": "5350.00",
+        "grossTaxesCurrency": "AUD",
+        "issuedTimestamp": "1645816226537",
+        "locator": "b72b92a9-7d4e-4f1b-a714-bb1fe935a5e9",
+        "mediaByLocator": {},
+        "policyEndTimestamp": "1956556800000",
+        "policyLocator": "100000100",
+        "policyStartTimestamp": "1641024000000",
+        "policyholderLocator": "fa3fa5e0-12f1-4388-a9b9-e92dd972d1e4",
+        "productLocator": "6756521d-9e9c-42f4-b9fe-3209a6ef8808",
+        "replacedTimestamp": "1645816233012",
+        "startTimestamp": "1641024000000",
+        "taxGroups": [
+          {
+            "amount": "5350.00",
+            "amountCurrency": "AUD",
+            "name": "sales"
+          }
+        ],
+        "updatedTimestamp": "1645816226537"
+      },
+      {
+        "createdTimestamp": "1645816233012",
+        "endTimestamp": "1641110400000",
+        "fieldGroupsByLocator": {},
+        "fieldValues": {
+          "10_year_felony_conviction": [
+            "No"
+          ],
+          "atfault_claims_past_5_years": [
+            "None"
+          ],
+          "channel": [
+            "Direct"
+          ],
+          "insurance_fraud_conviction": [
+            "No"
+          ],
+          "multiple_drivers": [
+            "No - Just Policyholder"
+          ],
+          "run_third_party_reports": [
+            "Yes - Please Run Reports - To Provide the Best Quote"
+          ]
+        },
+        "grossPremium": "16.00",
+        "grossPremiumCurrency": "AUD",
+        "grossTaxes": "1.00",
+        "grossTaxesCurrency": "AUD",
+        "issuedTimestamp": "1645816233012",
+        "locator": "55f102df-4e1e-4753-ac27-dad0b82fa1da",
+        "mediaByLocator": {},
+        "policyEndTimestamp": "1956556800000",
+        "policyLocator": "100000100",
+        "policyStartTimestamp": "1641024000000",
+        "policyholderLocator": "fa3fa5e0-12f1-4388-a9b9-e92dd972d1e4",
+        "productLocator": "6756521d-9e9c-42f4-b9fe-3209a6ef8808",
+        "startTimestamp": "1641024000000",
+        "taxGroups": [
+          {
+            "amount": "1.00",
+            "amountCurrency": "AUD",
+            "name": "sales"
+          }
+        ],
+        "updatedTimestamp": "1645816233012"
+      },
+      {
+        "createdTimestamp": "1645816233012",
+        "endTimestamp": "1956556800000",
+        "fieldGroupsByLocator": {},
+        "fieldValues": {
+          "10_year_felony_conviction": [
+            "No"
+          ],
+          "atfault_claims_past_5_years": [
+            "None"
+          ],
+          "channel": [
+            "Agent"
+          ],
+          "insurance_fraud_conviction": [
+            "No"
+          ],
+          "multiple_drivers": [
+            "No - Just Policyholder"
+          ],
+          "run_third_party_reports": [
+            "Yes - Please Run Reports - To Provide the Best Quote"
+          ]
+        },
+        "grossPremium": "64242.00",
+        "grossPremiumCurrency": "AUD",
+        "grossTaxes": "5942.00",
+        "grossTaxesCurrency": "AUD",
+        "issuedTimestamp": "1645816233012",
+        "locator": "4800fe07-f09b-4a8d-8abc-61578dacee81",
+        "mediaByLocator": {},
+        "policyEndTimestamp": "1956556800000",
+        "policyLocator": "100000100",
+        "policyStartTimestamp": "1641024000000",
+        "policyholderLocator": "fa3fa5e0-12f1-4388-a9b9-e92dd972d1e4",
+        "productLocator": "6756521d-9e9c-42f4-b9fe-3209a6ef8808",
+        "startTimestamp": "1641110400000",
+        "taxGroups": [
+          {
+            "amount": "5942.00",
+            "amountCurrency": "AUD",
+            "name": "sales"
+          }
+        ],
+        "updatedTimestamp": "1645816233012"
+      }
+    ],
+    "configVersion": "1",
+    "createdTimestamp": "1645816222574",
+    "displayId": "100000100",
+    "documents": [
+      {
+        "createdTimestamp": "1645816222574",
+        "displayName": "Policy Schedule",
+        "fileName": "schedule.pdf",
+        "locator": "353af4a9-7df0-4f5d-bc44-4f59cb1ceb83",
+        "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+        "type": "pdf",
+        "url": "https://document-c2d51a2e-5dda-474d-835d-68d63d7c8e92.s3.eu-west-1.amazonaws.com/94e8b8fd-77ec-473c-ace8-df06af8e82a9/79391da8-071c-4537-a9ed-f22609db3c9d/document.original?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220225T191033Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Credential=AKIA5O5V6ZA7B5FTNA5D%2F20220225%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=dd1ace5329ae3da92cc9a7eb0084b7bc311464ad28492587f3dc4e91e52ab98b",
+        "urlExpirationTimestamp": "1645818033143"
+      },
+      {
+        "createdTimestamp": "1645816222574",
+        "displayName": "One",
+        "fileName": "one.pdf",
+        "locator": "b49cf06e-ac72-4f04-b561-e25f94b6805f",
+        "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+        "type": "pdf",
+        "url": "https://document-c2d51a2e-5dda-474d-835d-68d63d7c8e92.s3.eu-west-1.amazonaws.com/94e8b8fd-77ec-473c-ace8-df06af8e82a9/55e405c9-9841-4a7d-8f17-c36c89c54cd6/document.original?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220225T191033Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Credential=AKIA5O5V6ZA7B5FTNA5D%2F20220225%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=8b7718818bc904c36f8b99091b3be763ff9d8ceebf0f0c4df0e7652d329b3cd4",
+        "urlExpirationTimestamp": "1645818033143"
+      },
+      {
+        "createdTimestamp": "1645816222574",
+        "displayName": "Two",
+        "fileName": "two.pdf",
+        "locator": "91bbed74-73bc-4013-8056-0f26c3d2c45e",
+        "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+        "type": "pdf",
+        "url": "https://document-c2d51a2e-5dda-474d-835d-68d63d7c8e92.s3.eu-west-1.amazonaws.com/94e8b8fd-77ec-473c-ace8-df06af8e82a9/859c8a4b-b6c2-437a-9c5d-0a3552c2f2f9/document.original?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220225T191033Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Credential=AKIA5O5V6ZA7B5FTNA5D%2F20220225%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=fa9f2477eeb57f1c1fab18a60d2d5e23c5e74f9967e2d0312462064cd6529e4a",
+        "urlExpirationTimestamp": "1645818033143"
+      },
+      {
+        "createdTimestamp": "1645816222574",
+        "displayName": "Three",
+        "fileName": "three.pdf",
+        "locator": "095a45fb-2e03-4926-9333-6ff5bb4ab905",
+        "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+        "type": "pdf",
+        "url": "https://document-c2d51a2e-5dda-474d-835d-68d63d7c8e92.s3.eu-west-1.amazonaws.com/94e8b8fd-77ec-473c-ace8-df06af8e82a9/e143a61a-8d3d-4552-8c43-1815100c0cd8/document.original?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220225T191033Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Credential=AKIA5O5V6ZA7B5FTNA5D%2F20220225%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=69afcc5621022d4ba33d154ecd25de80468961e4fe5b7ecc577cfc5f2580bcb2",
+        "urlExpirationTimestamp": "1645818033143"
+      },
+      {
+        "createdTimestamp": "1645816222574",
+        "displayName": "Regulatory Disclosure",
+        "fileName": "regulatory_disclosure.pdf",
+        "locator": "8230d44f-e295-457b-abed-5cca3ee569a6",
+        "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+        "type": "pdf",
+        "url": "https://document-c2d51a2e-5dda-474d-835d-68d63d7c8e92.s3.eu-west-1.amazonaws.com/94e8b8fd-77ec-473c-ace8-df06af8e82a9/3b5e92af-1e6a-422d-aa1a-24c4f409c774/document.original?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220225T191033Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Credential=AKIA5O5V6ZA7B5FTNA5D%2F20220225%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=e10e6c16cfb4109b783a000734cd3c87832944fc27b58cd75692de5c74ec5a36",
+        "urlExpirationTimestamp": "1645818033143"
+      }
+    ],
+    "effectiveContractEndTimestamp": "1956556800000",
+    "exposures": [
+      {
+        "characteristics": [
+          {
+            "createdTimestamp": "1645816222574",
+            "endTimestamp": "1956556800000",
+            "exposureLocator": "fd980b22-6357-48ff-95a0-219af2d6eb1b",
+            "fieldGroupsByLocator": {},
+            "fieldValues": {
+              "annual_miles": [
+                "12000"
+              ],
+              "body_style": [
+                "4 door"
+              ],
+              "distance_to_work_school": [
+                "Between 11 to 20 Miles"
+              ],
+              "license_plate": [
+                "THX1138"
+              ],
+              "make": [
+                "Honda"
+              ],
+              "model": [
+                "Camry"
+              ],
+              "primary_vehicle_use": [
+                "Drive to Work / School"
+              ],
+              "vehicle_plated_state": [
+                "CA"
+              ],
+              "vehicle_type": [
+                "Car"
+              ],
+              "vehicle_value": [
+                "18000"
+              ],
+              "vin": [
+                "2JGEJ6526VH515414"
+              ],
+              "year": [
+                "2019"
+              ]
+            },
+            "issuedTimestamp": "1645816226537",
+            "locator": "3c7c5a64-4b6f-4e22-b944-482b3ee330a1",
+            "mediaByLocator": {},
+            "policyLocator": "100000100",
+            "policyholderLocator": "fa3fa5e0-12f1-4388-a9b9-e92dd972d1e4",
+            "productLocator": "6756521d-9e9c-42f4-b9fe-3209a6ef8808",
+            "startTimestamp": "1641024000000",
+            "updatedTimestamp": "1645816226537"
+          }
+        ],
+        "createdTimestamp": "1645816222574",
+        "displayId": "100000106",
+        "locator": "fd980b22-6357-48ff-95a0-219af2d6eb1b",
+        "name": "vehicle",
+        "perils": [
+          {
+            "characteristics": [
+              {
+                "coverageEndTimestamp": "1956556800000",
+                "coverageStartTimestamp": "1641024000000",
+                "createdTimestamp": "1645816222574",
+                "deductibleCurrency": "AUD",
+                "exposureCharacteristicsLocator": "3c7c5a64-4b6f-4e22-b944-482b3ee330a1",
+                "fieldGroupsByLocator": {},
+                "fieldValues": {},
+                "indemnityInAggregateCurrency": "AUD",
+                "indemnityPerEventCurrency": "AUD",
+                "indemnityPerItemCurrency": "AUD",
+                "issuedTimestamp": "1645816226537",
+                "locator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+                "lumpSumPaymentCurrency": "AUD",
+                "mediaByLocator": {},
+                "monthPremium": "16.0650",
+                "monthTechnicalPremium": "12.8520",
+                "perilLocator": "f29ed853-2b3b-4216-ae7f-816339dee55d",
+                "policyCharacteristicsLocator": "b72b92a9-7d4e-4f1b-a714-bb1fe935a5e9",
+                "policyLocator": "100000100",
+                "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+                "policyholderLocator": "fa3fa5e0-12f1-4388-a9b9-e92dd972d1e4",
+                "premium": "57834.00",
+                "premiumCurrency": "AUD",
+                "productLocator": "6756521d-9e9c-42f4-b9fe-3209a6ef8808",
+                "replacedTimestamp": "1645816233012",
+                "technicalPremium": "1542.24",
+                "updatedTimestamp": "1645816226537"
+              },
+              {
+                "coverageEndTimestamp": "1641110400000",
+                "coverageStartTimestamp": "1641024000000",
+                "createdTimestamp": "1645816233012",
+                "deductibleCurrency": "AUD",
+                "exposureCharacteristicsLocator": "3c7c5a64-4b6f-4e22-b944-482b3ee330a1",
+                "fieldGroupsByLocator": {},
+                "fieldValues": {},
+                "indemnityInAggregateCurrency": "AUD",
+                "indemnityPerEventCurrency": "AUD",
+                "indemnityPerItemCurrency": "AUD",
+                "issuedTimestamp": "1645816233012",
+                "locator": "b9950be5-cf09-492d-9062-c09b24741b37",
+                "lumpSumPaymentCurrency": "AUD",
+                "mediaByLocator": {},
+                "monthPremium": "16.0650",
+                "monthTechnicalPremium": "12.8520",
+                "perilLocator": "f29ed853-2b3b-4216-ae7f-816339dee55d",
+                "policyCharacteristicsLocator": "55f102df-4e1e-4753-ac27-dad0b82fa1da",
+                "policyLocator": "100000100",
+                "policyModificationLocator": "c10bb402-4547-4aa5-a43d-b1a0c028585b",
+                "policyholderLocator": "fa3fa5e0-12f1-4388-a9b9-e92dd972d1e4",
+                "premium": "16.00",
+                "premiumCurrency": "AUD",
+                "productLocator": "6756521d-9e9c-42f4-b9fe-3209a6ef8808",
+                "technicalPremium": "0.00",
+                "updatedTimestamp": "1645816233012"
+              },
+              {
+                "coverageEndTimestamp": "1956556800000",
+                "coverageStartTimestamp": "1641110400000",
+                "createdTimestamp": "1645816233012",
+                "deductibleCurrency": "AUD",
+                "exposureCharacteristicsLocator": "3c7c5a64-4b6f-4e22-b944-482b3ee330a1",
+                "fieldGroupsByLocator": {},
+                "fieldValues": {},
+                "indemnityInAggregateCurrency": "AUD",
+                "indemnityPerEventCurrency": "AUD",
+                "indemnityPerItemCurrency": "AUD",
+                "issuedTimestamp": "1645816233012",
+                "locator": "65778c7f-3380-41ac-b0b2-b5caeb33f8f8",
+                "lumpSumPaymentCurrency": "AUD",
+                "mediaByLocator": {},
+                "monthPremium": "17.8500000",
+                "monthTechnicalPremium": "14.2800000",
+                "perilLocator": "f29ed853-2b3b-4216-ae7f-816339dee55d",
+                "policyCharacteristicsLocator": "4800fe07-f09b-4a8d-8abc-61578dacee81",
+                "policyLocator": "100000100",
+                "policyModificationLocator": "c10bb402-4547-4aa5-a43d-b1a0c028585b",
+                "policyholderLocator": "fa3fa5e0-12f1-4388-a9b9-e92dd972d1e4",
+                "premium": "64242.00",
+                "premiumCurrency": "AUD",
+                "productLocator": "6756521d-9e9c-42f4-b9fe-3209a6ef8808",
+                "technicalPremium": "1713.14",
+                "updatedTimestamp": "1645816233012"
+              }
+            ],
+            "createdTimestamp": "1645816222574",
+            "displayId": "100000108",
+            "exposureLocator": "fd980b22-6357-48ff-95a0-219af2d6eb1b",
+            "locator": "f29ed853-2b3b-4216-ae7f-816339dee55d",
+            "name": "collision",
+            "policyLocator": "100000100",
+            "policyholderLocator": "fa3fa5e0-12f1-4388-a9b9-e92dd972d1e4",
+            "productLocator": "6756521d-9e9c-42f4-b9fe-3209a6ef8808",
+            "renewalGroup": "f29ed853-2b3b-4216-ae7f-816339dee55d",
+            "updatedTimestamp": "1645816233012"
+          }
+        ],
+        "policyLocator": "100000100",
+        "policyholderLocator": "fa3fa5e0-12f1-4388-a9b9-e92dd972d1e4",
+        "productLocator": "6756521d-9e9c-42f4-b9fe-3209a6ef8808",
+        "updatedTimestamp": "1645816233012"
+      }
+    ],
+    "fees": [
+      {
+        "amount": "10.00",
+        "amountCurrency": "AUD",
+        "description": "",
+        "endTimestamp": "1956556800000",
+        "locator": "8cf10333-62b2-4527-b86c-cc5ea7fff479",
+        "name": "underwriting",
+        "reversed": false,
+        "startTimestamp": "1641024000000"
+      },
+      {
+        "amount": "1735.00",
+        "amountCurrency": "AUD",
+        "description": "",
+        "endTimestamp": "1956556800000",
+        "locator": "61f73a91-4a92-4999-b8bd-c864f1beb36a",
+        "name": "transaction",
+        "reversed": false,
+        "startTimestamp": "1641024000000"
+      }
+    ],
+    "grossFees": "1745.00",
+    "grossFeesCurrency": "AUD",
+    "invoices": [
+      {
+        "createdTimestamp": "1645816222574",
+        "displayId": "100000114",
+        "documents": [
+          {
+            "createdTimestamp": "1645816222574",
+            "displayName": "invoice_100000114.pdf",
+            "fileName": "invoice_100000114.pdf",
+            "locator": "118a558d-40b8-4fdf-9df7-32571bf7b499",
+            "type": "pdf",
+            "url": "https://document-c2d51a2e-5dda-474d-835d-68d63d7c8e92.s3.eu-west-1.amazonaws.com/94e8b8fd-77ec-473c-ace8-df06af8e82a9/ee330f54-c62e-4cf7-a709-8c148c374eaf/document.original?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220225T191033Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Credential=AKIA5O5V6ZA7B5FTNA5D%2F20220225%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=0fbb9bbb4670551a90e7bda1467f39114b9b14f4d6f4c609ea97bfac62371748",
+            "urlExpirationTimestamp": "1645818033151"
+          }
+        ],
+        "dueTimestamp": "1645880399999",
+        "endTimestamp": "1656666000000",
+        "invoiceType": "newBusiness",
+        "locator": "24dde567-162d-4123-b3ee-c70cb796c233",
+        "payments": [],
+        "policyLocator": "100000100",
+        "settlementStatus": "outstanding",
+        "startTimestamp": "1641024000000",
+        "statuses": [
+          {
+            "status": "unfulfilled",
+            "timestamp": "1645816222574"
+          }
+        ],
+        "totalDue": "3244.00",
+        "totalDueCurrency": "AUD",
+        "transactionIssued": true,
+        "updatedTimestamp": "1645816222574"
+      }
+    ],
+    "issuedTimestamp": "1645816226537",
+    "locator": "100000100",
+    "modifications": [
+      {
+        "automatedUnderwritingResult": {
+          "decision": "accept",
+          "decisionTimestamp": "1645816222574",
+          "notes": [
+            "Premium includes credit for being claims free."
+          ]
+        },
+        "configVersion": "1",
+        "createdTimestamp": "1645816222574",
+        "displayId": "100000104",
+        "effectiveTimestamp": "1641024000000",
+        "exposureModifications": [
+          {
+            "exposureLocator": "fd980b22-6357-48ff-95a0-219af2d6eb1b",
+            "locator": "e69476a1-2c0d-485c-9111-915d0892f226",
+            "newExposureCharacteristicsLocator": "3c7c5a64-4b6f-4e22-b944-482b3ee330a1",
+            "perilModifications": [
+              {
+                "exposureModificationLocator": "e69476a1-2c0d-485c-9111-915d0892f226",
+                "locator": "e3558ea5-4d3d-4d0c-8224-d88667a8c1a0",
+                "newPerilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4",
+                "perilLocator": "f29ed853-2b3b-4216-ae7f-816339dee55d",
+                "policyLocator": "100000100",
+                "policyholderLocator": "fa3fa5e0-12f1-4388-a9b9-e92dd972d1e4",
+                "premiumChange": "57834.00",
+                "premiumChangeCurrency": "AUD",
+                "productLocator": "6756521d-9e9c-42f4-b9fe-3209a6ef8808"
+              }
+            ],
+            "policyLocator": "100000100",
+            "policyModificationLocator": "56245068-9f95-4e05-a7c7-49a874b54456",
+            "policyholderLocator": "fa3fa5e0-12f1-4388-a9b9-e92dd972d1e4",
+            "productLocator": "6756521d-9e9c-42f4-b9fe-3209a6ef8808"
+          }
+        ],
+        "fieldGroupsByLocator": {},
+        "fieldValues": {},
+        "issuedTimestamp": "1645816226537",
+        "locator": "56245068-9f95-4e05-a7c7-49a874b54456",
+        "mediaByLocator": {},
+        "name": "modification.policy.create",
+        "newPolicyCharacteristicsLocator": "b72b92a9-7d4e-4f1b-a714-bb1fe935a5e9",
+        "newPolicyCharacteristicsLocators": [
+          "b72b92a9-7d4e-4f1b-a714-bb1fe935a5e9"
+        ],
+        "number": "0",
+        "policyEndTimestamp": "1956556800000",
+        "policyLocator": "100000100",
+        "policyholderLocator": "fa3fa5e0-12f1-4388-a9b9-e92dd972d1e4",
+        "premiumChange": "57834.00",
+        "premiumChangeCurrency": "AUD",
+        "productLocator": "6756521d-9e9c-42f4-b9fe-3209a6ef8808",
+        "updatedTimestamp": "1645816226537"
+      },
+      {
+        "configVersion": "1",
+        "createdTimestamp": "1645816233012",
+        "displayId": "100000048",
+        "effectiveTimestamp": "1641110400000",
+        "exposureModifications": [
+          {
+            "exposureLocator": "fd980b22-6357-48ff-95a0-219af2d6eb1b",
+            "locator": "df7f43eb-4527-4213-b88b-c2f1b69273d2",
+            "perilModifications": [
+              {
+                "exposureModificationLocator": "df7f43eb-4527-4213-b88b-c2f1b69273d2",
+                "locator": "a6c95e42-b7b0-4a93-aca4-0c4db3476187",
+                "newPerilCharacteristicsLocator": "b9950be5-cf09-492d-9062-c09b24741b37",
+                "perilLocator": "f29ed853-2b3b-4216-ae7f-816339dee55d",
+                "policyLocator": "100000100",
+                "policyholderLocator": "fa3fa5e0-12f1-4388-a9b9-e92dd972d1e4",
+                "premiumChange": "-57818.00",
+                "premiumChangeCurrency": "AUD",
+                "productLocator": "6756521d-9e9c-42f4-b9fe-3209a6ef8808",
+                "replacedPerilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4"
+              },
+              {
+                "exposureModificationLocator": "df7f43eb-4527-4213-b88b-c2f1b69273d2",
+                "locator": "3286b144-2ede-4aeb-9cf4-d0fc48b1d253",
+                "newPerilCharacteristicsLocator": "65778c7f-3380-41ac-b0b2-b5caeb33f8f8",
+                "perilLocator": "f29ed853-2b3b-4216-ae7f-816339dee55d",
+                "policyLocator": "100000100",
+                "policyholderLocator": "fa3fa5e0-12f1-4388-a9b9-e92dd972d1e4",
+                "premiumChange": "6408.00",
+                "premiumChangeCurrency": "AUD",
+                "productLocator": "6756521d-9e9c-42f4-b9fe-3209a6ef8808",
+                "replacedPerilCharacteristicsLocator": "c17636ab-09fb-4479-a30e-2cf5350affd4"
+              }
+            ],
+            "policyLocator": "100000100",
+            "policyModificationLocator": "c10bb402-4547-4aa5-a43d-b1a0c028585b",
+            "policyholderLocator": "fa3fa5e0-12f1-4388-a9b9-e92dd972d1e4",
+            "productLocator": "6756521d-9e9c-42f4-b9fe-3209a6ef8808"
+          }
+        ],
+        "fieldGroupsByLocator": {},
+        "fieldValues": {},
+        "issuedTimestamp": "1645816233012",
+        "locator": "c10bb402-4547-4aa5-a43d-b1a0c028585b",
+        "mediaByLocator": {},
+        "name": "generic",
+        "newPolicyCharacteristicsLocators": [
+          "55f102df-4e1e-4753-ac27-dad0b82fa1da",
+          "4800fe07-f09b-4a8d-8abc-61578dacee81"
+        ],
+        "number": "1",
+        "policyEndTimestamp": "1956556800000",
+        "policyLocator": "100000100",
+        "policyholderLocator": "fa3fa5e0-12f1-4388-a9b9-e92dd972d1e4",
+        "premiumChange": "6424.00",
+        "premiumChangeCurrency": "AUD",
+        "productLocator": "6756521d-9e9c-42f4-b9fe-3209a6ef8808",
+        "updatedTimestamp": "1645816233012"
+      }
+    ],
+    "originalContractEndTimestamp": "1956556800000",
+    "originalContractStartTimestamp": "1641024000000",
+    "paymentScheduleName": "semiannually",
+    "policyholderLocator": "fa3fa5e0-12f1-4388-a9b9-e92dd972d1e4",
+    "productLocator": "6756521d-9e9c-42f4-b9fe-3209a6ef8808",
+    "productName": "personal-auto",
+    "quoteSummary": {
+      "notDiscarded": [
+        {
+          "locator": "100000110",
+          "name": "1",
+          "state": "accepted"
+        }
+      ],
+      "selected": "100000110"
+    },
+    "updatedTimestamp": "1645816233012"
+  },
+  "productName": "personal-auto",
+  "tenantTimeZone": "Australia/Sydney",
+  "transactionType": "endorsement"
+}

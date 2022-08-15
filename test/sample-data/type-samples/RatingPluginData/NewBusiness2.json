@@ -1,0 +1,288 @@
+{
+    "operation": "new_business",
+    "policy": {
+      "characteristics": [
+        {
+          "createdTimestamp": "1646267404658",
+          "endTimestamp": "1735718400000",
+          "fieldGroupsByLocator": {},
+          "fieldValues": {
+            "10_year_felony_conviction": [
+              "No"
+            ],
+            "atfault_claims_past_5_years": [
+              "None"
+            ],
+            "channel": [
+              "Direct"
+            ],
+            "insurance_fraud_conviction": [
+              "No"
+            ],
+            "multiple_drivers": [
+              "No - Just Policyholder"
+            ],
+            "run_third_party_reports": [
+              "Yes - Please Run Reports - To Provide the Best Quote"
+            ]
+          },
+          "grossPremiumCurrency": "USD",
+          "grossTaxesCurrency": "USD",
+          "locator": "53af3579-93f3-46c5-bcdf-f0224e8a64c1",
+          "mediaByLocator": {},
+          "policyEndTimestamp": "1735718400000",
+          "policyLocator": "100000756",
+          "policyStartTimestamp": "1650006000000",
+          "policyholderLocator": "ce4854e7-1aa7-468a-b085-9f5406b97618",
+          "productLocator": "d602a3e0-f038-4121-9970-3124c1b54b9c",
+          "startTimestamp": "1650006000000",
+          "taxGroups": [
+            {
+              "amount": "0.00",
+              "amountCurrency": "USD",
+              "name": "sales"
+            }
+          ],
+          "updatedTimestamp": "1646267404658"
+        }
+      ],
+      "configVersion": "4",
+      "createdTimestamp": "1646267404658",
+      "displayId": "100000756",
+      "documents": [],
+      "effectiveContractEndTimestamp": "1735718400000",
+      "exposures": [
+        {
+          "characteristics": [
+            {
+              "createdTimestamp": "1646267404658",
+              "endTimestamp": "1735718400000",
+              "exposureLocator": "d897e2a6-ca24-4839-b1d1-083db69b85d0",
+              "fieldGroupsByLocator": {},
+              "fieldValues": {
+                "annual_miles": [
+                  "12000"
+                ],
+                "body_style": [
+                  "4 door"
+                ],
+                "distance_to_work_school": [
+                  "Between 11 to 20 Miles"
+                ],
+                "license_plate": [
+                  "THX1138"
+                ],
+                "make": [
+                  "HONDA"
+                ],
+                "model": [
+                  "Civic"
+                ],
+                "primary_vehicle_use": [
+                  "Drive to Work / School"
+                ],
+                "vehicle_plated_state": [
+                  "CA"
+                ],
+                "vehicle_type": [
+                  "Car"
+                ],
+                "vehicle_value": [
+                  "18000"
+                ],
+                "vin": [
+                  "2JGEJ6526VH515414"
+                ],
+                "year": [
+                  "1997"
+                ]
+              },
+              "locator": "7cc7d5a6-8500-4f7d-825d-5103eeabfc5a",
+              "mediaByLocator": {},
+              "policyLocator": "100000756",
+              "policyholderLocator": "ce4854e7-1aa7-468a-b085-9f5406b97618",
+              "productLocator": "d602a3e0-f038-4121-9970-3124c1b54b9c",
+              "startTimestamp": "1650006000000",
+              "updatedTimestamp": "1646267404658"
+            }
+          ],
+          "createdTimestamp": "1646267404658",
+          "displayId": "100000760",
+          "locator": "d897e2a6-ca24-4839-b1d1-083db69b85d0",
+          "name": "vehicle",
+          "perils": [
+            {
+              "characteristics": [
+                {
+                  "coverageEndTimestamp": "1735718400000",
+                  "coverageStartTimestamp": "1650006000000",
+                  "createdTimestamp": "1646267404658",
+                  "deductibleCurrency": "USD",
+                  "exposureCharacteristicsLocator": "7cc7d5a6-8500-4f7d-825d-5103eeabfc5a",
+                  "fieldGroupsByLocator": {},
+                  "fieldValues": {},
+                  "indemnityInAggregateCurrency": "USD",
+                  "indemnityPerEventCurrency": "USD",
+                  "indemnityPerItemCurrency": "USD",
+                  "locator": "6e9b2383-b437-46ba-9ea8-de9f7e037fbf",
+                  "lumpSumPaymentCurrency": "USD",
+                  "mediaByLocator": {},
+                  "perilLocator": "ed00f07e-c05e-415c-bc0d-2781e13128cf",
+                  "policyCharacteristicsLocator": "53af3579-93f3-46c5-bcdf-f0224e8a64c1",
+                  "policyLocator": "100000756",
+                  "policyModificationLocator": "2a187280-d3cc-4526-bb2a-b9960ab64305",
+                  "policyholderLocator": "ce4854e7-1aa7-468a-b085-9f5406b97618",
+                  "premiumCurrency": "USD",
+                  "productLocator": "d602a3e0-f038-4121-9970-3124c1b54b9c",
+                  "updatedTimestamp": "1646267404658"
+                }
+              ],
+              "createdTimestamp": "1646267404658",
+              "displayId": "100000762",
+              "exposureLocator": "d897e2a6-ca24-4839-b1d1-083db69b85d0",
+              "locator": "ed00f07e-c05e-415c-bc0d-2781e13128cf",
+              "name": "comprehensive",
+              "policyLocator": "100000756",
+              "policyholderLocator": "ce4854e7-1aa7-468a-b085-9f5406b97618",
+              "productLocator": "d602a3e0-f038-4121-9970-3124c1b54b9c",
+              "renewalGroup": "ed00f07e-c05e-415c-bc0d-2781e13128cf",
+              "updatedTimestamp": "1646267404658"
+            },
+            {
+              "characteristics": [
+                {
+                  "coverageEndTimestamp": "1735718400000",
+                  "coverageStartTimestamp": "1650006000000",
+                  "createdTimestamp": "1646267404658",
+                  "deductibleCurrency": "USD",
+                  "exposureCharacteristicsLocator": "7cc7d5a6-8500-4f7d-825d-5103eeabfc5a",
+                  "fieldGroupsByLocator": {},
+                  "fieldValues": {},
+                  "indemnityInAggregateCurrency": "USD",
+                  "indemnityPerEventCurrency": "USD",
+                  "indemnityPerItemCurrency": "USD",
+                  "locator": "481a480f-b7d2-4045-bd29-fe9adc807f3d",
+                  "lumpSumPaymentCurrency": "USD",
+                  "mediaByLocator": {},
+                  "perilLocator": "dfb737ab-d6b4-4ecd-83c9-45396d7ffbbb",
+                  "policyCharacteristicsLocator": "53af3579-93f3-46c5-bcdf-f0224e8a64c1",
+                  "policyLocator": "100000756",
+                  "policyModificationLocator": "2a187280-d3cc-4526-bb2a-b9960ab64305",
+                  "policyholderLocator": "ce4854e7-1aa7-468a-b085-9f5406b97618",
+                  "premiumCurrency": "USD",
+                  "productLocator": "d602a3e0-f038-4121-9970-3124c1b54b9c",
+                  "updatedTimestamp": "1646267404658"
+                }
+              ],
+              "createdTimestamp": "1646267404658",
+              "displayId": "100000764",
+              "exposureLocator": "d897e2a6-ca24-4839-b1d1-083db69b85d0",
+              "locator": "dfb737ab-d6b4-4ecd-83c9-45396d7ffbbb",
+              "name": "collision",
+              "policyLocator": "100000756",
+              "policyholderLocator": "ce4854e7-1aa7-468a-b085-9f5406b97618",
+              "productLocator": "d602a3e0-f038-4121-9970-3124c1b54b9c",
+              "renewalGroup": "dfb737ab-d6b4-4ecd-83c9-45396d7ffbbb",
+              "updatedTimestamp": "1646267404658"
+            }
+          ],
+          "policyLocator": "100000756",
+          "policyholderLocator": "ce4854e7-1aa7-468a-b085-9f5406b97618",
+          "productLocator": "d602a3e0-f038-4121-9970-3124c1b54b9c",
+          "updatedTimestamp": "1646267404658"
+        }
+      ],
+      "fees": [],
+      "grossFees": "0.00",
+      "grossFeesCurrency": "USD",
+      "invoices": [],
+      "locator": "100000754",
+      "modifications": [
+        {
+          "configVersion": "4",
+          "createdTimestamp": "1646267404658",
+          "displayId": "100000758",
+          "effectiveTimestamp": "1650006000000",
+          "exposureModifications": [
+            {
+              "exposureLocator": "d897e2a6-ca24-4839-b1d1-083db69b85d0",
+              "locator": "f8559d9e-4a12-4ab9-acdc-e72c03b0706e",
+              "newExposureCharacteristicsLocator": "7cc7d5a6-8500-4f7d-825d-5103eeabfc5a",
+              "perilModifications": [
+                {
+                  "exposureModificationLocator": "f8559d9e-4a12-4ab9-acdc-e72c03b0706e",
+                  "locator": "3686a0c7-abfa-4de5-9e47-7f1e67025acd",
+                  "newPerilCharacteristicsLocator": "6e9b2383-b437-46ba-9ea8-de9f7e037fbf",
+                  "perilLocator": "ed00f07e-c05e-415c-bc0d-2781e13128cf",
+                  "policyLocator": "100000756",
+                  "policyholderLocator": "ce4854e7-1aa7-468a-b085-9f5406b97618",
+                  "premiumChangeCurrency": "USD",
+                  "productLocator": "d602a3e0-f038-4121-9970-3124c1b54b9c"
+                },
+                {
+                  "exposureModificationLocator": "f8559d9e-4a12-4ab9-acdc-e72c03b0706e",
+                  "locator": "deaf965a-0be3-4671-ad64-9b71dfa26635",
+                  "newPerilCharacteristicsLocator": "481a480f-b7d2-4045-bd29-fe9adc807f3d",
+                  "perilLocator": "dfb737ab-d6b4-4ecd-83c9-45396d7ffbbb",
+                  "policyLocator": "100000756",
+                  "policyholderLocator": "ce4854e7-1aa7-468a-b085-9f5406b97618",
+                  "premiumChangeCurrency": "USD",
+                  "productLocator": "d602a3e0-f038-4121-9970-3124c1b54b9c"
+                }
+              ],
+              "policyLocator": "100000756",
+              "policyModificationLocator": "2a187280-d3cc-4526-bb2a-b9960ab64305",
+              "policyholderLocator": "ce4854e7-1aa7-468a-b085-9f5406b97618",
+              "productLocator": "d602a3e0-f038-4121-9970-3124c1b54b9c"
+            }
+          ],
+          "fieldGroupsByLocator": {},
+          "fieldValues": {},
+          "locator": "2a187280-d3cc-4526-bb2a-b9960ab64305",
+          "mediaByLocator": {},
+          "name": "modification.policy.create",
+          "newPolicyCharacteristicsLocator": "53af3579-93f3-46c5-bcdf-f0224e8a64c1",
+          "newPolicyCharacteristicsLocators": [
+            "53af3579-93f3-46c5-bcdf-f0224e8a64c1"
+          ],
+          "number": "0",
+          "policyLocator": "100000756",
+          "policyholderLocator": "ce4854e7-1aa7-468a-b085-9f5406b97618",
+          "premiumChangeCurrency": "USD",
+          "productLocator": "d602a3e0-f038-4121-9970-3124c1b54b9c",
+          "updatedTimestamp": "1646267404658"
+        }
+      ],
+      "originalContractEndTimestamp": "1735718400000",
+      "originalContractStartTimestamp": "1650006000000",
+      "paymentScheduleName": "semiannually",
+      "policyholderLocator": "ce4854e7-1aa7-468a-b085-9f5406b97618",
+      "productLocator": "d602a3e0-f038-4121-9970-3124c1b54b9c",
+      "productName": "personal-auto",
+      "quoteSummary": {
+        "notDiscarded": [
+          {
+            "locator": "100000766",
+            "name": "1",
+            "state": "draft"
+          }
+        ],
+        "selected": "100000766"
+      },
+      "updatedTimestamp": "1646267404658"
+    },
+    "policyExposurePerils": [
+      {
+        "exposureCharacteristicsLocator": "7cc7d5a6-8500-4f7d-825d-5103eeabfc5a",
+        "perilCharacteristicsLocator": "6e9b2383-b437-46ba-9ea8-de9f7e037fbf",
+        "policyCharacteristicsLocator": "53af3579-93f3-46c5-bcdf-f0224e8a64c1"
+      },
+      {
+        "exposureCharacteristicsLocator": "7cc7d5a6-8500-4f7d-825d-5103eeabfc5a",
+        "perilCharacteristicsLocator": "481a480f-b7d2-4045-bd29-fe9adc807f3d",
+        "policyCharacteristicsLocator": "53af3579-93f3-46c5-bcdf-f0224e8a64c1"
+      }
+    ],
+    "quoteLocator": "100000766",
+    "tenantTimeZone": "America/Los_Angeles"
+  }

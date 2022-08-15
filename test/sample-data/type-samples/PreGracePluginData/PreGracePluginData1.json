@@ -1,0 +1,13 @@
+{
+  "defaultGracePeriodDays": "30",
+  "invoiceLocator": "a7fa6b16-20c0-4c5d-bb82-89488cf2b6f2",
+  "policy": {
+    "currency": "USD",
+    "locator": "100000034",
+    "originalContractStartTimestamp": "1641013200000",
+    "policyholderLocator": "6fb1d94e-e81a-4998-a0fd-c269d2333b85",
+    "productName": "personal-auto",
+    "quoteLocator": "100000044"
+  },
+  "tenantTimeZone": "America/New_York"
+}

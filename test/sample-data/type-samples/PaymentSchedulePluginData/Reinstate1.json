@@ -1,0 +1,667 @@
+{
+  "charges": [
+    {
+      "amount": 2536.35,
+      "amountCurrency": "USD",
+      "category": "new",
+      "chargeId": "1_premium_d24ca716-d34b-49f9-a9cb-f12f30737915",
+      "coverageEndTimestamp": 1956556800000,
+      "coverageStartTimestamp": 1645084800000,
+      "isNew": true,
+      "originalAmount": 2536.35,
+      "perilCharacteristicsLocator": "d24ca716-d34b-49f9-a9cb-f12f30737915",
+      "perilLocator": "df0d0b6f-7205-40ce-add9-ee636aa1e90f",
+      "perilName": "bodily_injury",
+      "policyModificationLocator": "d7ddd21a-0942-4ec3-8930-83b5b21d47e6",
+      "previouslyInvoicedAmount": 0,
+      "type": "premium"
+    },
+    {
+      "amount": 0,
+      "amountCurrency": "USD",
+      "category": "new",
+      "chargeId": "2_tax_6fbc7a09-0500-4eef-9203-4cee2a57327c",
+      "coverageEndTimestamp": 1956556800000,
+      "coverageStartTimestamp": 1645084800000,
+      "isNew": true,
+      "originalAmount": 0,
+      "perilCharacteristicsLocator": "d24ca716-d34b-49f9-a9cb-f12f30737915",
+      "perilLocator": "df0d0b6f-7205-40ce-add9-ee636aa1e90f",
+      "perilName": "bodily_injury",
+      "policyModificationLocator": "d7ddd21a-0942-4ec3-8930-83b5b21d47e6",
+      "previouslyInvoicedAmount": 0,
+      "taxLocator": "6fbc7a09-0500-4eef-9203-4cee2a57327c",
+      "taxName": "sales",
+      "type": "tax"
+    }
+  ],
+  "coverageEndTimestamp": "1956556800000",
+  "coverageStartTimestamp": "1645084800000",
+  "defaultPaymentTerms": {
+    "amount": 32,
+    "unit": "day"
+  },
+  "oldPaymentScheduleName": "semiannually",
+  "operation": "reinstatement",
+  "paymentScheduleName": "semiannually",
+  "plannedInvoices": [],
+  "policy": {
+    "cancellation": {
+      "effectiveTimestamp": "1645084800000",
+      "modificationLocator": "3e853b61-cd5a-4ff7-9936-b6e0f1186b6b",
+      "modificationName": "modification.policy.cancel"
+    },
+    "characteristics": [
+      {
+        "createdTimestamp": "1645126925580",
+        "endTimestamp": "1956556800000",
+        "fieldGroupsByLocator": {},
+        "fieldValues": {
+          "10_year_felony_conviction": [
+            "No"
+          ],
+          "atfault_claims_past_5_years": [
+            "None"
+          ],
+          "channel": [
+            "Direct"
+          ],
+          "insurance_fraud_conviction": [
+            "No"
+          ],
+          "multiple_drivers": [
+            "No - Just Policyholder"
+          ]
+        },
+        "grossPremium": "2570.00",
+        "grossPremiumCurrency": "USD",
+        "grossTaxes": "0.00",
+        "grossTaxesCurrency": "USD",
+        "issuedTimestamp": "1645127053818",
+        "locator": "63f3eb19-ebe1-4570-ba80-f56749a3e3f1",
+        "mediaByLocator": {},
+        "policyEndTimestamp": 1956556800000,
+        "policyLocator": "100003836",
+        "policyStartTimestamp": "1641024000000",
+        "policyholderLocator": "bf44bc3d-1354-46fb-a2b9-55522194d954",
+        "productLocator": "b8b6af8a-b466-4cb6-92f2-07601020a82f",
+        "replacedTimestamp": "1645127099102",
+        "startTimestamp": "1641024000000",
+        "taxGroups": [],
+        "updatedTimestamp": "1645127099102"
+      },
+      {
+        "createdTimestamp": "1645127099102",
+        "endTimestamp": "1645084800000",
+        "fieldGroupsByLocator": {},
+        "fieldValues": {
+          "10_year_felony_conviction": [
+            "No"
+          ],
+          "atfault_claims_past_5_years": [
+            "None"
+          ],
+          "channel": [
+            "Direct"
+          ],
+          "insurance_fraud_conviction": [
+            "No"
+          ],
+          "multiple_drivers": [
+            "No - Just Policyholder"
+          ]
+        },
+        "grossPremium": "33.65",
+        "grossPremiumCurrency": "USD",
+        "grossTaxes": "0.00",
+        "grossTaxesCurrency": "USD",
+        "issuedTimestamp": "1645127099102",
+        "locator": "a64754a1-7506-4a65-9bed-d897fb6de3ff",
+        "mediaByLocator": {},
+        "policyEndTimestamp": 1956556800000,
+        "policyLocator": "100003836",
+        "policyStartTimestamp": "1641024000000",
+        "policyholderLocator": "bf44bc3d-1354-46fb-a2b9-55522194d954",
+        "productLocator": "b8b6af8a-b466-4cb6-92f2-07601020a82f",
+        "startTimestamp": "1641024000000",
+        "taxGroups": [
+          {
+            "amount": "0.00",
+            "amountCurrency": "USD",
+            "name": "sales"
+          }
+        ],
+        "updatedTimestamp": "1645127099102"
+      },
+      {
+        "createdTimestamp": "1645127302225",
+        "endTimestamp": "1956556800000",
+        "fieldGroupsByLocator": {},
+        "fieldValues": {
+          "10_year_felony_conviction": [
+            "No"
+          ],
+          "atfault_claims_past_5_years": [
+            "None"
+          ],
+          "channel": [
+            "Direct"
+          ],
+          "insurance_fraud_conviction": [
+            "No"
+          ],
+          "multiple_drivers": [
+            "No - Just Policyholder"
+          ]
+        },
+        "grossPremium": "2536.35",
+        "grossPremiumCurrency": "USD",
+        "grossTaxes": "0.00",
+        "grossTaxesCurrency": "USD",
+        "locator": "8a1ae3db-8fcc-4589-ae8b-3d6061d4fa90",
+        "mediaByLocator": {},
+        "policyEndTimestamp": 1956556800000,
+        "policyLocator": "100003836",
+        "policyStartTimestamp": "1641024000000",
+        "policyholderLocator": "bf44bc3d-1354-46fb-a2b9-55522194d954",
+        "productLocator": "b8b6af8a-b466-4cb6-92f2-07601020a82f",
+        "startTimestamp": "1645084800000",
+        "taxGroups": [
+          {
+            "amount": "0.00",
+            "amountCurrency": "USD",
+            "name": "sales"
+          }
+        ],
+        "updatedTimestamp": "1645127302225"
+      }
+    ],
+    "configVersion": "31",
+    "createdTimestamp": "1645126925580",
+    "displayId": "100003836",
+    "documents": [
+      {
+        "createdTimestamp": "1645127042045",
+        "displayName": "Policy Schedule",
+        "fileName": "schedule.pdf",
+        "locator": "50f52228-8d84-4656-8d36-5e8bb5735ee1",
+        "policyModificationLocator": "81eec1ed-053b-45e3-9388-c46f3ffb4265",
+        "type": "pdf",
+        "url": "https://document-c2d51a2e-5dda-474d-835d-68d63d7c8e92.s3.eu-west-1.amazonaws.com/81f18e16-895c-4693-881c-958a2953fceb/e8cb9bfa-4d55-4d86-8765-31c670faad12/document.original?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220217T194822Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Credential=AKIA5O5V6ZA7B5FTNA5D%2F20220217%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=060f420fbb906fcb12d7aa210ad941131142485a559dfb099c13b64f5057648a",
+        "urlExpirationTimestamp": "1645129102330"
+      },
+      {
+        "createdTimestamp": "1645127042045",
+        "displayName": "Regulatory Disclosure",
+        "fileName": "regulatory_disclosure.pdf",
+        "locator": "70a05469-5b7a-4025-aa3f-0fdb78c5c935",
+        "policyModificationLocator": "81eec1ed-053b-45e3-9388-c46f3ffb4265",
+        "type": "pdf",
+        "url": "https://document-c2d51a2e-5dda-474d-835d-68d63d7c8e92.s3.eu-west-1.amazonaws.com/81f18e16-895c-4693-881c-958a2953fceb/f2059d6f-1af9-4c6d-9bd2-20b9880644c0/document.original?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220217T194822Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Credential=AKIA5O5V6ZA7B5FTNA5D%2F20220217%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=f1fa49e63e385ac5ec9a7a10dd9216c9786c436459215c9f9ca97abc8ca43502",
+        "urlExpirationTimestamp": "1645129102330"
+      }
+    ],
+    "effectiveContractEndTimestamp": "1956556800000",
+    "exposures": [
+      {
+        "characteristics": [
+          {
+            "createdTimestamp": "1645126966053",
+            "endTimestamp": "1956556800000",
+            "exposureLocator": "5e3e026c-4552-4487-82e5-1da8f72e0667",
+            "fieldGroupsByLocator": {},
+            "fieldValues": {
+              "make": [
+                "HONDA"
+              ],
+              "model": [
+                "Civic"
+              ],
+              "vehicle_type": [
+                "SUV"
+              ],
+              "vehicle_value": [
+                "10000"
+              ],
+              "vin": [
+                "2JGEJ6526VH515414"
+              ],
+              "year": [
+                "1997"
+              ]
+            },
+            "issuedTimestamp": "1645127053818",
+            "locator": "cc03283b-bafb-45b9-b3a1-2f99f2ded823",
+            "mediaByLocator": {},
+            "policyLocator": "100003836",
+            "policyholderLocator": "bf44bc3d-1354-46fb-a2b9-55522194d954",
+            "productLocator": "b8b6af8a-b466-4cb6-92f2-07601020a82f",
+            "startTimestamp": "1641024000000",
+            "updatedTimestamp": "1645127053818"
+          }
+        ],
+        "createdTimestamp": "1645126966053",
+        "displayId": "100003862",
+        "locator": "5e3e026c-4552-4487-82e5-1da8f72e0667",
+        "name": "vehicle",
+        "perils": [
+          {
+            "characteristics": [
+              {
+                "coverageEndTimestamp": "1956556800000",
+                "coverageStartTimestamp": "1641024000000",
+                "createdTimestamp": "1645126966053",
+                "deductible": "1000.00",
+                "deductibleCurrency": "USD",
+                "exposureCharacteristicsLocator": "cc03283b-bafb-45b9-b3a1-2f99f2ded823",
+                "fieldGroupsByLocator": {},
+                "fieldValues": {},
+                "indemnityInAggregate": "50000.00",
+                "indemnityInAggregateCurrency": "USD",
+                "indemnityPerEvent": "30000.00",
+                "indemnityPerEventCurrency": "USD",
+                "indemnityPerItem": "30000.00",
+                "indemnityPerItemCurrency": "USD",
+                "issuedTimestamp": "1645127053818",
+                "locator": "1e7c868d-8026-470a-8dfd-25800d56889d",
+                "lumpSumPayment": "0.00",
+                "lumpSumPaymentCurrency": "USD",
+                "mediaByLocator": {},
+                "monthPremium": "21.4167",
+                "monthTechnicalPremium": "17.1333",
+                "perilLocator": "df0d0b6f-7205-40ce-add9-ee636aa1e90f",
+                "policyCharacteristicsLocator": "63f3eb19-ebe1-4570-ba80-f56749a3e3f1",
+                "policyLocator": "100003836",
+                "policyModificationLocator": "81eec1ed-053b-45e3-9388-c46f3ffb4265",
+                "policyholderLocator": "bf44bc3d-1354-46fb-a2b9-55522194d954",
+                "premium": "2570.00",
+                "premiumCurrency": "USD",
+                "premiumTemplateRevision": "11ec-9029-9d8e2481-abf2-7a4d705464e0",
+                "productLocator": "b8b6af8a-b466-4cb6-92f2-07601020a82f",
+                "replacedTimestamp": "1645127099102",
+                "technicalPremium": "2056.00",
+                "updatedTimestamp": "1645127099102"
+              },
+              {
+                "coverageEndTimestamp": "1645084800000",
+                "coverageStartTimestamp": "1641024000000",
+                "createdTimestamp": "1645127099102",
+                "deductible": "1000.00",
+                "deductibleCurrency": "USD",
+                "exposureCharacteristicsLocator": "cc03283b-bafb-45b9-b3a1-2f99f2ded823",
+                "fieldGroupsByLocator": {},
+                "fieldValues": {},
+                "indemnityInAggregate": "50000.00",
+                "indemnityInAggregateCurrency": "USD",
+                "indemnityPerEvent": "30000.00",
+                "indemnityPerEventCurrency": "USD",
+                "indemnityPerItem": "30000.00",
+                "indemnityPerItemCurrency": "USD",
+                "issuedTimestamp": "1645127099102",
+                "locator": "a1fdab4f-6a7f-4cbc-811e-0a073cead71a",
+                "lumpSumPayment": "0.00",
+                "lumpSumPaymentCurrency": "USD",
+                "mediaByLocator": {},
+                "monthPremium": "21.4167",
+                "monthTechnicalPremium": "17.1333",
+                "perilLocator": "df0d0b6f-7205-40ce-add9-ee636aa1e90f",
+                "policyCharacteristicsLocator": "a64754a1-7506-4a65-9bed-d897fb6de3ff",
+                "policyLocator": "100003836",
+                "policyModificationLocator": "3e853b61-cd5a-4ff7-9936-b6e0f1186b6b",
+                "policyholderLocator": "bf44bc3d-1354-46fb-a2b9-55522194d954",
+                "premium": "33.65",
+                "premiumCurrency": "USD",
+                "premiumTemplateRevision": "11ec-9029-9d8e2481-abf2-7a4d705464e0",
+                "productLocator": "b8b6af8a-b466-4cb6-92f2-07601020a82f",
+                "technicalPremium": "26.92",
+                "updatedTimestamp": "1645127099102"
+              },
+              {
+                "coverageEndTimestamp": "1956556800000",
+                "coverageStartTimestamp": "1645084800000",
+                "createdTimestamp": "1645127302225",
+                "deductible": "1000.00",
+                "deductibleCurrency": "USD",
+                "exposureCharacteristicsLocator": "cc03283b-bafb-45b9-b3a1-2f99f2ded823",
+                "fieldGroupsByLocator": {},
+                "fieldValues": {},
+                "indemnityInAggregate": "50000.00",
+                "indemnityInAggregateCurrency": "USD",
+                "indemnityPerEvent": "30000.00",
+                "indemnityPerEventCurrency": "USD",
+                "indemnityPerItem": "30000.00",
+                "indemnityPerItemCurrency": "USD",
+                "locator": "d24ca716-d34b-49f9-a9cb-f12f30737915",
+                "lumpSumPayment": "0.00",
+                "lumpSumPaymentCurrency": "USD",
+                "mediaByLocator": {},
+                "monthPremium": "21.4167",
+                "monthTechnicalPremium": "17.1333",
+                "perilLocator": "df0d0b6f-7205-40ce-add9-ee636aa1e90f",
+                "policyCharacteristicsLocator": "8a1ae3db-8fcc-4589-ae8b-3d6061d4fa90",
+                "policyLocator": "100003836",
+                "policyModificationLocator": "d7ddd21a-0942-4ec3-8930-83b5b21d47e6",
+                "policyholderLocator": "bf44bc3d-1354-46fb-a2b9-55522194d954",
+                "premium": "2536.35",
+                "premiumCurrency": "USD",
+                "premiumTemplateRevision": "11ec-9029-9d8e2481-abf2-7a4d705464e0",
+                "productLocator": "b8b6af8a-b466-4cb6-92f2-07601020a82f",
+                "technicalPremium": "2030.02",
+                "updatedTimestamp": "1645127302225"
+              }
+            ],
+            "createdTimestamp": "1645126966053",
+            "displayId": "100003864",
+            "exposureLocator": "5e3e026c-4552-4487-82e5-1da8f72e0667",
+            "locator": "df0d0b6f-7205-40ce-add9-ee636aa1e90f",
+            "name": "bodily_injury",
+            "policyLocator": "100003836",
+            "policyholderLocator": "bf44bc3d-1354-46fb-a2b9-55522194d954",
+            "productLocator": "b8b6af8a-b466-4cb6-92f2-07601020a82f",
+            "renewalGroup": "df0d0b6f-7205-40ce-add9-ee636aa1e90f",
+            "updatedTimestamp": "1645127099102"
+          }
+        ],
+        "policyLocator": "100003836",
+        "policyholderLocator": "bf44bc3d-1354-46fb-a2b9-55522194d954",
+        "productLocator": "b8b6af8a-b466-4cb6-92f2-07601020a82f",
+        "updatedTimestamp": "1645127099102"
+      }
+    ],
+    "fees": [
+      {
+        "amount": "1.31",
+        "amountCurrency": "USD",
+        "description": "",
+        "endTimestamp": "1645084800000",
+        "locator": "da07b894-6723-4e95-9e7b-b16ea3cf6727",
+        "name": "policy_fee",
+        "reversed": false,
+        "startTimestamp": "1641024000000"
+      },
+      {
+        "amount": "98.69",
+        "amountCurrency": "USD",
+        "description": "",
+        "endTimestamp": "1956556800000",
+        "locator": "a355ef59-43ee-46e3-a851-f2f4de83cb2d",
+        "name": "policy_fee",
+        "reversed": false,
+        "startTimestamp": "1645084800000"
+      }
+    ],
+    "grossFees": "1.31",
+    "grossFeesCurrency": "USD",
+    "invoices": [
+      {
+        "createdTimestamp": "1645127049043",
+        "displayId": "100003878",
+        "documents": [
+          {
+            "createdTimestamp": "1645127049043",
+            "displayName": "invoice_100003878.pdf",
+            "fileName": "invoice_100003878.pdf",
+            "locator": "c584b00d-7947-47db-9d83-c35527c9043c",
+            "type": "pdf",
+            "url": "https://document-c2d51a2e-5dda-474d-835d-68d63d7c8e92.s3.eu-west-1.amazonaws.com/81f18e16-895c-4693-881c-958a2953fceb/77f000c2-efb0-4dbd-a7c8-1d77e63fc7d7/document.original?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220217T194822Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Credential=AKIA5O5V6ZA7B5FTNA5D%2F20220217%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=d96517bbd90d826771f5a84470d96d547b4f90e2734683426e375fd561f57dfc",
+            "urlExpirationTimestamp": "1645129102334"
+          }
+        ],
+        "dueTimestamp": "1645171199999",
+        "endTimestamp": 1656658800000,
+        "invoiceType": "newBusiness",
+        "locator": "d0dfb9a9-c249-4761-b9ef-be51cc39abf6",
+        "payments": [
+          {
+            "amount": "133.50",
+            "amountCurrency": "USD",
+            "displayId": "100003880",
+            "fieldValues": {},
+            "invoiceLocator": "d0dfb9a9-c249-4761-b9ef-be51cc39abf6",
+            "locator": "339b775a-8031-4001-a996-d125d5b9b540",
+            "mediaByLocator": {},
+            "postedTimestamp": "1645127076262"
+          }
+        ],
+        "policyLocator": "100003836",
+        "settlementStatus": "settled",
+        "settlementType": "paid",
+        "startTimestamp": 1641024000000,
+        "statuses": [
+          {
+            "status": "paid",
+            "timestamp": "1645127076262"
+          },
+          {
+            "status": "unfulfilled",
+            "timestamp": "1645127049043"
+          }
+        ],
+        "totalDue": 133.5,
+        "totalDueCurrency": "USD",
+        "transactionIssued": true,
+        "updatedTimestamp": "1645127076262"
+      },
+      {
+        "createdTimestamp": "1645127191925",
+        "displayId": "100004002",
+        "documents": [
+          {
+            "createdTimestamp": "1645127191925",
+            "displayName": "invoice_100004002.pdf",
+            "fileName": "invoice_100004002.pdf",
+            "locator": "bfa4216f-6689-4150-8045-f19d74e06e3f",
+            "type": "pdf",
+            "url": "https://document-c2d51a2e-5dda-474d-835d-68d63d7c8e92.s3.eu-west-1.amazonaws.com/81f18e16-895c-4693-881c-958a2953fceb/3105e8a5-8262-4f43-aa50-c4c4dbc4d74a/document.original?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220217T194822Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Credential=AKIA5O5V6ZA7B5FTNA5D%2F20220217%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=bbf419c3c319bf2887236415f2cd5944af704c762f8989727882ea50e5dc91fb",
+            "urlExpirationTimestamp": "1645129102339"
+          }
+        ],
+        "dueTimestamp": "1645171199999",
+        "endTimestamp": 1656658800000,
+        "invoiceType": "installment",
+        "locator": "657256c2-1a09-4964-a5bd-50ff4f8b5a0c",
+        "payments": [
+          {
+            "amount": "-98.54",
+            "amountCurrency": "USD",
+            "displayId": "100003972",
+            "fieldValues": {},
+            "invoiceLocator": "657256c2-1a09-4964-a5bd-50ff4f8b5a0c",
+            "locator": "871ca76e-ae76-4c9e-aa05-10eab5a3698c",
+            "mediaByLocator": {},
+            "postedTimestamp": "1645127285007"
+          }
+        ],
+        "policyLocator": "100003836",
+        "settlementStatus": "settled",
+        "settlementType": "paid",
+        "startTimestamp": 1641024000000,
+        "statuses": [
+          {
+            "status": "paid",
+            "timestamp": "1645127285007"
+          },
+          {
+            "status": "unfulfilled",
+            "timestamp": "1645127191925"
+          }
+        ],
+        "totalDue": -98.54,
+        "totalDueCurrency": "USD",
+        "transactionIssued": true,
+        "updatedTimestamp": "1645127285007"
+      }
+    ],
+    "issuedTimestamp": "1645127053818",
+    "locator": "100003836",
+    "modifications": [
+      {
+        "automatedUnderwritingResult": {
+          "decision": "accept",
+          "decisionTimestamp": "1645127042045",
+          "notes": [
+            "Premium includes credit for being claims free."
+          ]
+        },
+        "configVersion": "31",
+        "createdTimestamp": "1645126925580",
+        "displayId": "100003840",
+        "effectiveTimestamp": 1641024000000,
+        "exposureModifications": [
+          {
+            "exposureLocator": "5e3e026c-4552-4487-82e5-1da8f72e0667",
+            "locator": "0cb3b0ec-3fa8-4884-8db0-3fe53686f322",
+            "newExposureCharacteristicsLocator": "cc03283b-bafb-45b9-b3a1-2f99f2ded823",
+            "perilModifications": [
+              {
+                "exposureModificationLocator": "0cb3b0ec-3fa8-4884-8db0-3fe53686f322",
+                "locator": "7a5c7f7d-c785-4f94-9bc7-15670dd6a8c0",
+                "newPerilCharacteristicsLocator": "1e7c868d-8026-470a-8dfd-25800d56889d",
+                "perilLocator": "df0d0b6f-7205-40ce-add9-ee636aa1e90f",
+                "policyLocator": "100003836",
+                "policyholderLocator": "bf44bc3d-1354-46fb-a2b9-55522194d954",
+                "premiumChange": "2570.00",
+                "premiumChangeCurrency": "USD",
+                "productLocator": "b8b6af8a-b466-4cb6-92f2-07601020a82f"
+              }
+            ],
+            "policyLocator": "100003836",
+            "policyModificationLocator": "81eec1ed-053b-45e3-9388-c46f3ffb4265",
+            "policyholderLocator": "bf44bc3d-1354-46fb-a2b9-55522194d954",
+            "productLocator": "b8b6af8a-b466-4cb6-92f2-07601020a82f"
+          }
+        ],
+        "fieldGroupsByLocator": {},
+        "fieldValues": {},
+        "issuedTimestamp": "1645127053818",
+        "locator": "81eec1ed-053b-45e3-9388-c46f3ffb4265",
+        "mediaByLocator": {},
+        "name": "modification.policy.create",
+        "newPolicyCharacteristicsLocator": "63f3eb19-ebe1-4570-ba80-f56749a3e3f1",
+        "newPolicyCharacteristicsLocators": [
+          "63f3eb19-ebe1-4570-ba80-f56749a3e3f1"
+        ],
+        "number": "0",
+        "policyEndTimestamp": "1956556800000",
+        "policyLocator": "100003836",
+        "policyholderLocator": "bf44bc3d-1354-46fb-a2b9-55522194d954",
+        "premiumChange": "2570.00",
+        "premiumChangeCurrency": "USD",
+        "productLocator": "b8b6af8a-b466-4cb6-92f2-07601020a82f",
+        "updatedTimestamp": "1645127053818"
+      },
+      {
+        "cancellationName": "insureds_request",
+        "configVersion": "31",
+        "createdTimestamp": "1645127090768",
+        "displayId": "100003882",
+        "effectiveTimestamp": 1645084800000,
+        "exposureModifications": [
+          {
+            "exposureLocator": "5e3e026c-4552-4487-82e5-1da8f72e0667",
+            "locator": "93d1b04d-a3c0-4e9d-ae44-efb6cfbeb7bd",
+            "perilModifications": [
+              {
+                "exposureModificationLocator": "93d1b04d-a3c0-4e9d-ae44-efb6cfbeb7bd",
+                "locator": "45332a7f-2317-432c-acc4-4d20cda651cf",
+                "newPerilCharacteristicsLocator": "a1fdab4f-6a7f-4cbc-811e-0a073cead71a",
+                "perilLocator": "df0d0b6f-7205-40ce-add9-ee636aa1e90f",
+                "policyLocator": "100003836",
+                "policyholderLocator": "bf44bc3d-1354-46fb-a2b9-55522194d954",
+                "premiumChange": "-2536.35",
+                "premiumChangeCurrency": "USD",
+                "productLocator": "b8b6af8a-b466-4cb6-92f2-07601020a82f",
+                "replacedPerilCharacteristicsLocator": "1e7c868d-8026-470a-8dfd-25800d56889d"
+              }
+            ],
+            "policyLocator": "100003836",
+            "policyModificationLocator": "3e853b61-cd5a-4ff7-9936-b6e0f1186b6b",
+            "policyholderLocator": "bf44bc3d-1354-46fb-a2b9-55522194d954",
+            "productLocator": "b8b6af8a-b466-4cb6-92f2-07601020a82f"
+          }
+        ],
+        "fieldGroupsByLocator": {},
+        "fieldValues": {},
+        "issuedTimestamp": "1645127099102",
+        "locator": "3e853b61-cd5a-4ff7-9936-b6e0f1186b6b",
+        "mediaByLocator": {},
+        "name": "modification.policy.cancel",
+        "newPolicyCharacteristicsLocator": "a64754a1-7506-4a65-9bed-d897fb6de3ff",
+        "newPolicyCharacteristicsLocators": [
+          "a64754a1-7506-4a65-9bed-d897fb6de3ff"
+        ],
+        "number": "1",
+        "policyEndTimestamp": "1645084800000",
+        "policyLocator": "100003836",
+        "policyholderLocator": "bf44bc3d-1354-46fb-a2b9-55522194d954",
+        "premiumChange": "-2536.35",
+        "premiumChangeCurrency": "USD",
+        "productLocator": "b8b6af8a-b466-4cb6-92f2-07601020a82f",
+        "updatedTimestamp": "1645127099102"
+      },
+      {
+        "configVersion": "31",
+        "createdTimestamp": "1645127271567",
+        "displayId": "100003968",
+        "effectiveTimestamp": 1645084800000,
+        "exposureModifications": [
+          {
+            "exposureLocator": "5e3e026c-4552-4487-82e5-1da8f72e0667",
+            "locator": "03a24294-99b1-47ca-8a2f-800138715fae",
+            "perilModifications": [
+              {
+                "exposureModificationLocator": "03a24294-99b1-47ca-8a2f-800138715fae",
+                "locator": "19989dc5-210a-4983-bb5b-307434f2dd9f",
+                "newPerilCharacteristicsLocator": "d24ca716-d34b-49f9-a9cb-f12f30737915",
+                "perilLocator": "df0d0b6f-7205-40ce-add9-ee636aa1e90f",
+                "policyLocator": "100003836",
+                "policyholderLocator": "bf44bc3d-1354-46fb-a2b9-55522194d954",
+                "premiumChange": "2536.35",
+                "premiumChangeCurrency": "USD",
+                "productLocator": "b8b6af8a-b466-4cb6-92f2-07601020a82f"
+              }
+            ],
+            "policyLocator": "100003836",
+            "policyModificationLocator": "d7ddd21a-0942-4ec3-8930-83b5b21d47e6",
+            "policyholderLocator": "bf44bc3d-1354-46fb-a2b9-55522194d954",
+            "productLocator": "b8b6af8a-b466-4cb6-92f2-07601020a82f"
+          }
+        ],
+        "fieldGroupsByLocator": {},
+        "fieldValues": {},
+        "issuedTimestamp": "1645127302225",
+        "locator": "d7ddd21a-0942-4ec3-8930-83b5b21d47e6",
+        "mediaByLocator": {},
+        "name": "modification.policy.reinstate",
+        "newPolicyCharacteristicsLocators": [],
+        "number": "2",
+        "policyLocator": "100003836",
+        "policyholderLocator": "bf44bc3d-1354-46fb-a2b9-55522194d954",
+        "premiumChange": "2536.35",
+        "premiumChangeCurrency": "USD",
+        "productLocator": "b8b6af8a-b466-4cb6-92f2-07601020a82f",
+        "updatedTimestamp": "1645127301927"
+      }
+    ],
+    "originalContractEndTimestamp": "1956556800000",
+    "originalContractStartTimestamp": 1641024000000,
+    "paymentScheduleName": "semiannually",
+    "policyholderLocator": "bf44bc3d-1354-46fb-a2b9-55522194d954",
+    "productLocator": "b8b6af8a-b466-4cb6-92f2-07601020a82f",
+    "productName": "personal-auto",
+    "quoteSummary": {
+      "notDiscarded": [
+        {
+          "locator": "100003842",
+          "name": "1",
+          "state": "accepted"
+        }
+      ],
+      "selected": "100003842"
+    },
+    "updatedTimestamp": "1645127302225"
+  },
+  "productName": "personal-auto",
+  "tenantTimeZone": "America/Los_Angeles",
+  "transactionType": "reinstatement"
+}
