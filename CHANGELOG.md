@@ -1,3 +1,9 @@
+## 1.1
+
+### Chore & Maintenance
+* Moved main plugin tests under respective components
+* Set fixed timestamp on partial payment test
+
 ## 1.0
 
 ### Features
