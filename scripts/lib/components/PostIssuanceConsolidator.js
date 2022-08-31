@@ -14,7 +14,7 @@ const DEFAULT_OPTIONS = {
 }
 
 class PostIssuanceConsolidator {
-    VERSION = '1.0';
+    VERSION = '1.1';
 
     constructor(data, options = {}) {
         this.data = data;
