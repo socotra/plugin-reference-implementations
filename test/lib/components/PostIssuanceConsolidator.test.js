@@ -1,9 +1,9 @@
-const { getPostIssuanceResult } = require('../../scripts/main/postIssuance.js');
-const { getPostIssuanceData1 } = require('../sample-data/postIssuanceSampleData.js');
+const { PostIssuanceConsolidator } = require('../../../scripts/lib/components/PostIssuanceConsolidator');
+const { getPostIssuanceData1 } = require('../../sample-data/postIssuanceSampleData.js');
 
 describe('Post-issuance', () => {
     it('Should return consolidated document result in accordance with options', () => {
-        const result = getPostIssuanceResult(getPostIssuanceData1());
+        const result = (new PostIssuanceConsolidator(getPostIssuanceData1())).getPostIssuanceResult();
         expect(result.documentConsolidations).toHaveLength(1);
         const doc = result.documentConsolidations[0];
         expect(doc.displayName).toEqual("Consolidated Document");

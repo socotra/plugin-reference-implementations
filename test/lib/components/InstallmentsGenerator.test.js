@@ -1,19 +1,18 @@
-const createInstallments = require('../../scripts/main/installments.js').createInstallments;
-const { DateCalc } = require('../../scripts/lib/utils/DateCalc.js');
-const { InstallmentsGenerator } = require('../../scripts/lib/components/InstallmentsGenerator.js');
+const { DateCalc } = require('../../../scripts/lib/utils/DateCalc.js');
+const { InstallmentsGenerator } = require('../../../scripts/lib/components/InstallmentsGenerator.js');
 const { displaySummary,
-        commonAssertions,
-        getInvoiceItemSum,
-        getPairs } = require('../test-helpers.js');
-const { validSamples, invalidSamples } = require('../sample-data/paymentScheduleSampleData.js');
-const { roundMoney } = require('../../scripts/main/common-options.js').options;
+    commonAssertions,
+    getInvoiceItemSum,
+    getPairs } = require('../../test-helpers.js');
+const { validSamples, invalidSamples } = require('../../sample-data/paymentScheduleSampleData.js');
+const { roundMoney } = require('../../../scripts/main/common-options.js').options;
 
 
 describe('installments plugin (invalid input)', () => {
     let data = invalidSamples.getUnrecognizedScheduleChange();
 
     it('should throw an error if given an unrecognized schedule name', () => {
-        expect(() => { createInstallments(data)}).toThrow();
+        expect(() => { (new InstallmentsGenerator(data)).getInstallments() }).toThrow();
     });
 });
 
@@ -43,8 +42,8 @@ describe.each(Object.entries(validSamples))('default behavior sample %s', (sampl
  */
 describe('installment fees', () => {
     const options = { installmentFeeAmount: 1,
-                      installmentFeeName: 'added fee',
-                      installmentFeeDescription: 'an additional fee'}
+        installmentFeeName: 'added fee',
+        installmentFeeDescription: 'an additional fee'}
     const { installments } = (new InstallmentsGenerator(validSamples.getNewBusiness1(), options)).getInstallments();
     const originalInputData = (new InstallmentsGenerator(validSamples.getNewBusiness1(), options)).data;
 

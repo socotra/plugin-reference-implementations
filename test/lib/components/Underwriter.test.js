@@ -1,12 +1,11 @@
-const { getUnderwritingResult } = require('../../scripts/main/underwriter.js');
-const { Underwriter } = require ('../../scripts/lib/components/Underwriter.js');
+const { Underwriter } = require ('../../../scripts/lib/components/Underwriter.js');
 
-const sampleData = require('../sample-data/underwritingSampleData.js');
+const sampleData = require('../../sample-data/underwritingSampleData.js');
 
 describe('underwriting results on new business', () => {
     it('should return an "accept" decision and notes for acceptable new business', () => {
         const data = sampleData.getNewBusinessData();
-        const result = getUnderwritingResult(data);
+        const result = (new Underwriter(data)).getUnderwritingResults();
 
         expect(result.decision).toBe("accept");
         expect(result.notes).toHaveLength(0);
@@ -16,7 +15,7 @@ describe('underwriting results on new business', () => {
 describe('underwriting results on endorsement', () => {
     it('should have an "accept" decision and notes for acceptable endorsement', () => {
         const data = sampleData.getEndorsementData();
-        const result = getUnderwritingResult(data);
+        const result = (new Underwriter(data)).getUnderwritingResults();
 
         expect(result.decision).toBe("accept");
         expect(result.notes).toHaveLength(0);

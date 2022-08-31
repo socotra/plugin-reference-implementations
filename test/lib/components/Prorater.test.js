@@ -1,10 +1,10 @@
-const getProrationResult = require('../../scripts/main/prorater.js').getProrationResult;
+const { Prorater } = require('../../../scripts/lib/components/Prorater.js');
 
-const sampleData = require('../sample-data/prorationSampleData.js');
+const sampleData = require('../../sample-data/prorationSampleData.js');
 
 describe.each(Object.values(sampleData))('sample %#', (getData) => {
     const data = getData();
-    const result = getProrationResult(data);
+    const result = (new Prorater(data)).getProratedAmounts();
     for (const item of result.items) {
         it("should ensure each returned item has a finite numerical proratedAmount", () => {
             expect(Number.isFinite(item.proratedAmount)).toBe(true);
