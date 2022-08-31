@@ -1,5 +1,6 @@
 require("../../lib/utils/arrays.js");
-const standardPlugin = require("../../main/installments.js");
+
+const { InstallmentsGenerator }= require("../../lib/components/InstallmentsGenerator.js");
 
 /**
  * In the event of a full pay situation that should be converted into installments
@@ -23,14 +24,19 @@ const standardPlugin = require("../../main/installments.js");
  * the logic is triggered *only* when you want it to.
 */
 
-function createInstallments(data) {
+function createInstallments(data, nowTimestampOverride) {
     const FULL_PAY_SCHEDULE_NAME = 'upfront';
     const CREATE_FULL_CREDIT_INVOICE = true;
     const CHANGE_WINDOW_DURATION = 90 * 24 * 60 * 60 * 1000; /* 90 days */
     const now = new Date().valueOf();
 
     const FORCE_FOR_TESTING = true;
-    
+
+    const generator = new InstallmentsGenerator(data);
+    if (nowTimestampOverride) {
+        generator.nowTimestamp = nowTimestampOverride;
+    }
+
     // adjust as needed for business reqs
     const conditionsMet = data.oldPaymentScheduleName === FULL_PAY_SCHEDULE_NAME &&
                           data.paymentScheduleName !== FULL_PAY_SCHEDULE_NAME &&
@@ -40,20 +46,20 @@ function createInstallments(data) {
                           now - data.policy.invoices[0].createdTimestamp < CHANGE_WINDOW_DURATION;
 
     if (!(conditionsMet || FORCE_FOR_TESTING)) {
-        return standardPlugin.createInstallments(data);
-    } else {
-        return adjustForFullPayToMonthlyCredit(data, CREATE_FULL_CREDIT_INVOICE)
+        return generator.getInstallments();
     }
+
+    return adjustForFullPayToMonthlyCredit(data, generator, CREATE_FULL_CREDIT_INVOICE);
 }
 
-function adjustForFullPayToMonthlyCredit(data, CREATE_FULL_CREDIT_INVOICE) {
+function adjustForFullPayToMonthlyCredit(data, generator, CREATE_FULL_CREDIT_INVOICE) {
     // Find a single charge which will be manipulated to create the overall invoice amounts desired
     const carrierCharge = data.charges.first(ch => ch.type === 'premium') ||
         data.charges.first(ch => ch.type !== 'commission');
 
     // If we didn't find one then we can't proceed
     if (!carrierCharge) {
-        return standardPlugin.createInstallments(data);
+        return generator.getInstallments();
     }
 
     const { DateCalc } = require('../../lib/utils/DateCalc.js');
@@ -84,10 +90,10 @@ function adjustForFullPayToMonthlyCredit(data, CREATE_FULL_CREDIT_INVOICE) {
 
     // It may be that there are billed amounts that don't show up on any charge
     // because they are fully billed and filtered before they come to the plugin.
-    // Therefore the totalCredits may be less than the actual credit we want to
+    // Therefore, the totalCredits may be less than the actual credit we want to
     // create, so we'll do this:
     // * Create a positive charge for the difference and spread it over installments
-    // * Put a new invice item with the opposite amount on the first installment (a
+    // * Put a new invoice item with the opposite amount on the first installment (a
     //   credit) such that the net amount for this synthetic charge is zero.
     const dateCalc = new DateCalc(data.tenantTimeZone,
         parseInt(data.policy.originalContractStartTimestamp),
@@ -116,7 +122,7 @@ function adjustForFullPayToMonthlyCredit(data, CREATE_FULL_CREDIT_INVOICE) {
         });
 
         // Run the normal installments algorithm
-        const response = standardPlugin.createInstallments(data);
+        const response = generator.getInstallments();
         for (const ii of response.installments.flatMap(i => i.invoiceItems))
             if (ii.chargeId === REVERSAL_SLUG)
                 ii.chargeId = carrierCharge.chargeId;

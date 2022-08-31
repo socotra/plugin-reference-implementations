@@ -3,7 +3,7 @@ const { getFullPayToMonthlyEndorsement1 } = require('../../sample-data/paymentSc
 
 describe('full pay to monthly wrapper', () => {
     it('should return expected values', () => {
-        const { installments }= createInstallments(getFullPayToMonthlyEndorsement1());
+        const { installments }= createInstallments(getFullPayToMonthlyEndorsement1(), 1660316037757);
         expect(installments).toHaveLength(8);
         installments.forEach((installment, idx) => {
             if (idx === 0) {
