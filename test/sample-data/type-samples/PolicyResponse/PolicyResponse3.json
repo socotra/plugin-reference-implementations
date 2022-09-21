@@ -1,0 +1,228 @@
+{
+  "locator": "100000200",
+  "displayId": "100000200",
+  "originalContractStartTimestamp": "1664596800000",
+  "originalContractEndTimestamp": "1696132800000",
+  "effectiveContractEndTimestamp": "1696132800000",
+  "characteristics": [
+    {
+      "locator": "8d592c86-fe52-490c-859c-fc4a76917ecb",
+      "policyLocator": "100000200",
+      "startTimestamp": "1664596800000",
+      "endTimestamp": "1696132800000",
+      "policyStartTimestamp": "1664596800000",
+      "policyEndTimestamp": "1696132800000",
+      "grossPremium": "3000.00",
+      "taxGroups": [],
+      "grossTaxes": "0.00",
+      "issuedTimestamp": "1663781469140",
+      "fieldValues": {
+        "channel": [
+          "Direct"
+        ]
+      },
+      "fieldGroupsByLocator": {},
+      "mediaByLocator": {},
+      "policyholderLocator": "dfda0447-5be8-4594-a9e3-efab1f53ed3f",
+      "productLocator": "9e0e53fb-0f72-4fab-b164-bf0d4afd1780",
+      "createdTimestamp": "1663781464529",
+      "updatedTimestamp": "1663781469140"
+    }
+  ],
+  "exposures": [
+    {
+      "locator": "ce5ec023-d267-41fb-8067-d2fe5bb4347c",
+      "name": "vehicle",
+      "displayId": "100000206",
+      "characteristics": [
+        {
+          "locator": "200cee37-52ef-479f-a8ec-308902cb0325",
+          "exposureLocator": "ce5ec023-d267-41fb-8067-d2fe5bb4347c",
+          "issuedTimestamp": "1663781469140",
+          "startTimestamp": "1664596800000",
+          "endTimestamp": "1696132800000",
+          "fieldValues": {
+            "year": [
+              "2012"
+            ],
+            "vehicle_type": [
+              "Car"
+            ],
+            "vehicle_value": [
+              "30000"
+            ],
+            "model": [
+              "A4"
+            ],
+            "license_plate": [
+              "123456"
+            ],
+            "make": [
+              "Audi"
+            ]
+          },
+          "fieldGroupsByLocator": {},
+          "mediaByLocator": {},
+          "policyholderLocator": "dfda0447-5be8-4594-a9e3-efab1f53ed3f",
+          "productLocator": "9e0e53fb-0f72-4fab-b164-bf0d4afd1780",
+          "policyLocator": "100000200",
+          "createdTimestamp": "1663781464529",
+          "updatedTimestamp": "1663781469140"
+        }
+      ],
+      "perils": [
+        {
+          "locator": "65594635-d1b3-49d1-ac78-f9e4c8eb75fc",
+          "displayId": "100000208",
+          "name": "third_party_liability",
+          "exposureLocator": "ce5ec023-d267-41fb-8067-d2fe5bb4347c",
+          "renewalGroup": "65594635-d1b3-49d1-ac78-f9e4c8eb75fc",
+          "characteristics": [
+            {
+              "locator": "0134dc6c-7091-4664-814e-59b18001a4fa",
+              "perilLocator": "65594635-d1b3-49d1-ac78-f9e4c8eb75fc",
+              "issuedTimestamp": "1663781469140",
+              "exposureCharacteristicsLocator": "200cee37-52ef-479f-a8ec-308902cb0325",
+              "policyCharacteristicsLocator": "8d592c86-fe52-490c-859c-fc4a76917ecb",
+              "premium": "3000.00",
+              "monthPremium": "250.0000",
+              "coverageStartTimestamp": "1664596800000",
+              "coverageEndTimestamp": "1696132800000",
+              "fieldValues": {},
+              "fieldGroupsByLocator": {},
+              "mediaByLocator": {},
+              "policyModificationLocator": "3ba32d44-61d7-4941-ab52-6e86af85f25e",
+              "policyholderLocator": "dfda0447-5be8-4594-a9e3-efab1f53ed3f",
+              "productLocator": "9e0e53fb-0f72-4fab-b164-bf0d4afd1780",
+              "policyLocator": "100000200",
+              "createdTimestamp": "1663781464529",
+              "updatedTimestamp": "1663781469140"
+            }
+          ],
+          "policyholderLocator": "dfda0447-5be8-4594-a9e3-efab1f53ed3f",
+          "productLocator": "9e0e53fb-0f72-4fab-b164-bf0d4afd1780",
+          "policyLocator": "100000200",
+          "createdTimestamp": "1663781464529",
+          "updatedTimestamp": "1663781469140"
+        }
+      ],
+      "policyholderLocator": "dfda0447-5be8-4594-a9e3-efab1f53ed3f",
+      "productLocator": "9e0e53fb-0f72-4fab-b164-bf0d4afd1780",
+      "policyLocator": "100000200",
+      "createdTimestamp": "1663781464529",
+      "updatedTimestamp": "1663781469140"
+    }
+  ],
+  "modifications": [
+    {
+      "locator": "3ba32d44-61d7-4941-ab52-6e86af85f25e",
+      "name": "modification.policy.create",
+      "displayId": "100000204",
+      "number": "0",
+      "issuedTimestamp": "1663781469140",
+      "effectiveTimestamp": "1664596800000",
+      "fieldValues": {},
+      "fieldGroupsByLocator": {},
+      "mediaByLocator": {},
+      "newPolicyCharacteristicsLocator": "8d592c86-fe52-490c-859c-fc4a76917ecb",
+      "newPolicyCharacteristicsLocators": [
+        "8d592c86-fe52-490c-859c-fc4a76917ecb"
+      ],
+      "premiumChange": "3000.00",
+      "exposureModifications": [
+        {
+          "locator": "6c0a6bde-13a2-4d3a-80de-e9581287d484",
+          "policyModificationLocator": "3ba32d44-61d7-4941-ab52-6e86af85f25e",
+          "exposureLocator": "ce5ec023-d267-41fb-8067-d2fe5bb4347c",
+          "newExposureCharacteristicsLocator": "200cee37-52ef-479f-a8ec-308902cb0325",
+          "perilModifications": [
+            {
+              "locator": "0fa9510f-5b45-4a13-8233-5c79e4f41bed",
+              "perilLocator": "65594635-d1b3-49d1-ac78-f9e4c8eb75fc",
+              "exposureModificationLocator": "6c0a6bde-13a2-4d3a-80de-e9581287d484",
+              "newPerilCharacteristicsLocator": "0134dc6c-7091-4664-814e-59b18001a4fa",
+              "premiumChange": "3000.00",
+              "policyholderLocator": "dfda0447-5be8-4594-a9e3-efab1f53ed3f",
+              "productLocator": "9e0e53fb-0f72-4fab-b164-bf0d4afd1780",
+              "policyLocator": "100000200"
+            }
+          ],
+          "policyholderLocator": "dfda0447-5be8-4594-a9e3-efab1f53ed3f",
+          "productLocator": "9e0e53fb-0f72-4fab-b164-bf0d4afd1780",
+          "policyLocator": "100000200"
+        }
+      ],
+      "automatedUnderwritingResult": {
+        "decision": "accept",
+        "notes": [],
+        "decisionTimestamp": "1663781464529"
+      },
+      "policyholderLocator": "dfda0447-5be8-4594-a9e3-efab1f53ed3f",
+      "productLocator": "9e0e53fb-0f72-4fab-b164-bf0d4afd1780",
+      "policyLocator": "100000200",
+      "createdTimestamp": "1663781464529",
+      "updatedTimestamp": "1663781469140",
+      "configVersion": "2",
+      "policyEndTimestamp": "1696132800000"
+    }
+  ],
+  "fees": [],
+  "grossFees": "0.00",
+  "documents": [
+    {
+      "locator": "96c3ff7c-bf91-430e-a97d-1c7fbb30b1bf",
+      "url": "https://document-c2d51a2e-5dda-474d-835d-68d63d7c8e92.s3.eu-west-1.amazonaws.com/4a5f4564-91a4-49e6-92e3-689376a17f32/a0c7e9ba-c883-496f-8918-8d1d7ebf08ad/document.original?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220921T173111Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Credential=AKIA5O5V6ZA7B5FTNA5D%2F20220921%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=c383979ef1752527de600a5dc20e514de229e59b2c2dd7e7427dbc2323cc4c25",
+      "urlExpirationTimestamp": "1663783271730",
+      "fileName": "schedule.pdf",
+      "displayName": "Policy Schedule",
+      "type": "pdf",
+      "createdTimestamp": "1663781464529",
+      "policyModificationLocator": "3ba32d44-61d7-4941-ab52-6e86af85f25e"
+    }
+  ],
+  "invoices": [
+    {
+      "locator": "e922b2ed-f948-43ad-80c5-f592c1713782",
+      "policyLocator": "100000200",
+      "displayId": "100000214",
+      "statuses": [
+        {
+          "status": "unfulfilled",
+          "timestamp": "1663781464529"
+        }
+      ],
+      "payments": [],
+      "documents": [
+        {
+          "locator": "f2ead82e-8450-419b-90de-776922a96060",
+          "url": "https://document-c2d51a2e-5dda-474d-835d-68d63d7c8e92.s3.eu-west-1.amazonaws.com/4a5f4564-91a4-49e6-92e3-689376a17f32/7eb444c8-69f6-4c30-8c71-ce8239d5412c/document.original?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220921T173111Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Credential=AKIA5O5V6ZA7B5FTNA5D%2F20220921%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=e1a8b76ab38bc6a9afb0a4b2f757037909ebf1825153cafada7ef0e75acbf8db",
+          "urlExpirationTimestamp": "1663783271734",
+          "fileName": "invoice_100000214.pdf",
+          "displayName": "invoice_100000214.pdf",
+          "type": "pdf",
+          "createdTimestamp": "1663781464529"
+        }
+      ],
+      "dueTimestamp": "1664683199999",
+      "totalDue": "250.00",
+      "totalDueCurrency": "USD",
+      "settlementStatus": "outstanding",
+      "startTimestamp": "1664596800000",
+      "endTimestamp": "1667275200000",
+      "createdTimestamp": "1663781464529",
+      "updatedTimestamp": "1663781469140",
+      "invoiceType": "newBusiness",
+      "transactionIssued": true
+    }
+  ],
+  "issuedTimestamp": "1663781469140",
+  "paymentScheduleName": "monthly",
+  "policyholderLocator": "dfda0447-5be8-4594-a9e3-efab1f53ed3f",
+  "productLocator": "9e0e53fb-0f72-4fab-b164-bf0d4afd1780",
+  "productName": "simple_auto",
+  "createdTimestamp": "1663781464529",
+  "updatedTimestamp": "1663781469140",
+  "configVersion": "2",
+  "currency": "USD",
+  "quoteLocator": "100000210"
+}

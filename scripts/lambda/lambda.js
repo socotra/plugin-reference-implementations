@@ -1,6 +1,9 @@
+const { getEquityDate } = require('../lib/components/equityDate.js');
+
 function executeLambda(operation, payload) {
     switch(operation) {
-        // Define logic based on operation and return appropriate payload
+        case 'getEquityDate':
+            return getEquityDate(payload.policyLocator, payload.amount);
         default:
             return {};
     }
