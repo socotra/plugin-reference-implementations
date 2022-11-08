@@ -340,71 +340,44 @@ class DateCalc {
         return endM.diff(startM, 'days');
     }
 
-    linearRatio(startTimestamp, splitTimestamp, endTimestamp, clampZeroToOne = true) {
+    #getRatioCalculation(startTimestamp, splitTimestamp, endTimestamp, getRatioFn, clampZeroToOne = true) {
         if (startTimestamp >= endTimestamp) {
-            throw "Linear Ratio: Denominator cannot be zero or negative.";
+            throw "Duration Ratio: Denominator cannot be zero or negative.";
         }
 
         if (splitTimestamp > endTimestamp) {
-            throw "Linear Ratio: Split cannot be after end.";
+            throw "Duration Ratio: Split cannot be after end.";
         }
 
         if (splitTimestamp <= startTimestamp) {
             return 0;
         }
 
-        let result = (splitTimestamp - startTimestamp) / (endTimestamp - startTimestamp);
+        let result = getRatioFn();
 
         if (clampZeroToOne) {
             result = Math.max(0, Math.min(1, result));
         }
 
         return result;
+    }
+
+    linearRatio(startTimestamp, splitTimestamp, endTimestamp, clampZeroToOne = true) {
+        return this.#getRatioCalculation(startTimestamp, splitTimestamp, endTimestamp,
+            () => (splitTimestamp - startTimestamp) / (endTimestamp - startTimestamp), clampZeroToOne);
     }
 
     dayCountRatio(startTimestamp, splitTimestamp, endTimestamp, clampZeroToOne = true) {
-        if (startTimestamp >= endTimestamp) {
-            throw "Linear Ratio: Denominator cannot be zero or negative.";
-        }
-
-        if (splitTimestamp > endTimestamp) {
-            throw "Linear Ratio: Split cannot be after end.";
-        }
-
-        if (splitTimestamp <= startTimestamp) {
-            return 0;
-        }
-
-        let result = this.dayCount(startTimestamp, splitTimestamp) / this.dayCount(startTimestamp, endTimestamp);
-
-        if (clampZeroToOne) {
-            result = Math.max(0, Math.min(1, result));
-        }
-
-        return result;
+        return this.#getRatioCalculation(startTimestamp, splitTimestamp, endTimestamp,
+            () => this.dayCount(startTimestamp, splitTimestamp) / this.dayCount(startTimestamp, endTimestamp),
+            clampZeroToOne);
     }
 
     socotraMonthCountRatio(startTimestamp, splitTimestamp, endTimestamp, clampZeroToOne = true) {
-        if (startTimestamp >= endTimestamp) {
-            throw "Linear Ratio: Denominator cannot be zero or negative.";
-        }
-
-        if (splitTimestamp > endTimestamp) {
-            throw "Linear Ratio: Split cannot be after end.";
-        }
-
-        if (splitTimestamp <= startTimestamp) {
-            return 0;
-        }
-
-        let result = this.socotraMonthCount(startTimestamp, splitTimestamp) /
-            this.socotraMonthCount(startTimestamp, endTimestamp);
-
-        if (clampZeroToOne) {
-            result = Math.max(0, Math.min(1, result));
-        }
-
-        return result;
+        return this.#getRatioCalculation(startTimestamp, splitTimestamp, endTimestamp,
+            () => this.socotraMonthCount(startTimestamp, splitTimestamp) / this.socotraMonthCount(
+                startTimestamp, endTimestamp),
+            clampZeroToOne);
     }
 
     incrementMonth(startTimestamp, numMonths = 1) {
