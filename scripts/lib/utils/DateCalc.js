@@ -177,12 +177,12 @@ class DateCalc {
         const maxCount = (increment === 'eon') ? 1 : (options.maxCount || 100000000);
         const returnMetadata = options.returnMetadata !== false;
         const returnIntervals = options.returnIntervals !== false;
-   
+
         const cursor = this.#toMoment(anchorTimestamp);
-        
+
         const baseDay = cursor.date();
         let sequence = [];
-        
+
         let incrementArray;
 
         if (startTimestamp >= endTimestamp) {
@@ -348,12 +348,57 @@ class DateCalc {
         if (splitTimestamp > endTimestamp) {
             throw "Linear Ratio: Split cannot be after end.";
         }
-        
+
         if (splitTimestamp <= startTimestamp) {
             return 0;
         }
 
         let result = (splitTimestamp - startTimestamp) / (endTimestamp - startTimestamp);
+
+        if (clampZeroToOne) {
+            result = Math.max(0, Math.min(1, result));
+        }
+
+        return result;
+    }
+
+    dayCountRatio(startTimestamp, splitTimestamp, endTimestamp, clampZeroToOne = true) {
+        if (startTimestamp >= endTimestamp) {
+            throw "Linear Ratio: Denominator cannot be zero or negative.";
+        }
+
+        if (splitTimestamp > endTimestamp) {
+            throw "Linear Ratio: Split cannot be after end.";
+        }
+
+        if (splitTimestamp <= startTimestamp) {
+            return 0;
+        }
+
+        let result = this.dayCount(startTimestamp, splitTimestamp) / this.dayCount(startTimestamp, endTimestamp);
+
+        if (clampZeroToOne) {
+            result = Math.max(0, Math.min(1, result));
+        }
+
+        return result;
+    }
+
+    socotraMonthCountRatio(startTimestamp, splitTimestamp, endTimestamp, clampZeroToOne = true) {
+        if (startTimestamp >= endTimestamp) {
+            throw "Linear Ratio: Denominator cannot be zero or negative.";
+        }
+
+        if (splitTimestamp > endTimestamp) {
+            throw "Linear Ratio: Split cannot be after end.";
+        }
+
+        if (splitTimestamp <= startTimestamp) {
+            return 0;
+        }
+
+        let result = this.socotraMonthCount(startTimestamp, splitTimestamp) /
+            this.socotraMonthCount(startTimestamp, endTimestamp);
 
         if (clampZeroToOne) {
             result = Math.max(0, Math.min(1, result));
@@ -368,7 +413,7 @@ class DateCalc {
 
     monthCount(startTimestamp, endTimestamp) {
         let curM = this.#toMoment(startTimestamp);
-        
+
         let startDayOfMonth;
 
         if (this.#anchorTimestamp) {
@@ -425,14 +470,14 @@ class DateCalc {
             const differenceInMonths = endM.month() - startM.month();
             return differenceInMonths + differenceInYears * 12;
         }
-    
+
         // Normal case
         const baseDate = baseM.date();
 
         let monthCount = 0;
         let prevMonth = startM.clone();
         let monthCursor = this.#socotraIncrementMomentByMonth(startM, baseDate);
-        
+
         while (monthCursor.valueOf() < endTimestamp) {
             prevMonth = monthCursor;
             monthCursor = this.#socotraIncrementMomentByMonth(monthCursor, baseDate);
@@ -456,7 +501,7 @@ class DateCalc {
             const remainder = endTimestamp - prevMonthVal;
             const totalNextMonthMillis = monthCursor.valueOf() - prevMonthVal;
             return this.#round7(monthCount + remainder / totalNextMonthMillis);
-        } 
+        }
     }
 
     targetAmountToSocotraYearlyRate(startTimestamp, endTimestamp, targetAmount)
@@ -538,7 +583,7 @@ class DateCalc {
         let startM = this.#toMoment(startTimestamp);
         let endM = this.#toMoment(endTimestamp);
 
-        let years = endM.year() - startM.year();   
+        let years = endM.year() - startM.year();
 
         if (years !== 0) {
             endM.add(-years, 'years');
