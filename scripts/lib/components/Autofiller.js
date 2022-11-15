@@ -1,5 +1,5 @@
 class Autofiller {
-    VERSION = '1.1';
+    VERSION = '1.2';
 
     constructor(data) {
         this.data = data;

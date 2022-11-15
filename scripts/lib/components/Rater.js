@@ -8,7 +8,7 @@ const { durationCalcMethod } = require('../utils/utils.js');
 const { roundMoney } = require('../../main/common-options.js').options;
 
 class Rater {
-    VERSION = '1.1';
+    VERSION = '1.2';
 
     constructor(data) {
         this.data = data;
