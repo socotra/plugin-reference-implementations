@@ -1,3 +1,8 @@
+## 1.2
+### Chore & Maintenance
+* Illustrative tests for partial (aka "mismatched") payment installment plugin
+* Additional ratio methods in `dateCalc`
+
 ## 1.1
 
 ### Chore & Maintenance
