@@ -14,7 +14,7 @@ const DEFAULT_OPTIONS = {
 }
 
 class PreGraceAdjuster {
-    VERSION = '1.2';
+    VERSION = '1.3';
 
     constructor(data, options = {}) {
         this.data = data;

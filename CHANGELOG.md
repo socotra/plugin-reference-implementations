@@ -1,3 +1,7 @@
+## 1.3
+### Fixes
+* Prevent weighted first installment from being subject to shortfall adjustments
+
 ## 1.2
 ### Chore & Maintenance
 * Illustrative tests for partial (aka "mismatched") payment installment plugin
