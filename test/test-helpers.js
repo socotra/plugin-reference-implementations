@@ -1,3 +1,4 @@
+require('../scripts/lib/utils/arrays.js');
 const fs = require('fs');
 const {DateCalc} = require("../scripts/lib/utils/DateCalc.js");
 const { roundMoney }= require('../scripts/main/common-options.js').options;
@@ -19,7 +20,7 @@ function createMockApi(options)
     if (options && options.tablePath && options.tablePath.length)
     {
         const Fs = require('fs');
-        const Path = require('path');  
+        const Path = require('path');
 
         let listOfFilesInDirectory = Fs.readdirSync(options.tablePath);
 
@@ -31,10 +32,10 @@ function createMockApi(options)
     }
     if (options && options.tableInfo)
     {
-        tableData = new Map([...tableData, 
+        tableData = new Map([...tableData,
                              ...csvToMap(options.tableInfo.map(x => [x.tableName, parseCSV(x.tableData)]))]);
     }
-    
+
     global.socotraApi = {
         tableLookup: (configVersion, tableName, key) =>
         {
@@ -137,7 +138,7 @@ ${installments.map((i) => getInstallmentCoverageSummary(i, dateCalc)).join('')}`
 }
 
 function getInvoiceTableSummary(data, installments, dateCalc) {
-    
+
     let times = data.policy.invoices.map(inv => inv.startTimestamp);
     times.push(...data.plannedInvoices.map(pi => pi.startTimestamp));
     times.push(...installments.map(inst => inst.startTimestamp));
