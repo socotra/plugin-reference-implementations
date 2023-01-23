@@ -86,7 +86,7 @@ const DEFAULT_PAYMENT_SCHEDULE_TO_INCREMENT = {
 }
 
 class InstallmentsGenerator {
-    VERSION = '1.2';
+    VERSION = '1.3';
 
     data;
     dateCalc;
@@ -618,6 +618,12 @@ class InstallmentsGenerator {
             let cursor = 0;
             while (unitShortfall) {
                 let idx = cursor++ % distribution.length;
+
+                // protect specific weighting val on first installment
+                if (idx === 0 && this.options.firstInstallmentWeight != null) {
+                    continue;
+                }
+
                 if (distribution[idx] !== 0 || cursor > 1000) {
                     unitShortfall--;
                     distribution[idx] = roundMoney(distribution[idx] + correction);

@@ -1,4 +1,4 @@
-## 1.3
+## 1.4
 
 ### Features
 * Partial payments implementation wrapper now recognizes "overpay credit" option to apply overpay amounts to subsequent invoices
@@ -6,6 +6,11 @@
 
 ### Fixes
 * Added missing `arrays.js` import to `test-helpers.js`
+
+## 1.3
+
+### Fixes
+* Prevent weighted first installment from being subject to shortfall adjustments
 
 ## 1.2
 

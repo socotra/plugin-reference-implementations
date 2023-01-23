@@ -233,3 +233,12 @@ describe('leveling threshold behavior', () => {
 
     commonAssertions(originalInputData, installments);
 });
+
+describe('protect front weighting on shortfall adjustment', () => {
+    it('should protect weighted first installments from having shortfall additions', () => {
+       const generator = new InstallmentsGenerator(validSamples.getLiteChargeSet1(), { firstInstallmentWeight: 0.2 });
+
+       const { installments } = generator.getInstallments();
+       expect(installments[0].invoiceItems[0].amount).toBeCloseTo(20, 6);
+    });
+});

@@ -37,7 +37,8 @@ module.exports = {
         getReinstate1: () => jsonFromFile(f('Reinstate1.json')),
         getReinstate2: () => jsonFromFile(f('Reinstate2.json')),
         getRefund1: () => jsonFromFile(f('Refund1.json')),
-        getWholeDollarEndorsement1: () => jsonFromFile(f('WholeDollarEndorsement1.json'))
+        getWholeDollarEndorsement1: () => jsonFromFile(f('WholeDollarEndorsement1.json')),
+        getLiteChargeSet1: () => jsonFromFile(f('LiteChargeSet1.json')),
     },
     invalidSamples: {
         getUnrecognizedScheduleChange: () => jsonFromFile(f('UnrecognizedScheduleChange.json'))
