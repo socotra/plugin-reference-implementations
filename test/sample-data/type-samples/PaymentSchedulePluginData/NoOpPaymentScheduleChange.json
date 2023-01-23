@@ -77,7 +77,7 @@
   },
   "oldPaymentScheduleName": "monthly",
   "operation": "manual",
-  "paymentScheduleName": "monthly-alt",
+  "paymentScheduleName": "monthly",
   "plannedInvoices": [
     {
       "dueTimestamp": "1645448399999",
@@ -749,7 +749,7 @@
     ],
     "originalContractEndTimestamp": "1658386800000",
     "originalContractStartTimestamp": "1642752000000",
-    "paymentScheduleName": "monthly-alt",
+    "paymentScheduleName": "monthly",
     "policyholderLocator": "1ce37f3e-0432-4c05-80af-43799c5ee048",
     "productLocator": "b1bdae34-0c8f-47e1-88fe-b32dc2d72938",
     "productName": "personal-auto",

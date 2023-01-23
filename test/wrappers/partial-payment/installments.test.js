@@ -6,7 +6,7 @@ const EPSILON = 0.000001;
 const TARGET_INVOICE_LOCATOR = '0bffe358-eb80-4214-820e-c605b4ae4f11';
 
 describe('partial payments implementation', () => {
-    describe.each(['30.00', '1000.00'])('client paid %i', (clientPaidAmount) => {
+    describe.each(['30.00', '10000.00'])('client paid %i', (clientPaidAmount) => {
         global.socotraApi = {
             getAuxData: function() {
                 return JSON.stringify({

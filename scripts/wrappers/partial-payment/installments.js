@@ -8,15 +8,18 @@ const { InstallmentsGenerator }= require("../../lib/components/InstallmentsGener
  *      2. `paymentAmount`
  *      3. `totalDue`
  *      4. `invoiceCreatedTimestamp`
+ *
+ *  An optional property `applyOverpayCredit`, when provided and set to `true`, will result in negative remainder
+ *  amounts being applied to subsequent installments until the remainder is exhausted.
  */
 function createInstallments(data) {
-    const generator = new InstallmentsGenerator(data, { paymentScheduleToIncrement: { 'monthly-alt': 'month' }});
+    const generator = new InstallmentsGenerator(data);
     const { installments } = generator.getInstallments();
 
     const partialPaymentInfo = socotraApi.getAuxData(data.policy.locator, 'partialPaymentInfo');
 
     if (partialPaymentInfo) {
-        return { installments: adjustForPartialPayments(data, installments, partialPaymentInfo) }
+        return { installments: adjustForPartialPayments(data, installments, partialPaymentInfo) };
     } else {
         return { installments };
     }
@@ -26,7 +29,7 @@ function adjustForPartialPayments(data, installments, partialPaymentInfo) {
     const now = new Date().getTime();
 
     partialPaymentInfo = JSON.parse(partialPaymentInfo);
-    
+
     if (now > parseInt(partialPaymentInfo.expires)) {
         socotraApi.deleteAuxData(data.policy.locator, 'partialPaymentInfo');
         return installments;
@@ -64,7 +67,7 @@ function adjustForPartialPayments(data, installments, partialPaymentInfo) {
                 dueTimestamp: reversalInstallment.dueTimestamp,
                 installmentFees: [],
                 writeOff: false
-            };      
+            };
             reversalInstallment.invoiceItems = [ {
                 chargeId: offsetCharge.chargeId,
                 amount: reversalAmount
@@ -73,7 +76,7 @@ function adjustForPartialPayments(data, installments, partialPaymentInfo) {
                 chargeId: offsetCharge.chargeId,
                 amount: paymentAmount
             }];
-          
+
             // If the new installments overlap with any calculated installments, merge them
             const overlapItems = installments.filter(i => i.startTime <= endTime && i.endTime >= startTime)
                                              .flatMap(i => i.invoiceItems);
@@ -81,13 +84,47 @@ function adjustForPartialPayments(data, installments, partialPaymentInfo) {
                 newInstallment.invoiceItems = [...newInstallment.invoiceItems, ...overlapItems];
                 installments.remove(i => i => i.startTime <= endTime && i.endTime >= startTime);
             }
-            const remainderInstallment = installments.find(i => Math.abs(i.invoiceItems.sum(ii => ii.amount)) > 0.009) ||
-                                         installments.find(i => Math.abs(i.endTimestamp >= now)) ||
-                                         installments[0];
-            remainderInstallment.invoiceItems.push( {
-                chargeId: offsetCharge.chargeId,
-                amount: remainder
-            });
+
+            if (remainder < 0 && partialPaymentInfo.applyOverpayCredit) {
+                let remainderDistrib = remainder;
+                for (let installment of installments) {
+                    const installTotalDue = installment.invoiceItems.map(i => i.amount).sum();
+                    if (installTotalDue <= 0) continue;
+                    if (Math.abs(remainderDistrib) >= installTotalDue) {
+                        installment.invoiceItems.push({
+                            chargeId: offsetCharge.chargeId,
+                            amount: -installTotalDue
+                        });
+                        remainderDistrib += installTotalDue;
+                    } else {
+                        installment.invoiceItems.push({
+                            chargeId: offsetCharge.chargeId,
+                            amount: remainderDistrib
+                        });
+
+                        remainderDistrib = 0;
+                    }
+                }
+
+                // We need to address what should happen if we exhaust the set of planned installments
+                // to fully discount and still have remainder left to refund.
+                // Here, we simply place that amount on the first (non-merged, non-reversal, non-customer payment)
+                // installment.
+                if (remainderDistrib < 0) {
+                    installments[0].invoiceItems.push({
+                        chargeId: offsetCharge.chargeId,
+                        amount: remainderDistrib
+                    })
+                }
+            } else {
+                const remainderInstallment = installments.find(i => Math.abs(i.invoiceItems.sum(ii => ii.amount)) > 0.009) ||
+                    installments.find(i => Math.abs(i.endTimestamp >= now)) ||
+                    installments[0];
+                remainderInstallment.invoiceItems.push( {
+                    chargeId: offsetCharge.chargeId,
+                    amount: remainder
+                });
+            }
 
             installments = [reversalInstallment, newInstallment, ...installments].filter(i => i.invoiceItems.length);
             for (const inst of installments) {
