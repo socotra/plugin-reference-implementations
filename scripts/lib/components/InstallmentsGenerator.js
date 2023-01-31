@@ -58,8 +58,10 @@ const DEFAULT_OPTIONS = {
     // will result in logic to force evening by spread or writeOff (see levelingMethod)
     levelingThreshold: 1,
 
-    // if 'spread', any odd cents after leveling logic will be distributed across requisite number of
-    // installments; if 'writeOff', odd cents will be accumulated onto a distinct written-off installment
+    // leveling method options:
+    //  * 'spread': odd cents after leveling logic will distribute evenly over latter installments in a leveled segment
+    //  * 'last': odd cents after leveling logic will placed onto the last installment in a leveled segment
+    //  * 'writeOff': odd cents will be accumulated onto a distinct written-off installment
     levelingMethod: 'spread',
 
     // if true, leveling will be performed on the series of installments across all terms; else,
@@ -412,7 +414,8 @@ class InstallmentsGenerator {
     #levelInstallments(installments) {
         const opts = this.options;
 
-        if (installments.length > 1 && (opts.levelingMethod === 'spread' || opts.levelingMethod === 'writeOff')) {
+        if (installments.length > 1 && (
+            opts.levelingMethod === 'spread' || opts.levelingMethod === 'writeOff' || opts.levelingMethod === 'last')) {
             const writeOffs = [];
             let startIdx = 0;
             let startingAmount = this.#getPayableAmountForInstallment(installments[0]);
@@ -450,7 +453,8 @@ class InstallmentsGenerator {
                     dueTimestamp: last.endTimestamp,
                     invoiceItems: writeOffs,
                     installmentFees: [],
-                    writeOff: true
+                    writeOff: true,
+                    info: {}
                 });
             }
         }
@@ -471,17 +475,22 @@ class InstallmentsGenerator {
         const targetLevel = roundMoney(sum / amounts.length);
         const deltas = amounts.map(a => roundMoney(targetLevel - a));
         if (!writeOffOddCents) {
-            /* if there are multiple odd cents, spread them */
             let oddCents = Math.round((sum - targetLevel * amounts.length) / moneyUnit);
-            for (let i = amounts.length - 1; i >= 0; i--) {
-                if (oddCents > 0) {
-                    deltas[i] += moneyUnit;
-                    oddCents--;
-                } else if (oddCents < 0) {
-                    deltas[i] -= moneyUnit;
-                    oddCents++;
-                } else {
-                    break;
+
+            const lastAmountsIdx = amounts.length - 1;
+            if (this.options.levelingMethod === 'last') {
+                deltas[lastAmountsIdx] = moneyUnit * oddCents;
+            } else { // spread
+                for (let i = lastAmountsIdx; i >= 0; i--) {
+                    if (oddCents > 0) {
+                        deltas[i] += moneyUnit;
+                        oddCents--;
+                    } else if (oddCents < 0) {
+                        deltas[i] -= moneyUnit;
+                        oddCents++;
+                    } else {
+                        break;
+                    }
                 }
             }
         }

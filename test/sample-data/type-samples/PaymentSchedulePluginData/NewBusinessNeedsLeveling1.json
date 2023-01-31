@@ -1,0 +1,308 @@
+{
+  "charges": [
+    {
+      "amount": 567,
+      "amountCurrency": "USD",
+      "category": "new",
+      "chargeId": "1_premium_5661bd19-f7b4-41f2-a9ec-fdec02c42604",
+      "coverageEndTimestamp": 1704085200000,
+      "coverageStartTimestamp": 1672549200000,
+      "isNew": true,
+      "originalAmount": 567,
+      "perilCharacteristicsLocator": "5661bd19-f7b4-41f2-a9ec-fdec02c42604",
+      "perilLocator": "7d7b9b8b-57d5-4a84-840d-817ef2f74f03",
+      "perilName": "a_third_party_liability",
+      "policyModificationLocator": "8d752a33-c08f-4f34-86fe-4f24bad9ffa7",
+      "previouslyInvoicedAmount": 0,
+      "type": "premium"
+    },
+    {
+      "amount": 52.45,
+      "amountCurrency": "USD",
+      "category": "new",
+      "chargeId": "2_tax_825341ee-7e48-4474-8131-3ed35dc49281",
+      "coverageEndTimestamp": 1704085200000,
+      "coverageStartTimestamp": 1672549200000,
+      "isNew": true,
+      "originalAmount": 52.45,
+      "perilCharacteristicsLocator": "5661bd19-f7b4-41f2-a9ec-fdec02c42604",
+      "perilLocator": "7d7b9b8b-57d5-4a84-840d-817ef2f74f03",
+      "perilName": "a_third_party_liability",
+      "policyModificationLocator": "8d752a33-c08f-4f34-86fe-4f24bad9ffa7",
+      "previouslyInvoicedAmount": 0,
+      "taxLocator": "825341ee-7e48-4474-8131-3ed35dc49281",
+      "taxName": "sales",
+      "type": "tax"
+    },
+    {
+      "amount": 10,
+      "amountCurrency": "USD",
+      "category": "new",
+      "chargeId": "3_fee_398d1345-e64a-43bc-907d-7fa24734ba65",
+      "coverageEndTimestamp": 1704085200000,
+      "coverageStartTimestamp": 1672549200000,
+      "feeLocator": "398d1345-e64a-43bc-907d-7fa24734ba65",
+      "feeName": "underwriting",
+      "isNew": true,
+      "originalAmount": 10,
+      "policyModificationLocator": "8d752a33-c08f-4f34-86fe-4f24bad9ffa7",
+      "previouslyInvoicedAmount": 0,
+      "type": "fee"
+    },
+    {
+      "amount": 17.01,
+      "amountCurrency": "USD",
+      "category": "new",
+      "chargeId": "4_fee_38d32602-c8ca-474e-a95a-893bea2571c6",
+      "coverageEndTimestamp": 1704085200000,
+      "coverageStartTimestamp": 1672549200000,
+      "feeLocator": "38d32602-c8ca-474e-a95a-893bea2571c6",
+      "feeName": "transaction",
+      "isNew": true,
+      "originalAmount": 17.01,
+      "policyModificationLocator": "8d752a33-c08f-4f34-86fe-4f24bad9ffa7",
+      "previouslyInvoicedAmount": 0,
+      "type": "fee"
+    }
+  ],
+  "coverageEndTimestamp": "1704085200000",
+  "coverageStartTimestamp": "1672549200000",
+  "defaultPaymentTerms": {
+    "amount": 0,
+    "unit": "day"
+  },
+  "oldPaymentScheduleName": "monthly",
+  "operation": "newBusiness",
+  "paymentScheduleName": "monthly",
+  "plannedInvoices": [],
+  "policy": {
+    "characteristics": [
+      {
+        "createdTimestamp": "1675184729114",
+        "endTimestamp": "1704085200000",
+        "fieldGroupsByLocator": {},
+        "fieldValues": {
+          "10_year_felony_conviction": [
+            "No"
+          ],
+          "atfault_claims_past_5_years": [
+            "None"
+          ],
+          "channel": [
+            "Direct"
+          ],
+          "insurance_fraud_conviction": [
+            "No"
+          ],
+          "multiple_drivers": [
+            "No - Just Policyholder"
+          ]
+        },
+        "grossPremium": "567.00",
+        "grossTaxes": "52.45",
+        "locator": "20a1d455-cfcd-45eb-be18-3e9f9626fe68",
+        "mediaByLocator": {},
+        "policyEndTimestamp": 1704085200000,
+        "policyLocator": "100029902",
+        "policyStartTimestamp": "1672549200000",
+        "policyholderLocator": "4e4c777d-d487-4750-8c79-0530e7a3226c",
+        "productLocator": "98130b4d-f424-4fbe-b3bb-a07778c02809",
+        "startTimestamp": "1672549200000",
+        "taxGroups": [
+          {
+            "amount": "52.45",
+            "name": "sales"
+          }
+        ],
+        "updatedTimestamp": "1675184729114"
+      }
+    ],
+    "configVersion": "2",
+    "createdTimestamp": "1675184729114",
+    "currency": "USD",
+    "displayId": "100029902",
+    "documents": [],
+    "effectiveContractEndTimestamp": 1704085200000,
+    "exposures": [
+      {
+        "characteristics": [
+          {
+            "createdTimestamp": "1675184729114",
+            "endTimestamp": "1704085200000",
+            "exposureLocator": "8c3a6f0c-3f00-4f4d-80c1-f707903b2717",
+            "fieldGroupsByLocator": {},
+            "fieldValues": {
+              "body_style": [
+                "2 door"
+              ],
+              "license_plate": [
+                "123456"
+              ],
+              "make": [
+                "Audi"
+              ],
+              "model": [
+                "A4"
+              ],
+              "vehicle_type": [
+                "Car"
+              ],
+              "vehicle_value": [
+                "30000"
+              ],
+              "year": [
+                "2012"
+              ]
+            },
+            "locator": "bb44a8d0-7deb-4d2e-9495-cd4d3b967e8b",
+            "mediaByLocator": {},
+            "policyLocator": "100029902",
+            "policyholderLocator": "4e4c777d-d487-4750-8c79-0530e7a3226c",
+            "productLocator": "98130b4d-f424-4fbe-b3bb-a07778c02809",
+            "startTimestamp": "1672549200000",
+            "updatedTimestamp": "1675184729114"
+          }
+        ],
+        "createdTimestamp": "1675184729114",
+        "displayId": "100029906",
+        "locator": "8c3a6f0c-3f00-4f4d-80c1-f707903b2717",
+        "name": "vehicle",
+        "perils": [
+          {
+            "characteristics": [
+              {
+                "coverageEndTimestamp": "1704085200000",
+                "coverageStartTimestamp": "1672549200000",
+                "createdTimestamp": "1675184729114",
+                "exposureCharacteristicsLocator": "bb44a8d0-7deb-4d2e-9495-cd4d3b967e8b",
+                "fieldGroupsByLocator": {},
+                "fieldValues": {},
+                "locator": "5661bd19-f7b4-41f2-a9ec-fdec02c42604",
+                "mediaByLocator": {},
+                "monthPremium": "47.2500",
+                "monthTechnicalPremium": "37.8000",
+                "perilLocator": "7d7b9b8b-57d5-4a84-840d-817ef2f74f03",
+                "policyCharacteristicsLocator": "20a1d455-cfcd-45eb-be18-3e9f9626fe68",
+                "policyLocator": "100029902",
+                "policyModificationLocator": "8d752a33-c08f-4f34-86fe-4f24bad9ffa7",
+                "policyholderLocator": "4e4c777d-d487-4750-8c79-0530e7a3226c",
+                "premium": "567.00",
+                "productLocator": "98130b4d-f424-4fbe-b3bb-a07778c02809",
+                "technicalPremium": "453.60",
+                "updatedTimestamp": "1675184729114"
+              }
+            ],
+            "createdTimestamp": "1675184729114",
+            "displayId": "100029908",
+            "exposureLocator": "8c3a6f0c-3f00-4f4d-80c1-f707903b2717",
+            "locator": "7d7b9b8b-57d5-4a84-840d-817ef2f74f03",
+            "name": "a_third_party_liability",
+            "policyLocator": "100029902",
+            "policyholderLocator": "4e4c777d-d487-4750-8c79-0530e7a3226c",
+            "productLocator": "98130b4d-f424-4fbe-b3bb-a07778c02809",
+            "renewalGroup": "7d7b9b8b-57d5-4a84-840d-817ef2f74f03",
+            "updatedTimestamp": "1675184729114"
+          }
+        ],
+        "policyLocator": "100029902",
+        "policyholderLocator": "4e4c777d-d487-4750-8c79-0530e7a3226c",
+        "productLocator": "98130b4d-f424-4fbe-b3bb-a07778c02809",
+        "updatedTimestamp": "1675184729114"
+      }
+    ],
+    "fees": [
+      {
+        "amount": "10.00",
+        "description": "",
+        "endTimestamp": "1704085200000",
+        "locator": "398d1345-e64a-43bc-907d-7fa24734ba65",
+        "name": "underwriting",
+        "reversed": false,
+        "startTimestamp": "1672549200000"
+      },
+      {
+        "amount": "17.01",
+        "description": "",
+        "endTimestamp": "1704085200000",
+        "locator": "38d32602-c8ca-474e-a95a-893bea2571c6",
+        "name": "transaction",
+        "reversed": false,
+        "startTimestamp": "1672549200000"
+      }
+    ],
+    "grossFees": "27.01",
+    "invoices": [],
+    "locator": "100029900",
+    "modifications": [
+      {
+        "automatedUnderwritingResult": {
+          "decision": "accept",
+          "decisionTimestamp": "1675184729114",
+          "notes": []
+        },
+        "configVersion": "2",
+        "createdTimestamp": "1675184729114",
+        "displayId": "100029904",
+        "effectiveTimestamp": 1672549200000,
+        "exposureModifications": [
+          {
+            "exposureLocator": "8c3a6f0c-3f00-4f4d-80c1-f707903b2717",
+            "locator": "a9247883-948a-4e8b-b00c-aa186141db8c",
+            "newExposureCharacteristicsLocator": "bb44a8d0-7deb-4d2e-9495-cd4d3b967e8b",
+            "perilModifications": [
+              {
+                "exposureModificationLocator": "a9247883-948a-4e8b-b00c-aa186141db8c",
+                "locator": "aff9f1df-0343-458e-a71e-547ad8ba40ba",
+                "newPerilCharacteristicsLocator": "5661bd19-f7b4-41f2-a9ec-fdec02c42604",
+                "perilLocator": "7d7b9b8b-57d5-4a84-840d-817ef2f74f03",
+                "policyLocator": "100029902",
+                "policyholderLocator": "4e4c777d-d487-4750-8c79-0530e7a3226c",
+                "premiumChange": "567.00",
+                "productLocator": "98130b4d-f424-4fbe-b3bb-a07778c02809"
+              }
+            ],
+            "policyLocator": "100029902",
+            "policyModificationLocator": "8d752a33-c08f-4f34-86fe-4f24bad9ffa7",
+            "policyholderLocator": "4e4c777d-d487-4750-8c79-0530e7a3226c",
+            "productLocator": "98130b4d-f424-4fbe-b3bb-a07778c02809"
+          }
+        ],
+        "fieldGroupsByLocator": {},
+        "fieldValues": {},
+        "locator": "8d752a33-c08f-4f34-86fe-4f24bad9ffa7",
+        "mediaByLocator": {},
+        "name": "modification.policy.create",
+        "newPolicyCharacteristicsLocator": "20a1d455-cfcd-45eb-be18-3e9f9626fe68",
+        "newPolicyCharacteristicsLocators": [
+          "20a1d455-cfcd-45eb-be18-3e9f9626fe68"
+        ],
+        "number": "0",
+        "policyLocator": "100029902",
+        "policyholderLocator": "4e4c777d-d487-4750-8c79-0530e7a3226c",
+        "premiumChange": "567.00",
+        "productLocator": "98130b4d-f424-4fbe-b3bb-a07778c02809",
+        "updatedTimestamp": "1675184729114"
+      }
+    ],
+    "originalContractEndTimestamp": "1704085200000",
+    "originalContractStartTimestamp": 1672549200000,
+    "paymentScheduleName": "monthly",
+    "policyholderLocator": "4e4c777d-d487-4750-8c79-0530e7a3226c",
+    "productLocator": "98130b4d-f424-4fbe-b3bb-a07778c02809",
+    "productName": "personal-auto",
+    "quoteSummary": {
+      "notDiscarded": [
+        {
+          "locator": "100029910",
+          "name": "1",
+          "state": "draft"
+        }
+      ],
+      "selected": "100029910"
+    },
+    "updatedTimestamp": "1675184729114"
+  },
+  "productName": "personal-auto",
+  "tenantTimeZone": "America/New_York",
+  "transactionType": "newBusiness"
+}

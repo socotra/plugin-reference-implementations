@@ -5,8 +5,6 @@ const { displaySummary,
     getInvoiceItemSum,
     getPairs } = require('../../test-helpers.js');
 const { validSamples, invalidSamples } = require('../../sample-data/paymentScheduleSampleData.js');
-const { roundMoney } = require('../../../scripts/main/common-options.js').options;
-
 
 describe('installments plugin (invalid input)', () => {
     let data = invalidSamples.getUnrecognizedScheduleChange();
@@ -57,6 +55,43 @@ describe('installment fees', () => {
     });
 
     commonAssertions(originalInputData, installments);
+});
+
+
+describe('leveling options', () => {
+   it('should place all odd pennies on last installment if method is "last"', () => {
+       const { installments } = (new InstallmentsGenerator(validSamples.getNewBusinessNeedsLeveling1(),
+           { levelingMethod: 'last' })).getInstallments();
+
+       const expectedDistribution = [
+           53.87, 53.87, 53.87, 53.87, 53.87, 53.87, 53.87, 53.87, 53.87, 53.87, 53.87, 53.89];
+       installments.forEach((installment, index) => {
+           expect(getInvoiceItemSum(installment)).toBeCloseTo(expectedDistribution[index], 5);
+       });
+   });
+
+    it('should spread odd pennies over latter installments if method is "spread"', () => {
+        const { installments } = (new InstallmentsGenerator(validSamples.getNewBusinessNeedsLeveling1(),
+            { levelingMethod: 'spread' })).getInstallments();
+
+        const expectedDistribution = [
+            53.87, 53.87, 53.87, 53.87, 53.87, 53.87, 53.87, 53.87, 53.87, 53.87, 53.88, 53.88];
+        installments.forEach((installment, index) => {
+            expect(getInvoiceItemSum(installment)).toBeCloseTo(expectedDistribution[index], 5);
+        });
+    });
+
+    it('should place all odd pennies on written-off installment if method is "writeOff"', () => {
+        const { installments } = (new InstallmentsGenerator(validSamples.getNewBusinessNeedsLeveling1(),
+            { levelingMethod: 'writeOff' })).getInstallments();
+
+        const expectedDistribution = [
+            53.87, 53.87, 53.87, 53.87, 53.87, 53.87, 53.87, 53.87, 53.87, 53.87, 53.87, 53.87, 0.02];
+        installments.forEach((installment, index) => {
+            expect(getInvoiceItemSum(installment)).toBeCloseTo(expectedDistribution[index], 5);
+        });
+        expect(installments[installments.length - 1].writeOff).toBe(true);
+    });
 });
 
 describe('remainder installments', () => {
