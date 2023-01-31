@@ -1,3 +1,11 @@
+## 1.5
+
+### Features
+* New leveling method 'last' places odd cents on last installment in a leveled range
+
+### Fixes
+* Addressed bug in 'writeOff' leveling method preventing creation of writeoff invoice
+
 ## 1.4
 
 ### Features
