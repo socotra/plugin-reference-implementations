@@ -1,5 +1,6 @@
 require("../../lib/utils/arrays.js");
 const { InstallmentsGenerator }= require("../../lib/components/InstallmentsGenerator.js");
+const { determineInstallmentGeneratorOptions } = require("../../lib/utils/utils.js");
 
 /**
  * Implements ability to handle partial payments, with dependency on aux data
@@ -13,7 +14,7 @@ const { InstallmentsGenerator }= require("../../lib/components/InstallmentsGener
  *  amounts being applied to subsequent installments until the remainder is exhausted.
  */
 function createInstallments(data) {
-    const generator = new InstallmentsGenerator(data);
+    const generator = new InstallmentsGenerator(data, determineInstallmentGeneratorOptions(data));
     const { installments } = generator.getInstallments();
 
     const partialPaymentInfo = socotraApi.getAuxData(data.policy.locator, 'partialPaymentInfo');

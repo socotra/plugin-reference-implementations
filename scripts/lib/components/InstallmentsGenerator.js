@@ -70,7 +70,16 @@ const DEFAULT_OPTIONS = {
 
     // allows provision of explicit mapping between payment schedule names
     // and corresponding DateCalc `increment` values
-    paymentScheduleToIncrement: {} // supply if defaults insufficient
+    paymentScheduleToIncrement: {}, // supply if defaults insufficient
+
+    /**
+     * Specifies the maximum number of Installments
+     *
+     * If set to a number E.g: 9, there will be max 9 installments generated.
+     *
+     * The default will be unlimited if not set.
+     */
+    maxInstallments: undefined
 };
 
 const DEFAULT_PAYMENT_SCHEDULE_TO_INCREMENT = {
@@ -219,7 +228,8 @@ class InstallmentsGenerator {
                     anchorTimestamp: this.options.remainderInstallmentsFirst ? term.endTimestamp
                         : term.startTimestamp,
                     returnIntervals: true,
-                    returnMetadata: true
+                    returnMetadata: true,
+                    maxCount: this.options.maxInstallments
                 });
 
             term.installments = span.sequence;
