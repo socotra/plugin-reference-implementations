@@ -1,3 +1,9 @@
+## 1.6
+
+### Features
+* Added new default option to the installments generator to determine the maximum number of installments.
+* Added new `determineInstallmentGeneratorOptions` utility function for determining the installments generator options, outside of the wrapper or plugin scripts.
+
 ## 1.5
 
 ### Features
