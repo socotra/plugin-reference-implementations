@@ -224,7 +224,7 @@ class InstallmentsGenerator {
 
             term.installments = span.sequence;
 
-            for (let [i, inst] of term.installments.entries()) {;
+            for (let [i, inst] of term.installments.entries()) {
                 inst.dueTimestamp = inst.startTimestamp;
                 inst.invoiceItems = [];
                 inst.installmentFees = [];
