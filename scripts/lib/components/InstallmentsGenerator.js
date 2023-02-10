@@ -746,7 +746,7 @@ class InstallmentsGenerator {
      * Marks commission charges with `immediate` property in accordance with options
      */
     #markCommissionsAsImmediateIfPreferred() {
-        if (!this.options.commissionPayments === 'upFront') return;
+        if (this.options.commissionPayments !== 'upFront') return;
 
         for (let ch of this.data.charges) {
             if (ch.type === 'commission') {
