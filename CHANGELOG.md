@@ -1,3 +1,10 @@
+## 1.6
+### Features
+* New leveling method 'first' places odd cents on first installment in leveled range
+
+### Fixes
+* Addressed bug in 'last' leveling method that could cause validation failure
+
 ## 1.5
 
 ### Features
