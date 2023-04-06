@@ -60,6 +60,9 @@ describe('installment fees', () => {
 
 describe('leveling options', () => {
    it('should place all odd pennies on last installment if method is "last"', () => {
+       jest.useFakeTimers();
+       jest.setSystemTime(new Date('2023-01-23'));
+
        const { installments } = (new InstallmentsGenerator(validSamples.getNewBusinessNeedsLeveling1(),
            { levelingMethod: 'last' })).getInstallments();
 
@@ -70,7 +73,23 @@ describe('leveling options', () => {
        });
    });
 
+    it('should place all odd pennies on first installment if method is "first"', () => {
+        jest.useFakeTimers();
+        jest.setSystemTime(new Date('2023-01-23'));
+
+        const { installments } = (new InstallmentsGenerator(validSamples.getNewBusinessNeedsLeveling1(),
+            { levelingMethod: 'first' })).getInstallments();
+
+        const expectedDistribution = [
+            53.89, 53.87, 53.87, 53.87, 53.87, 53.87, 53.87, 53.87, 53.87, 53.87, 53.87, 53.87];
+        installments.forEach((installment, index) => {
+            expect(getInvoiceItemSum(installment)).toBeCloseTo(expectedDistribution[index], 5);
+        });
+    });
+
     it('should spread odd pennies over latter installments if method is "spread"', () => {
+        jest.useFakeTimers();
+        jest.setSystemTime(new Date('2023-01-23'));
         const { installments } = (new InstallmentsGenerator(validSamples.getNewBusinessNeedsLeveling1(),
             { levelingMethod: 'spread' })).getInstallments();
 
@@ -82,6 +101,8 @@ describe('leveling options', () => {
     });
 
     it('should place all odd pennies on written-off installment if method is "writeOff"', () => {
+        jest.useFakeTimers();
+        jest.setSystemTime(new Date('2023-01-23'));
         const { installments } = (new InstallmentsGenerator(validSamples.getNewBusinessNeedsLeveling1(),
             { levelingMethod: 'writeOff' })).getInstallments();
 

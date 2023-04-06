@@ -60,7 +60,8 @@ const DEFAULT_OPTIONS = {
 
     // leveling method options:
     //  * 'spread': odd cents after leveling logic will distribute evenly over latter installments in a leveled segment
-    //  * 'last': odd cents after leveling logic will placed onto the last installment in a leveled segment
+    //  * 'last': odd cents after leveling logic will be placed onto the last installment in a leveled segment
+    //  * 'first': odd cents after leveling logic will be placed onto the first installment in a leveled segment
     //  * 'writeOff': odd cents will be accumulated onto a distinct written-off installment
     levelingMethod: 'spread',
 
@@ -415,7 +416,10 @@ class InstallmentsGenerator {
         const opts = this.options;
 
         if (installments.length > 1 && (
-            opts.levelingMethod === 'spread' || opts.levelingMethod === 'writeOff' || opts.levelingMethod === 'last')) {
+            opts.levelingMethod === 'spread' ||
+            opts.levelingMethod === 'writeOff' ||
+            opts.levelingMethod === 'last' ||
+            opts.levelingMethod === 'first')) {
             const writeOffs = [];
             let startIdx = 0;
             let startingAmount = this.#getPayableAmountForInstallment(installments[0]);
@@ -479,7 +483,9 @@ class InstallmentsGenerator {
 
             const lastAmountsIdx = amounts.length - 1;
             if (this.options.levelingMethod === 'last') {
-                deltas[lastAmountsIdx] = moneyUnit * oddCents;
+                deltas[lastAmountsIdx] += moneyUnit * oddCents;
+            } else if (this.options.levelingMethod === 'first') {
+                deltas[0] += moneyUnit * oddCents;
             } else { // spread
                 for (let i = lastAmountsIdx; i >= 0; i--) {
                     if (oddCents > 0) {
