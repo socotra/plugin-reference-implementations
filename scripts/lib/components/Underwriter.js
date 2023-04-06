@@ -5,7 +5,7 @@ require("../utils/arrays.js");
 const { PolicyContext } = require("../utils/PolicyContext.js");
 
 class Underwriter {
-    VERSION = '1.3';
+    VERSION = '1.6';
 
     constructor(data) {
         this.data = data;

@@ -7,7 +7,7 @@ const { roundMoney } = require('../../main/common-options.js').options;
 const { durationCalcMethod } = require('../utils/utils.js');
 
 class Prorater {
-    VERSION = '1.3';
+    VERSION = '1.6';
 
     constructor(data) {
         this.data = data;

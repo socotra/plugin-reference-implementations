@@ -6,7 +6,7 @@ const { DateCalc } = require('../utils/DateCalc.js');
 const ONE_DAY_MILLIS = 24 * 60 * 60 * 1000;
 
 class PostPaymentReversalGraceAdjuster {
-    VERSION = '1.3';
+    VERSION = '1.6';
 
     constructor(data) {
         this.data = data;

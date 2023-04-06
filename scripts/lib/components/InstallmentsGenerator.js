@@ -89,7 +89,7 @@ const DEFAULT_PAYMENT_SCHEDULE_TO_INCREMENT = {
 }
 
 class InstallmentsGenerator {
-    VERSION = '1.3';
+    VERSION = '1.6';
 
     data;
     dateCalc;
