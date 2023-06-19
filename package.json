@@ -9,6 +9,8 @@
     "test": "jest"
   },
   "devDependencies": {
-    "jest": "^28.1.2"
+    "command-line-args": "^5.2.1",
+    "csv-to-js-parser": "^2.3.5",
+    "jest": "^28.1.3"
   }
 }
