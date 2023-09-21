@@ -45,12 +45,15 @@ describe('installment fees', () => {
     const { installments } = (new InstallmentsGenerator(validSamples.getNewBusiness1(), options)).getInstallments();
     const originalInputData = (new InstallmentsGenerator(validSamples.getNewBusiness1(), options)).data;
 
-    it('should attach an installment fee with name and description to each', () => {
-        installments.forEach(installment => {
-            const fee = installment.installmentFees[0];
-            expect(fee.feeName).toEqual('added fee');
-            expect(fee.description).toEqual('an additional fee');
-            expect(fee.amount).toEqual(1);
+    it('should attach an installment fee with name and description to each invoice, ' +
+        'excluding the first in the term', () => {
+        installments.forEach((installment, idx) => {
+            if (idx > 0) {
+                const fee = installment.installmentFees[0];
+                expect(fee.feeName).toEqual('added fee');
+                expect(fee.description).toEqual('an additional fee');
+                expect(fee.amount).toEqual(1);
+            }
         });
     });
 
