@@ -1,3 +1,7 @@
+## 1.7
+### Fixes
+* Fixed broken fee test
+
 ## 1.6
 ### Features
 * New leveling method 'first' places odd cents on first installment in leveled range
