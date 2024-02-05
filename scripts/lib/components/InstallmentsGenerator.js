@@ -225,7 +225,7 @@ class InstallmentsGenerator {
 
             term.installments = span.sequence;
 
-            for (let [i, inst] of term.installments.entries()) {;
+            for (let [i, inst] of term.installments.entries()) {
                 inst.dueTimestamp = inst.startTimestamp;
                 inst.invoiceItems = [];
                 inst.installmentFees = [];
@@ -752,7 +752,7 @@ class InstallmentsGenerator {
      * Marks commission charges with `immediate` property in accordance with options
      */
     #markCommissionsAsImmediateIfPreferred() {
-        if (!this.options.commissionPayments === 'upFront') return;
+        if (this.options.commissionPayments !== 'upFront') return;
 
         for (let ch of this.data.charges) {
             if (ch.type === 'commission') {
